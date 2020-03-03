@@ -3,16 +3,15 @@ html {
   font-size: 10px !important; }
 
 body {
-  background: #FBF8F2;
+  background: #000000;
   margin: 0;
-  height: 100%;
-  color: #86807C;
-  font-size: 1.4rem;
-  line-height: 2.2857142857; }
+  color: #e3dab7;
+  font-size: 1.2rem;
+  line-height: 1.75; }
 
-img {
-  max-width: 100%;
-  vertical-align: top; }
+.img-fluid {
+  width: 100%;
+  height: auto; }
 
 .l-container {
   max-width: 992px;
@@ -2109,9 +2108,13 @@ img {
 /**
  * Icons
 **/
-.input {
+input,
+textarea {
+  background: #000000;
   border: 1px solid #5a5749;
-  padding: 25px;
-  width: 100%; }
+  padding: 20px 10px;
+  box-sizing: border-box;
+  width: 100%;
+  color: #808080; }
 
 /*# sourceMappingURL=style.css.map */

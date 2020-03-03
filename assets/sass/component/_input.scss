@@ -3,8 +3,12 @@
  * Icons
 **/
 
-.input{
-  border: 1px solid $cl-yellow;
-  padding: 25px;
-  width: 100%;
+input,
+textarea{
+	background: $body-color;
+	border: 1px solid $cl-yellow;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	width: 100%;
+	color: $gray;
 }
