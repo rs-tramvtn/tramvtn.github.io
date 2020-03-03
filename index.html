@@ -1,115 +1,114 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js"></script>
-</head>
-<body>
-	<header>
-		<div class="header__content">
-			<p class="header__logo"><img src="img/img_logo01.png" alt="ALPHARD" class="img-fluid"></p>
-			<p class="header__sub">Presents</p>
-			<div class="header__text center">
-				<h1><img src="img/img_head01.png" alt="THE LUXURY TEST" class="img-fluid"></h1>
-	    	<h2 class="header__title">VOL.01 プレゼント応募<span>下記の必要事項を入力ください。</span></h2>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Luxury</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+		<link rel="stylesheet" type="text/css" href="assets/sass/style.scss">
+		<script type="text/javascript" src="/assets/js/main.js"></script>
+		<!-- <script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script> -->
+	</head>
+	<body>
+		<header>
+			<div class="header__content">
+				<p class="header__logo"><img src="img/img_logo01.png" alt="ALPHARD" class="img-fluid"></p>
+				<p class="header__sub">Presents</p>
+				<div class="header__text center">
+					<h1><img src="img/img_head01.png" alt="THE LUXURY TEST" class="img-fluid"></h1>
+					<h2 class="header__title">VOL.01 プレゼント応募<span>下記の必要事項を入力ください。</span></h2>
+				</div>
 			</div>
+		</header>
+		<div class="container">
+			<form>
+				<div class="form-input">
+					<div class="row">
+						<div class="col col-6">
+							<label for="fullname">氏名（姓）</label>
+							<input id="fullname" type="text">
+						</div>
+						<div class="col col-6">
+							<label for="name">氏名（名）</label>
+							<input id="name" type="text">
+						</div>
+					</div>        
+				</div>
+				<div class="form-input">
+					<div class="row">
+						<div class="col col-6">
+							<label></label>
+							<input type="text">
+						</div>
+						<div class="col col-6">
+							<label for="furigana">フリガナ（名）</label>
+							<input id="furigana" type="text">
+						</div>
+					</div>        
+				</div>
+				<div class="form-input">
+					<label for="mail-address">メールアドレス</label>
+					<input id="mail-address" type="text">
+				</div>
+				<div class="form-input">
+					<label for="mail-confirm">メールアドレス（確認）</label>
+					<input id="mail-confirm" type="text">
+				</div>
+				<div class="form-input">
+					<label for="products">応募商品</label>
+					<input id="products" type="text" value="大容量モバイルバッテリー">
+				</div>
+				<div class="form-input">
+					<label for="app-terms">応募規約</label>
+					<textarea id="app-terms" rows="7">
+						トヨタ自動車株式会社（以下、「当社」といいます。）は、お客様に当社の製品やサービスに関する情報を提供するため、お客様の個人情報を、お客様よりご提供いただきます。
+						応募をご希望のお客様は、お申込を行う前に下記の応募規約（以下、「本規約」といいます。）をご一読いただき、同意いただける方は「規約に同意して応募する」のボタンをクリックして、「応募フォーム」へお進みください。
+						なお、当社は予告なく本規約の内容を変更する場合がありますので、予めご了承ください。
+						1.個人情報の取扱いに関して
+						(1) 当社は、当社ホームページ（toyota.jp）に掲載する「個人情報保護に関する基本方針」、「個人情報の取扱いについて」に基づき、お客様の個人情報を適切に取り扱います。
+						(2) 個人情報の利用目的
+						当社が取得した個人情報は、以下の目的に利用いたします。
+						[1] 抽選、賞品の発送および確認のご連絡
+						[2] 賞品配送にあたって不達などの問題が発生した場合の確認・連絡
+						[3] お客様に不利益を与えないために行う、お客様に対する迅速なご連絡
+						（電子メール、電話、郵送によるご連絡）
+						(3)当社が取得した個人情報は、トヨタ自動車株式会社、及びトヨタ自動車株式会社と情報提供契約を締結した者以外での使用は致しません。
+						(4)当社は上記の目的範囲内で、個人情報の取り扱いを外部の第三者に委託することがあります。この場合、個人情報のろう洩等が無いよう、業務委託契約に基づく適切な管理を行います。
+						2.抽選方法・当選発表について
+						(1)抽選に関しては、応募期間終了後、厳正かつ公平に実施いたします。
+						(2)当選者の発表は賞品の発送をもって代えさせていただきます。
+						（発送は日本国内に限らせていただきます）
+						(3)賞品の発送は2015年1月28日から順次行ってまいります。
+						お届け先が離島部および一部地域につきましては、配送にお時間がかかる場合がございます。予めご了承下さい。(4)応募フォームにご入力不備のある場合や、ご連絡先が不明、ご本人様不在等の理由により、
+						賞品がお届けできない場合は、当選権利の無効・取消となる場合がございます。
+						(5)当選の権利の譲渡は一切できません。
+						(6)落選の場合はご連絡いたしませんので予めご了承下さい。
+						(7)賞品に関するご質問、抽選や当選に関するお問い合わせにはお答えいたしかねます。
+						3.申し込みについて
+						(1)【応募期間】2015年1月16日（金）～2015年1月26日（月）23:59
+						(2)ご応募は、日本国内在住の方に限らせていただきます。
+						(3)ご応募は、お一人様1回限りとさせていただきます。
+						(4)転売目的でのご応募は固くお断りいたします。
+						(5)当社社員および関係者は応募できません。
+						(6)インターネット通信料および接続料はお客様の負担となります。
+						(7)通信の際の接続トラブルにつきましては、責任を負いかねますので、ご了承ください。
+						(8)申込者が暴力団員、暴力団関係者、その他反社会的勢力であると判明した場合は、
+						お断りさせていただく場合がございます。
+					</textarea>
+				</div>
+				<div class="form-checkbox">
+					<label>
+						<input type="checkbox" checked />
+						<span class="checkmark"></span>
+						<span>応募規約に同意する</span>
+					</label>
+				</div>
+				<div class="form-btn">
+					<p class="btn"><i class="arrow-next"></i>確認する</p>
+				</div>
+			</form>
 		</div>
-  </header>
-  <div class="container">
-  	<form>
-  		<div class="form-input">
-  			<div class="row">
-  				<div class="col col-6">
-  					<label for="fullname">氏名（姓）</label>
-        		<input id="fullname" type="text">
-  				</div>
-  				<div class="col col-6">
-  					<label for="name">氏名（名）</label>
-        		<input id="name" type="text">
-  				</div>
-  			</div>        
-      </div>
-      <div class="form-input">
-  			<div class="row">
-  				<div class="col col-6">
-  					<label></label>
-        		<input id="fullname" type="text">
-  				</div>
-  				<div class="col col-6">
-  					<label for="furigana">フリガナ（名）</label>
-        		<input id="furigana" type="text">
-  				</div>
-  			</div>        
-      </div>
-  		<div class="form-input">
-        <label for="mail-address">メールアドレス</label>
-        <input id="mail-address" type="text">
-      </div>
-  		<div class="form-input">
-        <label for="mail-confirm">メールアドレス（確認）</label>
-        <input id="mail-confirm" type="text">
-      </div>
-			<div class="form-input">
-        <label for="products">応募商品</label>
-        <input id="products" type="text" value="大容量モバイルバッテリー">
-      </div>
-  		<div class="form-input">
-	  		<label for="app-terms">応募規約</label>
-			  <textarea id="app-terms" rows="7">
-			  	トヨタ自動車株式会社（以下、「当社」といいます。）は、お客様に当社の製品やサービスに関する情報を提供するため、お客様の個人情報を、お客様よりご提供いただきます。
-			  	応募をご希望のお客様は、お申込を行う前に下記の応募規約（以下、「本規約」といいます。）をご一読いただき、同意いただける方は「規約に同意して応募する」のボタンをクリックして、「応募フォーム」へお進みください。
-			  	なお、当社は予告なく本規約の内容を変更する場合がありますので、予めご了承ください。
-			  	1.個人情報の取扱いに関して
-			  	(1) 当社は、当社ホームページ（toyota.jp）に掲載する「個人情報保護に関する基本方針」、「個人情報の取扱いについて」に基づき、お客様の個人情報を適切に取り扱います。
-			  	(2) 個人情報の利用目的
-			  	当社が取得した個人情報は、以下の目的に利用いたします。
-			  	[1] 抽選、賞品の発送および確認のご連絡
-			  	[2] 賞品配送にあたって不達などの問題が発生した場合の確認・連絡
-			  	[3] お客様に不利益を与えないために行う、お客様に対する迅速なご連絡
-			  	（電子メール、電話、郵送によるご連絡）
-			  	(3)当社が取得した個人情報は、トヨタ自動車株式会社、及びトヨタ自動車株式会社と情報提供契約を締結した者以外での使用は致しません。
-			  	(4)当社は上記の目的範囲内で、個人情報の取り扱いを外部の第三者に委託することがあります。この場合、個人情報のろう洩等が無いよう、業務委託契約に基づく適切な管理を行います。
-			  	2.抽選方法・当選発表について
-			  	(1)抽選に関しては、応募期間終了後、厳正かつ公平に実施いたします。
-			  	(2)当選者の発表は賞品の発送をもって代えさせていただきます。
-			  	（発送は日本国内に限らせていただきます）
-			  	(3)賞品の発送は2015年1月28日から順次行ってまいります。
-			  	お届け先が離島部および一部地域につきましては、配送にお時間がかかる場合がございます。予めご了承下さい。(4)応募フォームにご入力不備のある場合や、ご連絡先が不明、ご本人様不在等の理由により、
-			  	賞品がお届けできない場合は、当選権利の無効・取消となる場合がございます。
-			  	(5)当選の権利の譲渡は一切できません。
-			  	(6)落選の場合はご連絡いたしませんので予めご了承下さい。
-			  	(7)賞品に関するご質問、抽選や当選に関するお問い合わせにはお答えいたしかねます。
-			  	3.申し込みについて
-			  	(1)【応募期間】2015年1月16日（金）～2015年1月26日（月）23:59
-			  	(2)ご応募は、日本国内在住の方に限らせていただきます。
-			  	(3)ご応募は、お一人様1回限りとさせていただきます。
-			  	(4)転売目的でのご応募は固くお断りいたします。
-			  	(5)当社社員および関係者は応募できません。
-			  	(6)インターネット通信料および接続料はお客様の負担となります。
-			  	(7)通信の際の接続トラブルにつきましては、責任を負いかねますので、ご了承ください。
-			  	(8)申込者が暴力団員、暴力団関係者、その他反社会的勢力であると判明した場合は、
-			  	お断りさせていただく場合がございます。
-			  </textarea>
-			</div>
-			<div class="form-checkbox">
-        <label>
-          <input type="checkbox" checked />
-          <span class="checkmark"></span>
-          <span>応募規約に同意する</span>
-        </label>
-    	</div>
-    	<div class="form-btn">
-    		<p class="btn"><i class="arrow-next"></i>確認する</p>
-    	</div>
-  	</form>
-  </div>
-  <footer>
-  	<p class="copy-right">©TOYOTA MOTOR CORPORATION. ALL RIGHTS RESERVED.</p>
-  </footer>
-</body>
+		<footer>
+			<p class="copy-right">©TOYOTA MOTOR CORPORATION. ALL RIGHTS RESERVED.</p>
+		</footer>
+	</body>
 </html>
