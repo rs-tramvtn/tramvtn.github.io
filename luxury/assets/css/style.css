@@ -75,6 +75,9 @@ body {
 .l-header__title {
   margin-left: -20px;
 }
+.l-header__title img {
+  max-width: 459px;
+}
 @media only screen and (max-width: 639px) {
   .l-header__title {
     margin-left: 0;
