@@ -38,6 +38,7 @@ input,
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
+	border-radius: 0;
 	&:-ms-expand { 
 		display: none; /* remove default arrow on ie10 and ie11 */
 	}
@@ -130,8 +131,13 @@ label{
 		&__half{
 			margin-bottom: 10px;
 		}
-		.age{
-			width: 90%;
+		&-age{
+			label{
+				display: block;
+			}
+			input{
+				width: 90%;
+			}
 		}
 	}
 }

@@ -198,6 +198,7 @@ input,
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  border-radius: 0;
 }
 .box-select:-ms-expand {
   display: none;
@@ -307,7 +308,10 @@ label {
   .form-input__half {
     margin-bottom: 10px;
   }
-  .form-input .age {
+  .form-input-age label {
+    display: block;
+  }
+  .form-input-age input {
     width: 90%;
   }
 }
