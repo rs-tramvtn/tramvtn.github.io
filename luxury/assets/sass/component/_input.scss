@@ -4,11 +4,190 @@
 **/
 
 input,
-textarea{
+.outner-textarea{
 	background: $body-color;
-	border: 1px solid $cl-yellow;
-	padding: 20px 10px;
+	border: 2px solid $cl-yellow;
+	padding: 10px 25px;
 	box-sizing: border-box;
 	width: 100%;
+	color: $base-color;
+	font-size: 24px;
+	min-height: 108px;
+	text-overflow: ellipsis;
+	@media only screen and (max-width: 639px) {
+		border: 1px solid $cl-yellow;
+		padding: 5px 12px;
+		font-size: 12px;
+		min-height: 54px;
+	}
+}
+.box-select{
+	position: relative;
+	background: $body-color;
+	border: 2px solid $cl-yellow;
+	padding: 10px;
+	box-sizing: border-box;
+	width: 100%;
+	color: $base-color;
+	font-size: 2.4rem;
+	min-height: 108px;
+	text-overflow: ellipsis;
+	background: #000 url(/assets/images/icon-down.png) top right no-repeat;
+	background-position: top -2px right -2px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	&:-ms-expand { 
+		display: none; /* remove default arrow on ie10 and ie11 */
+	}
+	&.active{
+		background: #000 url(/assets/images/icon-up.png) top right no-repeat;
+		background-position: top -2px right -2px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+	@media only screen and (max-width: 639px) {
+		font-size: 1.4rem;
+		min-height: 54px;
+		border: 1px solid $cl-yellow;
+		background-size: 54px 54px;
+		background-position: top -1px right -1px;
+	}
+}
+label{
+	font-size: 2.4rem;
+	line-height: 0.57;
+	display: block;
+	margin-bottom: 30px;
+	@media only screen and (max-width: 639px) {
+		font-size: 1.4rem;
+		margin-bottom: 15px;
+	}
+}
+.sub-label{
+	margin-top: 73px;
+	position:absolute;
+	top: 0;
+	right: -35px;
+	font-size: 2.4rem;
+	@media only screen and (max-width: 639px) {
+		margin-top: 37px;
+		right: 25px;
+		font-size: 1.4rem;
+	}
+}
+#app-terms{
+	display: none;
+}
+.outner-textarea{
+	border: 2px solid $base-color;
+	box-sizing:border-box;
+	padding: 15px 10px 30px 20px;
+	margin-top: 9px;
+	margin-bottom: 50px;
+	max-height: 325px;
+	font-size: 2.2rem;
 	color: $gray;
+	.inner__scroll{
+		overflow-y :scroll;
+		height: 275px;
+		scrollbar-width: thin;
+		padding-right: 10px;
+		&::-webkit-scrollbar-thumb{
+			border-radius: 2px;
+			background-color: $base-color;
+		}
+		&::-webkit-scrollbar{
+			width: 4px;
+			background-color: $cl-yellow;
+			border-radius: 2px;
+		}
+	}
+	p{
+		margin: 0;
+		line-height: 1.8181818;
+	}
+	@media only screen and (max-width: 639px) {
+		border: 1px solid $base-color;
+		box-sizing:border-box;
+		padding: 7px 5px 15px 10px;
+		margin-top: 5px;
+		margin-bottom: 25px;
+		max-height: 162px;
+		font-size: 1.2rem;
+		.inner__scroll{
+			height: 137px;
+			padding-right: 5px;
+		}
+	}
+}
+.form-input{
+	margin-bottom: 45px;
+	@media only screen and (max-width: 639px) {
+		margin-bottom: 20px;
+		&__half{
+			margin-bottom: 10px;
+		}
+		.age{
+			width: 90%;
+		}
+	}
+}
+.form-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 24px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+	user-select: none;
+	/* On mouse-over, add a grey background color */
+	&:hover input ~ .checkmark {
+		background-color: $body-color;
+		border: 2px solid $cl-yellow;
+	}
+	input {
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+		height: 0;
+		width: 0;
+		&:checked ~ .checkmark {
+			background-color: $body-color;
+			border: 2px solid $cl-yellow;
+		}
+		/* Show the checkmark when checked */
+		&:checked ~ .checkmark:after {
+			display: block;
+		}
+	}
+	.checkmark {
+		position: absolute;
+		top: -5px;
+		left: 0;
+		height: 20px;
+		width: 20px;
+		background-color: $body-color;
+		border: 2px solid $cl-yellow;
+		/* Create the checkmark/indicator (hidden when not checked) and style the checkmark/indicator*/
+		&:after {
+			content: "";
+			position: absolute;
+			display: none;
+			left: 6px;
+			top: 1px;
+			width: 6px;
+			height: 10px;
+			border: solid $cl-yellow-light;
+			border-width: 0 2px 2px 0;
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+	}
+	.text{
+		margin-left: 25px;
+	}
 }

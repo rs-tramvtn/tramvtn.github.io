@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*Footer copy right*/
+footer{
+	padding: 20px 0;
+	@media only screen and (max-width: 639px) {
+		padding: 10px 0;
+	}
+}
+.copy-right{
+	font-size: 18px;
+	line-height: 1.3333;
+	text-align: center;
+	color: #b5ad8c;
+	@media only screen and (max-width: 639px) {
+		font-size: 9px;
+	}
+}
+

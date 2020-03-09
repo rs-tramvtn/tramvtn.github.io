@@ -4,7 +4,7 @@ html {
 }
 body {
   background: $body-color;
-  margin: 0;
+  margin: 0 auto;
   color: $base-color;
   font-size: 1.2rem;
   line-height: 1.75;
@@ -12,4 +12,10 @@ body {
 .img-fluid{
 	width: 100%;
 	height: auto;
+}
+.center{
+  text-align: center;
+}
+.pb-5{
+  padding-bottom: 5px !important;
 }

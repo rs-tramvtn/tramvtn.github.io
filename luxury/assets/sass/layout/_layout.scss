@@ -8,10 +8,3 @@
     max-width: $container--sp;
   }
 }
-.l-main {
-  min-height: 100vh;
-  padding: 80px;
-  @include mq-sp {
-    padding: 15px;
-  }
-}
