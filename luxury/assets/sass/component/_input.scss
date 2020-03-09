@@ -90,7 +90,6 @@ label{
 	border: 2px solid $base-color;
 	box-sizing:border-box;
 	padding: 15px 10px 30px 20px;
-	margin-top: 9px;
 	margin-bottom: 50px;
 	max-height: 325px;
 	font-size: 2.2rem;
@@ -99,7 +98,7 @@ label{
 		overflow-y :scroll;
 		height: 275px;
 		scrollbar-width: thin;
-		padding-right: 10px;
+		padding-right: 5px;
 		&::-webkit-scrollbar-thumb{
 			border-radius: 2px;
 			background-color: $base-color;
@@ -118,13 +117,11 @@ label{
 		border: 1px solid $base-color;
 		box-sizing:border-box;
 		padding: 7px 5px 15px 10px;
-		margin-top: 5px;
 		margin-bottom: 25px;
 		max-height: 162px;
 		font-size: 1.2rem;
 		.inner__scroll{
 			height: 137px;
-			padding-right: 5px;
 		}
 	}
 }
