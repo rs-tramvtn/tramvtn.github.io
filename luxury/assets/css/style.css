@@ -248,7 +248,7 @@ label {
 @media only screen and (max-width: 639px) {
   .sub-label {
     margin-top: 37px;
-    right: 25px;
+    right: 15px;
     font-size: 1.4rem;
   }
 }
