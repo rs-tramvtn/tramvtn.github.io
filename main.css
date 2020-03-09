@@ -1,0 +1,20 @@
+body {
+	padding: 0 2%;
+	color: #2e3e50;
+	background: #1488CC;  
+	background: -webkit-linear-gradient(to right, #2B32B2, #eda72f); 
+	background: linear-gradient(to right, #2B32B2, #eda72f); 
+}
+.container {
+	margin: auto;
+	padding: 1% 2%;
+	max-width: 1440px;
+	border-radius: 5px;
+	background: #ecf0f1;
+	box-shadow: 0 2px 6px 0 rgba(0,0,0, .3);
+}
+
+h1,h2,h3 {
+	text-align: center;
+	font-family: 'Baloo Tamma', cursive;
+}
