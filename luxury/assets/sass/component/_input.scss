@@ -55,6 +55,9 @@ input,
 		border: 1px solid $cl-yellow;
 		background-size: 54px 54px;
 		background-position: top -1px right -1px;
+		&.active{
+			background-size: 54px 54px;
+		}
 	}
 }
 label{
