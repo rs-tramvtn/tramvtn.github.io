@@ -1,18 +1,5 @@
 @charset "utf-8";
 /* Header
------------------------------------------------------------------ */
-// .l-header {
-//   position: relative;
-//   z-index: 160;
-//   display: flex;
-//   width: 100%;
-//   @include mq-sp {
-//     padding: 0 0 0 15px;
-//   }
-//   .is-opened & {
-//     background-color: #fff;
-//   }
-// }
 /* [header] content
 -----------------------------------------------*/
 .l-header{
@@ -49,7 +36,7 @@
 .l-header__title{
   margin-left: -20px;
   @media only screen and (max-width: 639px) {
-    margin-left: -10px;
+    margin-left: 0;
   }
 }
 
