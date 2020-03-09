@@ -82,6 +82,9 @@ body {
   .l-header__title {
     margin-left: 0;
   }
+  .l-header__title img {
+    width: 80%;
+  }
 }
 
 /* Gnav
