@@ -385,7 +385,7 @@ label {
   margin: 0;
 }
 .form-btn .arrow-next {
-  background-image: url(/assets/images/icon-arrow.png);
+  background-image: url(assets/images/icon-arrow.png);
   content: "";
   width: 14px;
   height: 22px;
