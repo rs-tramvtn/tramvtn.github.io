@@ -33,7 +33,7 @@ input,
 	font-size: 2.4rem;
 	min-height: 108px;
 	text-overflow: ellipsis;
-	background: #000 url(../images/icon-down.png) top right no-repeat;
+	background: #000 url(luxury/assets/images/icon-down.png) top right no-repeat;
 	background-position: top -2px right -2px;
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -43,7 +43,7 @@ input,
 		display: none; /* remove default arrow on ie10 and ie11 */
 	}
 	&.active{
-		background: #000 url(../images/icon-up.png) top right no-repeat;
+		background: #000 url(luxury/assets/images/icon-up.png) top right no-repeat;
 		background-position: top -2px right -2px;
 		-webkit-appearance: none;
 		-moz-appearance: none;
