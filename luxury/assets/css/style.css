@@ -280,12 +280,12 @@ label {
   .outner-textarea {
     border: 1px solid #e3dab7;
     box-sizing: border-box;
-    padding: 7px 5px 15px 10px;
-    max-height: 162px;
+    padding: 12px 5px 9px 10px;
+    max-height: 160px;
     font-size: 1.2rem;
   }
   .outner-textarea .inner__scroll {
-    height: 137px;
+    height: 130px;
   }
 }
 
@@ -359,8 +359,30 @@ label {
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
+@media only screen and (max-width: 639px) {
+  .form-checkbox .checkmark {
+    left: -15px;
+    height: 14px;
+    width: 14px;
+    border: 1px solid #5a5749;
+  }
+  .form-checkbox .checkmark:after {
+    left: 4px;
+    width: 4px;
+    height: 8px;
+    border-width: 0 1.5px 1.5px 0;
+  }
+}
 .form-checkbox .text {
   margin-left: 25px;
+}
+@media only screen and (max-width: 639px) {
+  .form-checkbox {
+    padding-left: 15px;
+  }
+  .form-checkbox .text {
+    margin-left: 15px;
+  }
 }
 
 /*button confirm*/

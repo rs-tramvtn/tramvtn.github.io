@@ -131,11 +131,11 @@ label{
 	@media only screen and (max-width: 639px) {
 		border: 1px solid $base-color;
 		box-sizing:border-box;
-		padding: 7px 5px 15px 10px;
-		max-height: 162px;
+		padding: 12px 5px 9px 10px;
+		max-height: 160px;
 		font-size: 1.2rem;
 		.inner__scroll{
-			height: 137px;
+			height: 130px;
 		}
 	}
 }
@@ -164,6 +164,7 @@ label{
   -moz-user-select: none;
   -ms-user-select: none;
 	user-select: none;
+	
 	label{
 		cursor: pointer;
 		line-height: 1;
@@ -210,8 +211,26 @@ label{
 			-ms-transform: rotate(45deg);
 			transform: rotate(45deg);
 		}
+		@media only screen and (max-width: 639px) {
+			left: -15px;
+			height: 14px;
+			width: 14px;
+			border: 1px solid $cl-yellow;
+			&:after {
+				left: 4px;
+				width: 4px;
+				height: 8px;
+				border-width: 0 1.5px 1.5px 0;
+			}
+		}
 	}
 	.text{
 		margin-left: 25px;
+	}
+	@media only screen and (max-width: 639px) {
+		padding-left: 15px;
+		.text{
+			margin-left: 15px;
+		}
 	}
 }
