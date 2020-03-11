@@ -14,38 +14,3 @@
     max-width: $container--pc;
   }
 }
-.row{
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -11px;
-  margin-left: -11px;
-  flex-grow: 1;
-  align-items: center;
-}
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-.col{
-	position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 11px;
-  padding-left: 11px;
-  box-sizing: border-box;
-}
-.col-6{
-  @media only screen and (min-width: 401px) {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-.col-12{
-	flex: 0 0 100%;
-   max-width: 100%;
-}
-
-@media only screen and (min-width: 640px) {
-
-}

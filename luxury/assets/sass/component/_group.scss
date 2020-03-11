@@ -3,14 +3,16 @@
  * Icons
 **/
 
-.group__items{
+.group-items{
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
   justify-content: space-between;
-  &--half{
-    width: calc(50% - 10px);
+  &__half{
+    width: calc(50% - 12px);
+    position: relative;
   }
-  &--full{
+  &__full{
     width: 100%;
+    position: relative;
   }
 }

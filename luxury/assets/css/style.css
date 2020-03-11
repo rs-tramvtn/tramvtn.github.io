@@ -104,42 +104,6 @@ body {
     max-width: 1200px;
   }
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -11px;
-  margin-left: -11px;
-  flex-grow: 1;
-  align-items: center;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.col {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 11px;
-  padding-left: 11px;
-  box-sizing: border-box;
-}
-
-@media only screen and (min-width: 401px) {
-  .col-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-
-.col-12 {
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-
 /*Footer copy right*/
 footer {
   padding: 20px 0;
@@ -271,7 +235,7 @@ label {
   margin-top: 73px;
   position: absolute;
   top: 0;
-  right: -35px;
+  right: -47px;
   font-size: 2.4rem;
 }
 @media only screen and (max-width: 639px) {
@@ -289,7 +253,6 @@ label {
 .outner-textarea {
   box-sizing: border-box;
   padding: 15px 10px 30px 20px;
-  margin-bottom: 46px;
   max-height: 325px;
   font-size: 2.2rem;
   color: #808080;
@@ -318,7 +281,6 @@ label {
     border: 1px solid #e3dab7;
     box-sizing: border-box;
     padding: 7px 5px 15px 10px;
-    margin-bottom: 25px;
     max-height: 162px;
     font-size: 1.2rem;
   }
@@ -378,7 +340,7 @@ label {
 .form-checkbox .checkmark {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -23px;
   height: 20px;
   width: 20px;
   background-color: #000000;
@@ -408,9 +370,9 @@ label {
   font-size: 34px;
   color: #e3dab7;
   text-align: center;
-  padding: 15px 15px 17px;
+  padding: 24px 15px 24px;
   margin-bottom: 77px;
-  margin-top: 35px;
+  margin-top: 36px;
   cursor: pointer;
   width: 100%;
   display: flex;
@@ -451,14 +413,16 @@ label {
 /**
  * Icons
 **/
-.group__items {
+.group-items {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
   justify-content: space-between;
 }
-.group__items--half {
-  width: calc(50% - 10px);
+.group-items__half {
+  width: calc(50% - 12px);
+  position: relative;
 }
-.group__items--full {
+.group-items__full {
   width: 100%;
+  position: relative;
 }

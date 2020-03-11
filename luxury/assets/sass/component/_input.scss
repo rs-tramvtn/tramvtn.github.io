@@ -92,7 +92,7 @@ label{
 	margin-top: 73px;
 	position:absolute;
 	top: 0;
-	right: -35px;
+	right: -47px;
 	font-size: 2.4rem;
 	@media only screen and (max-width: 639px) {
 		margin-top: 37px;
@@ -106,7 +106,6 @@ label{
 .outner-textarea{
 	box-sizing:border-box;
 	padding: 15px 10px 30px 20px;
-	margin-bottom: 46px;
 	max-height: 325px;
 	font-size: 2.2rem;
 	color: $gray;
@@ -133,7 +132,6 @@ label{
 		border: 1px solid $base-color;
 		box-sizing:border-box;
 		padding: 7px 5px 15px 10px;
-		margin-bottom: 25px;
 		max-height: 162px;
 		font-size: 1.2rem;
 		.inner__scroll{
@@ -192,7 +190,7 @@ label{
 	.checkmark {
 		position: absolute;
 		top: 0;
-		left: 0;
+		left: -23px;
 		height: 20px;
 		width: 20px;
 		background-color: $body-color;
