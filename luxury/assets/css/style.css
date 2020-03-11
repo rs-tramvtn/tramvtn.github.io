@@ -189,6 +189,24 @@ input,
   }
 }
 
+::placeholder {
+  /*Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 0.4;
+  color: #e3dab7;
+}
+
+:-ms-input-placeholder {
+  /*Internet Explorer 10-11 */
+  opacity: 0.4;
+  color: #e3dab7;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  opacity: 0.4;
+  color: #e3dab7;
+}
+
 .box-select {
   position: relative;
   background: #000000;

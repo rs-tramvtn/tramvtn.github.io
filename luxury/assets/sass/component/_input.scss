@@ -22,6 +22,20 @@ input,
 		min-height: 54px;
 	}
 }
+::placeholder { /*Chrome, Firefox, Opera, Safari 10.1+ */
+	opacity: 0.4;
+	color: $base-color;
+}
+
+:-ms-input-placeholder { /*Internet Explorer 10-11 */
+	opacity: 0.4;
+	color: $base-color;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	opacity: 0.4;
+	color: $base-color;
+}
 .box-select{
 	position: relative;
 	background: $body-color;
