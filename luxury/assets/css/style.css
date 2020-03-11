@@ -427,7 +427,14 @@ label {
   position: relative;
 }
 @media only screen and (max-width: 400px) {
+  .group-items {
+    display: block;
+  }
   .group-items__half {
     width: 100%;
+    margin-bottom: 20px;
+  }
+  .group-items__half:last-child {
+    margin-bottom: 0;
   }
 }
