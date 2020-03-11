@@ -250,6 +250,10 @@ input,
   }
 }
 
+select::-ms-expand {
+  display: none;
+}
+
 label {
   font-size: 2.4rem;
   line-height: 0.57;
