@@ -3,7 +3,7 @@ $(document).ready(function () {
 		$(this).toggleClass('active');
 	});
 	$(".js-change-background").on("change", function(e) {
-		$(this).toggleClass('active');
+		console.log("close");
 	});
 	$("body").on("click", function(e) {
 		if(!$(e.target).is("select")) {
