@@ -3,8 +3,10 @@ $(document).ready(function () {
 		$(this).toggleClass('active');
 	});
 	$(".js-change-background").on("change", function(e) {
-		if($(".js-change-background").hasClass('active')) {
-			$(".js-change-background").removeClass('active');
+		if(!$(this).is("select")) {
+			if($(".js-change-background").hasClass('active')) {
+				$(".js-change-background").removeClass('active');
+			}
 		}
 	});
 	$("body").on("click", function(e) {
