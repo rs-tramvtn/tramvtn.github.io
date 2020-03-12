@@ -20,7 +20,14 @@ $cl-yellow-light: #e0d9b7;
 // font
 $font-sans-serif: "Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro","Hiragino Sans",メイリオ,Meiryo,sans-serif;
 $font-serif: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-
+@font-face{
+	font-family:hiraminpro;
+	src:url(/assets/font/hiraminpro.otf)
+}
+@font-face{
+	font-family:janson;
+	src:url(/assets/font/JansonSSi.ttf)
+}
 // margin
 $margin--xs: 10px;
 $margin--sm: 14px;
@@ -105,9 +112,9 @@ $button-floating-radius: 50% !default;
 $font-stack: $font-sans-serif;
 // $off-black: rgba(0, 0, 0, 0.87);
 // Header Styles
-$h1-fontsize: 3.2rem;
-$h2-fontsize: 2.4rem;
-$h3-fontsize: 2.4rem;
-$h4-fontsize: 1.8rem;
-$h5-fontsize: 1.6rem;
-$h6-fontsize: 1.4rem;
+// $h1-fontsize: 3.2rem;
+// $h2-fontsize: 2.4rem;
+// $h3-fontsize: 2.4rem;
+// $h4-fontsize: 1.8rem;
+// $h5-fontsize: 1.6rem;
+// $h6-fontsize: 1.4rem;

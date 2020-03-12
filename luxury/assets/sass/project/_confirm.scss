@@ -1,0 +1,48 @@
+#confirm{
+	.container{
+		padding-bottom: 33px;
+	}
+	.l-header{
+		padding-bottom: 43px;
+	}
+	.text{
+		color: #b5ad8c;
+		opacity: 0.44;
+		font-size: 32px;
+		margin: 0 0 -5px 0;
+		line-height: 1.3125;
+		letter-spacing: -0.03em;
+	}
+	label{
+		margin-bottom: 20px;
+	}
+	.btn-confirm {
+		margin-top: 64px;
+		padding: 19px 15px 22px;
+		.arrow-next{
+			margin-right: 20px;
+		}
+	}
+	@media only screen and (max-width: 639px) {
+		.container{
+			padding-bottom: 20px;
+		}
+		.text{
+			font-size: 16px;
+		}
+		label{
+			margin-bottom: 15px;
+		}
+		.form-button{
+			margin-top: 50px;
+		}
+		.btn-confirm {
+			margin-top: 10px;
+			margin-bottom: 10px;
+			padding: 10px 7px;
+			.arrow-next{
+				margin-right: 12px;
+			}
+		}
+	}
+}

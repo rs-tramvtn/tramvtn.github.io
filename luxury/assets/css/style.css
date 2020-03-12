@@ -1,3 +1,11 @@
+@font-face {
+  font-family: hiraminpro;
+  src: url(/assets/font/hiraminpro.otf);
+}
+@font-face {
+  font-family: janson;
+  src: url(/assets/font/JansonSSi.ttf);
+}
 html {
   font-size: 10px !important;
 }
@@ -8,6 +16,7 @@ body {
   color: #e3dab7;
   font-size: 1.2rem;
   line-height: 1.75;
+  font-family: "hiraminpro";
 }
 
 .img-fluid {
@@ -93,13 +102,13 @@ body {
   padding: 0 24px 77px;
   border-bottom: 1px solid #5a5749;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
   .container {
     padding: 0 12px 38px;
   }
 }
 
-@media (min-width: 401px) {
+@media (min-width: 481px) {
   .container {
     max-width: 1200px;
   }
@@ -119,7 +128,9 @@ footer {
   line-height: 1.3333;
   text-align: center;
   color: #b5ad8c;
-  letter-spacing: 0.03em;
+  letter-spacing: -0.03em;
+  font-family: janson;
+  opacity: 0.33;
 }
 @media only screen and (max-width: 639px) {
   .copy-right {
@@ -182,7 +193,7 @@ input,
   font-size: 2.4rem;
   min-height: 108px;
   text-overflow: ellipsis;
-  background: #000 url(/luxury/assets/images/icon-down.png) top right no-repeat;
+  background: #000 url(/assets/images/icon-down.png) top right no-repeat;
   background-position: top -2px right -2px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -194,7 +205,7 @@ input,
   /* remove default arrow on ie10 and ie11 */
 }
 .box-select.active {
-  background: #000 url(/luxury/assets/images/icon-up.png) top right no-repeat;
+  background: #000 url(/assets/images/icon-up.png) top right no-repeat;
   background-position: top -2px right -2px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -393,17 +404,17 @@ label {
   font-size: 34px;
   color: #e3dab7;
   text-align: center;
-  padding: 24px 15px 22px;
+  padding: 22px 15px 19px;
   margin-bottom: 77px;
   margin-top: 36px;
   cursor: pointer;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 .btn-confirm .arrow-next {
-  background-image: url(/luxury/assets/images/icon-arrow.png);
+  background-image: url(/assets/images/icon-arrow.png);
   content: "";
   width: 14px;
   height: 22px;
@@ -449,7 +460,7 @@ label {
   width: 100%;
   position: relative;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
   .group-items {
     display: block;
   }
@@ -459,5 +470,85 @@ label {
   }
   .group-items__half:last-child {
     margin-bottom: 0;
+  }
+}
+
+#thanks {
+  font-family: "hiraminpro";
+  text-align: center;
+}
+#thanks h3 {
+  font-size: 42px;
+  font-weight: normal;
+  line-height: 1.714;
+  padding-top: 27px;
+  margin-bottom: 77px;
+}
+#thanks .text {
+  font-size: 24px;
+  margin-bottom: 100px;
+}
+#thanks .container {
+  padding-bottom: 35px;
+}
+@media only screen and (max-width: 639px) {
+  #thanks h3 {
+    font-size: 21px;
+    padding-top: 15px;
+    margin-bottom: 38px;
+  }
+  #thanks .text {
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
+  #thanks .container {
+    padding-bottom: 17px;
+  }
+}
+
+#confirm .container {
+  padding-bottom: 33px;
+}
+#confirm .l-header {
+  padding-bottom: 43px;
+}
+#confirm .text {
+  color: #b5ad8c;
+  opacity: 0.44;
+  font-size: 32px;
+  margin: 0 0 -5px 0;
+  line-height: 1.3125;
+  letter-spacing: -0.03em;
+}
+#confirm label {
+  margin-bottom: 20px;
+}
+#confirm .btn-confirm {
+  margin-top: 64px;
+  padding: 19px 15px 22px;
+}
+#confirm .btn-confirm .arrow-next {
+  margin-right: 20px;
+}
+@media only screen and (max-width: 639px) {
+  #confirm .container {
+    padding-bottom: 20px;
+  }
+  #confirm .text {
+    font-size: 16px;
+  }
+  #confirm label {
+    margin-bottom: 15px;
+  }
+  #confirm .form-button {
+    margin-top: 50px;
+  }
+  #confirm .btn-confirm {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 7px;
+  }
+  #confirm .btn-confirm .arrow-next {
+    margin-right: 12px;
   }
 }

@@ -11,7 +11,9 @@ footer{
 	line-height: 1.3333;
 	text-align: center;
 	color: #b5ad8c;
-	letter-spacing: 0.03em;
+	letter-spacing: -0.03em;
+	font-family: janson;
+	opacity: 0.33;
 	@media only screen and (max-width: 639px) {
 		font-size: 9px;
 	}
