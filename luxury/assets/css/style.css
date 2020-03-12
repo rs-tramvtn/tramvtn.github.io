@@ -424,6 +424,10 @@ label {
 .btn-confirm:hover {
   border: 4px solid #5a5749;
 }
+.btn-confirm.disable {
+  opacity: 0.44;
+  pointer-events: none;
+}
 @media only screen and (max-width: 639px) {
   .btn-confirm {
     border: 2px solid #e0d9b7;
