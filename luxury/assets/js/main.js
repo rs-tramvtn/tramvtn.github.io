@@ -4,7 +4,7 @@ $(document).ready(function () {
 	});
 	$(".js-change-background").on("change", function(e) {
 		$(this).removeClass('active');
-		console.log("open");
+		console.log("open select");
 	});
 	$("body").on("click", function(e) {
 		if(!$(e.target).is("select")) {
