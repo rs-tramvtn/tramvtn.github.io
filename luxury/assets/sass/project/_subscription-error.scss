@@ -1,0 +1,18 @@
+#subscription-error{
+	.l-header{
+		margin-bottom: 55px;
+		padding: 65px 24px 42px;
+	}
+	.txt-error{
+		margin-left: -20px;
+	}
+	@media only screen and (max-width: 639px) {
+		.l-header{
+			padding: 33px 12px 20px;
+			margin-bottom: 35px;
+		}
+		.txt-error{
+			margin-left: 0;
+		}
+	}
+}

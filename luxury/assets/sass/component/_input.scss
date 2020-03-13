@@ -114,7 +114,7 @@ label{
 		overflow-y :scroll;
 		height: 275px;
 		scrollbar-width: thin;
-		padding-right: 5px;
+		padding-right: 10px;
 		&::-webkit-scrollbar-thumb{
 			border-radius: 2px;
 			background-color: $base-color;
@@ -137,6 +137,7 @@ label{
 		font-size: 1.2rem;
 		.inner__scroll{
 			height: 130px;
+			padding-right: 5px;
 		}
 	}
 }
@@ -155,6 +156,12 @@ label{
 				width: 90%;
 			}
 		}
+	}
+}
+.form-input--error{
+	color: #ff0000;
+	input{
+		border: 2px solid rgba(255, 0, 20, .4)
 	}
 }
 .form-checkbox {

@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
-	<body class="l-container" id="subscription">
+	<body class="l-container" id="subscription-error">
 		<header>
 			<div class="l-header">
 				<p class="l-header__logo"><img src="assets/images/img_logo01.png" alt="ALPHARD"></p>
@@ -19,6 +19,7 @@
 		</header>
 		<div class="container">
 			<form>
+				<p class="txt-error">電話番号が入力されていません。<br>正しいメールアドレスを入力してください。</p>
 				<div class="group-items form-input pb-5">
 					<div class="group-items__half">
 						<label for="fullname">氏名（姓）</label>
@@ -29,7 +30,7 @@
 						<input id="name" type="text">
 					</div>      
 				</div>
-				<div class="group-items form-input pb-5">
+				<div class="group-items form-input">
 					<div class="group-items__half">
 						<label for="surname">フリガナ（姓）</label>
 						<input id="surname" type="text">
@@ -39,7 +40,7 @@
 						<input id="furigana" type="text">
 					</div>      
 				</div>
-				<div class="group-items form-input">
+				<div class="group-items form-input pb-5">
 					<div class="group-items__half">
 						<label for="postal-code">郵便番号</label>
 						<input id="postal-code" type="text">
@@ -51,19 +52,19 @@
 						<input id="prefectures" type="text">
 					</div>       
 				</div>
-				<div class="group-items form-input pb-5">
+				<div class="group-items form-input">
 					<div class="group-items__full">
 						<label for="city-address">市区町村・番地</label>
 						<input id="city-address" type="text">
 					</div>
 				</div>
-				<div class="group-items form-input">
+				<div class="group-items form-input pb-5">
 					<div class="group-items__full">
 						<label for="apartment-name">アパート・マンション名</label>
 						<input id="apartment-name" type="text">
 					</div>
 				</div>
-				<div class="group-items form-input">
+				<div class="group-items form-input form-input--error">
 					<div class="group-items__full">
 						<label for="phone-number">電話番号</label>
 						<input id="phone-number" type="text">
@@ -100,7 +101,7 @@
 						</select>
 					</div>
 				</div>
-				<div class="group-items form-input">
+				<div class="group-items form-input form-input--error">
 					<div class="group-items__full">
 						<label for="mail-address">メールアドレス</label>
 						<input id="mail-address" type="text">
