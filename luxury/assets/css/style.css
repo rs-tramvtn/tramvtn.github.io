@@ -38,12 +38,12 @@ body {
   font-size: 24px;
   line-height: 1.75;
   letter-spacing: 0.03rem;
-  margin-bottom: 62px;
+  margin-bottom: 47px;
 }
 @media only screen and (max-width: 639px) {
   .txt-error {
     font-size: 12px;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
   }
 }
 
@@ -64,7 +64,7 @@ body {
 .l-header {
   border-bottom: 1px solid #5a5749;
   padding: 65px 24px 40px;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 .l-header h1 {
   margin-left: 7px;
@@ -73,7 +73,7 @@ body {
 @media only screen and (max-width: 639px) {
   .l-header {
     padding: 33px 12px 20px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
   }
   .l-header h1 {
     margin-left: 3px;
@@ -172,7 +172,7 @@ input,
   box-sizing: border-box;
   width: 100%;
   color: #e3dab7;
-  font-size: 24px;
+  font-size: 2.4rem;
   min-height: 108px;
   text-overflow: ellipsis;
   border-radius: 0;
@@ -182,7 +182,7 @@ input,
 .outner-textarea {
     border: 1px solid #5a5749;
     padding: 5px 12px;
-    font-size: 12px;
+    font-size: 1.2rem;
     min-height: 54px;
   }
 }
@@ -254,22 +254,22 @@ select::-ms-expand {
 
 label {
   font-size: 2.4rem;
-  line-height: 0.57;
+  line-height: 1.75;
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   pointer-events: none;
 }
 @media only screen and (max-width: 639px) {
   label {
     font-size: 1.4rem;
-    margin-bottom: 15px;
+    margin-bottom: 4px;
   }
 }
 
 .sub-label {
   margin-top: 73px;
   position: absolute;
-  top: 0;
+  top: 14px;
   bottom: 0;
   right: -47px;
   font-size: 2.4rem;
@@ -277,7 +277,8 @@ label {
 @media only screen and (max-width: 639px) {
   .sub-label {
     margin-top: 37px;
-    right: 10px;
+    top: 7px;
+    right: 7px;
     font-size: 1.4rem;
   }
 }
@@ -288,8 +289,8 @@ label {
 
 .outner-textarea {
   box-sizing: border-box;
-  padding: 15px 10px 30px 20px;
-  max-height: 325px;
+  padding: 15px 10px 33px 20px;
+  max-height: 330px;
   font-size: 2.2rem;
   color: #808080;
 }
@@ -317,7 +318,7 @@ label {
     border: 1px solid #e3dab7;
     box-sizing: border-box;
     padding: 12px 5px 9px 10px;
-    max-height: 160px;
+    max-height: 165px;
     font-size: 1.2rem;
   }
   .outner-textarea .inner__scroll {
@@ -327,11 +328,12 @@ label {
 }
 
 .form-input {
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 @media only screen and (max-width: 639px) {
   .form-input {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
   }
   .form-input__half {
     margin-bottom: 10px;
@@ -363,6 +365,14 @@ label {
   cursor: pointer;
   line-height: 1;
   pointer-events: auto;
+  margin-top: 13px;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 639px) {
+  .form-checkbox label {
+    margin-top: 6px;
+    margin-bottom: 15px;
+  }
 }
 .form-checkbox:hover input ~ .checkmark {
   background-color: #000000;
@@ -384,7 +394,7 @@ label {
 }
 .form-checkbox .checkmark {
   position: absolute;
-  top: 0;
+  top: 15px;
   left: -23px;
   height: 20px;
   width: 20px;
@@ -406,6 +416,7 @@ label {
 }
 @media only screen and (max-width: 639px) {
   .form-checkbox .checkmark {
+    top: 4px;
     left: -15px;
     height: 14px;
     width: 14px;
@@ -434,7 +445,7 @@ label {
 .btn-confirm {
   background: #000000;
   border: 4px solid #e0d9b7;
-  font-size: 34px;
+  font-size: 3.4rem;
   color: #e3dab7;
   text-align: center;
   padding: 20px 15px 20px;
@@ -457,10 +468,14 @@ label {
 .btn-confirm:hover {
   border: 4px solid #5a5749;
 }
+.btn-confirm.disable {
+  opacity: 0.44;
+  pointer-events: none;
+}
 @media only screen and (max-width: 639px) {
   .btn-confirm {
     border: 2px solid #e0d9b7;
-    font-size: 17px;
+    font-size: 1.7rem;
     padding: 10px 7px;
     margin-bottom: 38px;
     margin-top: 21px;
@@ -475,11 +490,6 @@ label {
   .btn-confirm:hover {
     border: 2px solid #5a5749;
   }
-}
-
-.btn-confirm.disable {
-  opacity: 0.44;
-  pointer-events: none;
 }
 
 /**
@@ -516,32 +526,32 @@ label {
   text-align: center;
 }
 #thanks h3 {
-  font-size: 42px;
+  font-size: 4.2rem;
   font-weight: normal;
   line-height: 1.714;
-  padding-top: 27px;
-  margin-bottom: 77px;
+  padding-top: 35px;
+  margin-bottom: 80px;
   margin-right: -10px;
 }
 #thanks .text {
-  font-size: 24px;
+  font-size: 2.4rem;
   margin-bottom: 100px;
 }
 #thanks .container {
-  padding-bottom: 35px;
+  padding-bottom: 33px;
 }
 @media only screen and (max-width: 639px) {
   #thanks h3 {
-    font-size: 21px;
-    padding-top: 15px;
-    margin-bottom: 38px;
+    font-size: 2.1rem;
+    padding-top: 17px;
+    margin-bottom: 40px;
   }
   #thanks .text {
-    font-size: 12px;
+    font-size: 1.2rem;
     margin-bottom: 50px;
   }
   #thanks .container {
-    padding-bottom: 17px;
+    padding-bottom: 16px;
   }
 }
 
@@ -550,34 +560,43 @@ label {
 }
 #confirm .l-header {
   padding-bottom: 43px;
+  margin-bottom: 55px;
 }
 #confirm .text {
   color: #b5ad8c;
   opacity: 0.44;
-  font-size: 32px;
+  font-size: 3.2rem;
   margin: 0 0 -5px 0;
   line-height: 1.3125;
   letter-spacing: -0.03em;
 }
 #confirm label {
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 #confirm .btn-confirm {
-  margin-top: 64px;
+  margin-top: 77px;
   padding: 19px 15px 22px;
 }
 #confirm .btn-confirm .arrow-next {
   margin-right: 20px;
 }
+#confirm #mail_address,
+#confirm #mail_confirm {
+  margin-bottom: -10px;
+}
 @media only screen and (max-width: 639px) {
   #confirm .container {
     padding-bottom: 20px;
   }
+  #confirm .l-header {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
   #confirm .text {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
   #confirm label {
-    margin-bottom: 15px;
+    margin-bottom: 4px;
   }
   #confirm .form-button {
     margin-top: 50px;

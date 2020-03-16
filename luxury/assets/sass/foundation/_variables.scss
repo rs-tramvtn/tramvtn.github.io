@@ -28,19 +28,7 @@ $font-serif: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", 
 	font-family:janson;
 	src:url(/luxury/assets/font/JansonSSi.ttf)
 }
-// margin
-$margin--xs: 10px;
-$margin--sm: 14px;
-$margin--md: 30px;
-$margin--lg: 50px;
-$margin--xl: 70px;
 
-// size
-$font-size--xs: 14px;
-$font-size--sm: 18px;
-$font-size--md: 21px;
-$font-size--lg: 24px;
-$font-size--title: 30px;
 
 // container
 $container--pc: 1200px;
@@ -65,56 +53,9 @@ $link-color: $primary-color;
 // 3. Buttons
 // ==========================================================================
 
-// Shared styles
-// $button-border: none !default;
-$button-background-focus: $primary-color-light;
-$button-font-size: 1.4rem;
-$button-icon-font-size: 2.4rem;
-$button-height: 36px !default;
-$button-padding: 0 10px;
-$button-radius: 3px;
 
-// Disabled styles
-$button-disabled-background: $gray-light;
-$button-disabled-color: $body-color;
-
-// Raised buttons
-$button-raised-background: #fff;
-$button-raised-background-hover: $primary-color-light;
-$button-raised-color: $body-color;
-
-// Large buttons
-$button-large-font-size: 15px !default;
-$button-large-icon-font-size: 1.6rem !default;
-$button-large-height: $button-height * 1.5 !default;
-$button-floating-large-size: 56px !default;
-
-// Small buttons
-$button-small-font-size: 1.4rem;
-$button-small-icon-font-size: 2.4rem;
-$button-small-height: $button-height * .9 !default;
-$button-floating-small-size: $button-height * .9 !default;
-
-// Flat buttons
-$button-flat-color: $body-color;
-$button-flat-disabled-color: lighten(#999, 10%) !default;
-
-// Floating buttons
-$button-floating-background: $secondary-color !default;
-$button-floating-background-hover: $button-floating-background !default;
-$button-floating-color: #fff !default;
-$button-floating-size: 40px !default;
-$button-floating-radius: 50% !default;
 
 // 20. Typography
 // ==========================================================================
 
-$font-stack: $font-sans-serif;
-// $off-black: rgba(0, 0, 0, 0.87);
-// Header Styles
-// $h1-fontsize: 3.2rem;
-// $h2-fontsize: 2.4rem;
-// $h3-fontsize: 2.4rem;
-// $h4-fontsize: 1.8rem;
-// $h5-fontsize: 1.6rem;
-// $h6-fontsize: 1.4rem;
+

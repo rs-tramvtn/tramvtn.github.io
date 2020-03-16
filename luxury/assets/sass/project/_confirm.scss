@@ -4,34 +4,43 @@
 	}
 	.l-header{
 		padding-bottom: 43px;
+		margin-bottom: 55px;
 	}
 	.text{
 		color: #b5ad8c;
 		opacity: 0.44;
-		font-size: 32px;
+		font-size: 3.2rem;
 		margin: 0 0 -5px 0;
 		line-height: 1.3125;
 		letter-spacing: -0.03em;
 	}
 	label{
-		margin-bottom: 20px;
+		margin-bottom: 8px;
 	}
 	.btn-confirm {
-		margin-top: 64px;
+		margin-top: 77px;
 		padding: 19px 15px 22px;
 		.arrow-next{
 			margin-right: 20px;
 		}
 	}
+	#mail_address,
+	#mail_confirm{
+		margin-bottom: -10px;
+	}
 	@media only screen and (max-width: 639px) {
 		.container{
 			padding-bottom: 20px;
 		}
+		.l-header{
+			padding-bottom: 20px;
+			margin-bottom: 30px;
+		}
 		.text{
-			font-size: 16px;
+			font-size: 1.6rem;
 		}
 		label{
-			margin-bottom: 15px;
+			margin-bottom: 4px;
 		}
 		.form-button{
 			margin-top: 50px;

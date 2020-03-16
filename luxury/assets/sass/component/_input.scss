@@ -11,14 +11,14 @@ input,
 	box-sizing: border-box;
 	width: 100%;
 	color: $base-color;
-	font-size: 24px;
+	font-size: 2.4rem;
 	min-height: 108px;
 	text-overflow: ellipsis;
 	border-radius: 0;
 	@media only screen and (max-width: 639px) {
 		border: 1px solid $cl-yellow;
 		padding: 5px 12px;
-		font-size: 12px;
+		font-size: 1.2rem;
 		min-height: 54px;
 	}
 }
@@ -80,25 +80,26 @@ select::-ms-expand {
 }
 label{
 	font-size: 2.4rem;
-	line-height: 0.57;
+	line-height: 1.75;
 	display: inline-block;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	pointer-events: none;
 	@media only screen and (max-width: 639px) {
 		font-size: 1.4rem;
-		margin-bottom: 15px;
+		margin-bottom: 4px;
 	}
 }
 .sub-label{
 	margin-top: 73px;
 	position:absolute;
-	top: 0;
+	top: 14px;
 	bottom: 0;
 	right: -47px;
 	font-size: 2.4rem;
 	@media only screen and (max-width: 639px) {
 		margin-top: 37px;
-		right: 10px;
+		top: 7px;
+		right: 7px;
 		font-size: 1.4rem;
 	}
 }
@@ -107,8 +108,8 @@ label{
 }
 .outner-textarea{
 	box-sizing:border-box;
-	padding: 15px 10px 30px 20px;
-	max-height: 325px;
+	padding: 15px 10px 33px 20px;
+	max-height: 330px;
 	font-size: 2.2rem;
 	color: $gray;
 	.inner__scroll{
@@ -134,7 +135,7 @@ label{
 		border: 1px solid $base-color;
 		box-sizing:border-box;
 		padding: 12px 5px 9px 10px;
-		max-height: 160px;
+		max-height: 165px;
 		font-size: 1.2rem;
 		.inner__scroll{
 			height: 130px;
@@ -143,9 +144,10 @@ label{
 	}
 }
 .form-input{
-	margin-bottom: 45px;
+	margin-bottom: 30px;
 	@media only screen and (max-width: 639px) {
-		margin-bottom: 20px;
+		margin-bottom: 15px;
+		padding-bottom: 5px;
 		&__half{
 			margin-bottom: 10px;
 		}
@@ -178,6 +180,12 @@ label{
 		cursor: pointer;
 		line-height: 1;
 		pointer-events: auto;
+		margin-top: 13px;
+		margin-bottom: 30px;
+		@media only screen and (max-width: 639px) {
+			margin-top: 6px;
+			margin-bottom: 15px;
+		}
 	}
 	/* On mouse-over, add a grey background color */
 	&:hover input ~ .checkmark {
@@ -200,7 +208,7 @@ label{
 	}
 	.checkmark {
 		position: absolute;
-		top: 0;
+		top: 15px;
 		left: -23px;
 		height: 20px;
 		width: 20px;
@@ -222,6 +230,7 @@ label{
 			transform: rotate(45deg);
 		}
 		@media only screen and (max-width: 639px) {
+			top: 4px;
 			left: -15px;
 			height: 14px;
 			width: 14px;

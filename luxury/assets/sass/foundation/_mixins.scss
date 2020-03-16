@@ -12,17 +12,7 @@ $breakpoints-pcfirst: (
   'lg': 'screen and (max-width: 1199px)',
 ) !default;
 
-@mixin media-query-spfirst($breakpoint) {
-  @if map-has-key($breakpoints-spfirst, $breakpoint) {
-    @media #{unquote(map-get($breakpoints-spfirst, $breakpoint))} {
-      @content;
-    }
-  }
-  @else {
-    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
-    + "Available breakpoints are: #{map-keys($breakpoints-spfirst)}.";
-  }
-}
+
 @mixin media-query-pcfirst($breakpoint) {
   @if map-has-key($breakpoints-pcfirst, $breakpoint) {
     @media #{unquote(map-get($breakpoints-pcfirst, $breakpoint))} {
@@ -45,12 +35,3 @@ $breakpoints-pcfirst: (
   }
 }
 
-@mixin hover-pc {
-  @include mq-pc {
-    transition: 0.2s opacity;
-    &:hover {
-      opacity: 0.5;
-      transition: 0.2s opacity ease-in;
-    }
-  }
-}
