@@ -2,7 +2,7 @@
 //btn
 .btn-menu{
 	position: absolute;
-	background: url(/assets/images/icon-menu.png) top center no-repeat;
+	background: url(/ifv/assets/images/icon-menu.png) top center no-repeat;
 	background-size: 64px 57px;
 	top: 30px;
 	right: 30px;
@@ -10,7 +10,7 @@
 	height: 57px;
 	display: none;
 	&.open{
-		background: url(/assets/images/img-close.png) top center no-repeat;
+		background: url(/ifv/assets/images/img-close.png) top center no-repeat;
 		background-size: 41px 40px;
 	}
 	@include mq-sp {

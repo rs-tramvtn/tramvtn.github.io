@@ -1,84 +1,10 @@
-// @charset "utf-8";
+ @charset "utf-8";
 // /* Header
 // /* [header] content
 // -----------------------------------------------*/
-// header{
-	
-//   .l-header{
-//   background: url(/assets/images/bg-top.png);
-//   background-repeat: no-repeat;
-//   background-size: 100% 100%;
-//   width: 100%;
-//   // padding-bottom: 49.83333%;
-//   @media (max-width: 768px) {
-//     background: url(/assets/images/bg-top-sp.png);
-//     background-repeat: no-repeat;
-//     background-size: 100% 100%;
-//     // padding-bottom: 158.75%;
-//     justify-content: center;
-//   }
-//   &__title{
-//     font-family: helvetica;
-//     color: #fff;
-//     font-size: 177px;
-//     line-height: 1.95;
-//     text-align: center;
-//     // @include responsive-font(get-vw())
-//     @media (max-width: 768px) {
-//       @include responsive-font(get-vw-sp(177px), 88px, 177px)
-//     }
-//     .sub{
-//       font-size: 58px;
-//     }
-//     p{
-//       margin: 0;
-//     }
-//   }
-//   // @media (max-width: 768px) {
-//   //   background: url(../images/bg-top-sp.png);
-//   //   background-repeat: no-repeat;
-//   //   background-size: 100% 100%;
-//   //   padding-bottom: 158.41%;
-//   //   justify-content: center;
-//   // }
-//   // @media (max-width: 1200px) {
-//   //   position: relative;
-//   //   display: flex;
-//   //   align-items: center;
-//   // }
-//   //   &__title{
-//   //     font-family: helvetica;
-//   //     color: #fff;
-//   //     line-height: 1.95;
-//   //     text-align: center;
-//   //     // @include responsive-font(get-vw())
-//   //     @media (max-width: 768px) {
-//   //       @include responsive-font(get-vw-sp(177px), 88px, 177px)
-//   //     }
-//   //     .sub{
-//   //       font-size: 58px;
-//   //     }
-//   //   }
-// 	}	
-// }
-// // .l-header__img {
-// //   display: flex;
-// //   justify-content: center;
-// //   align-items: center;
-// //   @media (min-width: 1200px) {
-// //     margin-right: 25px;
-// //   }
-// //   @media (max-width: 320px) {
-// //     margin-top: 10px;
-// //   }
-// //   img {
-// //     width: 40px;
-// //     height: 40px;
-// //   }
-// // }
 
 .l-header{
-	background: url(/assets/images/bg-top.png) top center no-repeat;
+	background: url(/ifv/assets/images/bg-top.png) top center no-repeat;
 	background-size: 100% 100%;
 	width: 100%;
 	padding-bottom: 49.72%;
@@ -120,7 +46,7 @@
 		padding-bottom: 62.72%;
 	}
 	@media (max-width: 768px) {
-    background: url(/assets/images/bg-top-sp.png);
+    background: url(/ifv/assets/images/bg-top-sp.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-bottom: 158.75%;

@@ -119,7 +119,7 @@
 		left: 0;
 		right: 0;
 		padding: 20px 22px;
-		background:rgba(42,42,42,0.8)  url(/assets/images/penbg.png) bottom right no-repeat;
+		background:rgba(42,42,42,0.8)  url(/ifv/assets/images/penbg.png) bottom right no-repeat;
 	}
 	@media (min-width: 769px) {
 		&:nth-child(1){
@@ -173,7 +173,7 @@
 	}
 }
 #banner_works{
-	background: url(/assets/images/img06.png);
+	background: url(/ifv/assets/images/img06.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 27.5vw;
@@ -183,7 +183,7 @@
 	}
 }
 #banner_interview{
-	background: url(/assets/images/img14.png);
+	background: url(/ifv/assets/images/img14.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 27.5vw;
@@ -219,16 +219,16 @@
 	padding-bottom: 80px;
 }
 #company{
-	background: url(/assets/images/bg01.png) top left repeat;
+	background: url(/ifv/assets/images/bg01.png) top left repeat;
 	padding: 55px 0 83px;
 	.box-content__title{
-		background: #78D020 url(/assets/images/penbg.png) bottom right no-repeat;
+		background: #78D020 url(/ifv/assets/images/penbg.png) bottom right no-repeat;
 	}
 	@media (max-width: 768px) {
 		background: none;
 		padding: 0;
 		.box-content__img{
-			background: url(/assets/images/bg01.png) top left repeat;
+			background: url(/ifv/assets/images/bg01.png) top left repeat;
 		}
 	}
 }
@@ -236,7 +236,7 @@
 	padding: 82px 0 80px;
 	.box-content{
 		&__title{
-			background: #007eff url(/assets/images/penbg.png) bottom right no-repeat;
+			background: #007eff url(/ifv/assets/images/penbg.png) bottom right no-repeat;
 			margin-right: 0;
 			margin-left: 10px;
 		}
@@ -286,11 +286,11 @@
 	}
 }
 #interview{
-	background: url(/assets/images/bg01.png) top left repeat;
+	background: url(/ifv/assets/images/bg01.png) top left repeat;
 	padding: 83px 0 80px;
 	.box-content{
 		&__title{
-			background: #ffc000 url(/assets/images/penbg.png) bottom right no-repeat;
+			background: #ffc000 url(/ifv/assets/images/penbg.png) bottom right no-repeat;
 			padding: 72px 30px 20px;
 			&--sub{
 				span{
@@ -337,7 +337,7 @@
 				padding: 22px 30px 29px;
 			}
 			&__img{
-				background: url(/assets/images/bg01.png) top left repeat;
+				background: url(/ifv/assets/images/bg01.png) top left repeat;
 				padding: 43px 30px 90px;
 			}
 			&-group{
