@@ -1,14 +1,14 @@
 @font-face {
   font-family: hiragino;
-  src: url(/assets/font/hiragino-kaku-gothic-pro-w3.otf);
+  src: url(/ifv/assets/font/hiragino-kaku-gothic-pro-w3.otf);
 }
 @font-face {
   font-family: hirakakupro;
-  src: url(/assets/font/hirakakupro-w3-opentype.otf);
+  src: url(/ifv/assets/font/hirakakupro-w3-opentype.otf);
 }
 @font-face {
   font-family: helvetica;
-  src: url(/assets/font/Helvetica-Bold-Font.ttf);
+  src: url(/ifv/assets/font/Helvetica-Bold-Font.ttf);
 }
 html {
   font-size: 10px !important;
@@ -177,7 +177,7 @@ body p {
   left: 0;
   right: 0;
   padding: 20px 22px;
-  background: rgba(42, 42, 42, 0.8) url(/assets/images/penbg.png) bottom right no-repeat;
+  background: rgba(42, 42, 42, 0.8) url(/ifv/assets/images/penbg.png) bottom right no-repeat;
 }
 @media (min-width: 769px) {
   .box-media:nth-child(1) {
@@ -235,7 +235,7 @@ body p {
 }
 
 #banner_works {
-  background: url(/assets/images/img06.png);
+  background: url(/ifv/assets/images/img06.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 27.5vw;
@@ -246,7 +246,7 @@ body p {
 }
 
 #banner_interview {
-  background: url(/assets/images/img14.png);
+  background: url(/ifv/assets/images/img14.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 27.5vw;
@@ -285,11 +285,11 @@ body p {
 }
 
 #company {
-  background: url(/assets/images/bg01.png) top left repeat;
+  background: url(/ifv/assets/images/bg01.png) top left repeat;
   padding: 55px 0 83px;
 }
 #company .box-content__title {
-  background: #78D020 url(/assets/images/penbg.png) bottom right no-repeat;
+  background: #78D020 url(/ifv/assets/images/penbg.png) bottom right no-repeat;
 }
 @media (max-width: 768px) {
   #company {
@@ -297,7 +297,7 @@ body p {
     padding: 0;
   }
   #company .box-content__img {
-    background: url(/assets/images/bg01.png) top left repeat;
+    background: url(/ifv/assets/images/bg01.png) top left repeat;
   }
 }
 
@@ -305,7 +305,7 @@ body p {
   padding: 82px 0 80px;
 }
 #works .box-content__title {
-  background: #007eff url(/assets/images/penbg.png) bottom right no-repeat;
+  background: #007eff url(/ifv/assets/images/penbg.png) bottom right no-repeat;
   margin-right: 0;
   margin-left: 10px;
 }
@@ -350,11 +350,11 @@ body p {
 }
 
 #interview {
-  background: url(/assets/images/bg01.png) top left repeat;
+  background: url(/ifv/assets/images/bg01.png) top left repeat;
   padding: 83px 0 80px;
 }
 #interview .box-content__title {
-  background: #ffc000 url(/assets/images/penbg.png) bottom right no-repeat;
+  background: #ffc000 url(/ifv/assets/images/penbg.png) bottom right no-repeat;
   padding: 72px 30px 20px;
 }
 #interview .box-content__title--sub span {
@@ -395,7 +395,7 @@ body p {
     padding: 22px 30px 29px;
   }
   #interview .box-content__img {
-    background: url(/assets/images/bg01.png) top left repeat;
+    background: url(/ifv/assets/images/bg01.png) top left repeat;
     padding: 43px 30px 90px;
   }
   #interview .box-content-group {
@@ -457,11 +457,11 @@ body p {
 }
 
 .l-header {
-  background: url(/assets/images/bg-top.png) top center no-repeat;
+  background: url(/ifv/assets/images/bg-top.png) top center no-repeat;
   background-size: 100% 100%;
   width: 100%;
   padding-bottom: 49.72%;
-  font-size: 117px;
+  font-size: 11.7rem;
   line-height: 1;
   letter-spacing: -0.3rem;
   font-weight: bold;
@@ -475,12 +475,12 @@ body p {
   left: 8.15%;
 }
 .l-header__text {
-  font-size: 36px;
+  font-size: 3.6rem;
   letter-spacing: 0.42rem;
   margin-top: -15px;
 }
 .l-header__sub {
-  font-size: 23px;
+  font-size: 2.3rem;
   letter-spacing: 0.4rem;
   margin-top: -10px;
   line-height: 1.5;
@@ -503,7 +503,7 @@ body p {
 }
 @media (max-width: 768px) {
   .l-header {
-    background: url(/assets/images/bg-top-sp.png);
+    background: url(/ifv/assets/images/bg-top-sp.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-bottom: 158.75%;
@@ -600,7 +600,7 @@ body p {
 }
 @media (max-width: 768px) and (max-width: 480px) {
   .l-header__sub {
-    font-size: 8px;
+    font-size: 0.8rem;
     margin-top: -7px;
   }
 }
@@ -818,7 +818,7 @@ body p {
     right: 30px;
     width: 10px;
     height: 18px;
-    background: url(/assets/images/icon01.png) no-repeat;
+    background: url(/ifv/assets/images/icon01.png) no-repeat;
     background-size: 10px 18px;
   }
   .navbar-footer .menu li {
@@ -849,7 +849,7 @@ body p {
     right: 15px;
     width: 5px;
     height: 9px;
-    background: url(/assets/images/icon01.png) no-repeat;
+    background: url(/ifv/assets/images/icon01.png) no-repeat;
     background-size: 5px 9px;
   }
   .navbar-footer .menu li {
@@ -931,7 +931,7 @@ footer .copyright {
 
 .btn-menu {
   position: absolute;
-  background: url(/assets/images/icon-menu.png) top center no-repeat;
+  background: url(/ifv/assets/images/icon-menu.png) top center no-repeat;
   background-size: 64px 57px;
   top: 30px;
   right: 30px;
@@ -940,7 +940,7 @@ footer .copyright {
   display: none;
 }
 .btn-menu.open {
-  background: url(/assets/images/img-close.png) top center no-repeat;
+  background: url(/ifv/assets/images/img-close.png) top center no-repeat;
   background-size: 41px 40px;
 }
 @media screen and (max-width: 768px) {
@@ -970,7 +970,7 @@ footer .copyright {
   width: 17.83%;
   padding: 25px 0;
   color: #fff;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 .btn:hover {
   opacity: 0.7;
