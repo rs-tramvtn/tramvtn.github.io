@@ -1,0 +1,50 @@
+@charset "utf-8";
+// color
+$base-color: #3a3a3a;
+
+
+// font
+$font-sans-serif: "Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro","Hiragino Sans",メイリオ,Meiryo,sans-serif;
+$font-serif: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+@font-face{
+	font-family:hiragino;
+	src:url(/assets/font/hiragino-kaku-gothic-pro-w3.otf);
+}
+@font-face{
+	font-family:hirakakupro;
+	src:url(/assets/font/hirakakupro-w3-opentype.otf);
+}
+@font-face{
+	font-family:helvetica;
+	src:url(/assets/font/Helvetica-Bold-Font.ttf);
+}
+
+// container
+$container--pc: 1000px;
+$container--sp: 100%;
+
+
+// ==========================================================================
+// Materialize variables (Custom)
+// ==========================================================================
+
+// 1. Colors
+// ==========================================================================
+
+$primary-color: #34A3AA;
+$primary-color-light: #E8F6F6;
+
+$secondary-color: $primary-color;
+$success-color: $primary-color;
+$error-color: #C9003F;
+$link-color: $primary-color;
+
+// 3. Buttons
+// ==========================================================================
+
+
+
+// 20. Typography
+// ==========================================================================
+
+

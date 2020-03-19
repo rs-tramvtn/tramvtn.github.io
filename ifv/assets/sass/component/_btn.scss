@@ -1,0 +1,51 @@
+@charset "utf-8";
+//btn
+.btn-menu{
+	position: absolute;
+	background: url(/assets/images/icon-menu.png) top center no-repeat;
+	background-size: 64px 57px;
+	top: 30px;
+	right: 30px;
+	width: 64px;
+	height: 57px;
+	display: none;
+	&.open{
+		background: url(/assets/images/img-close.png) top center no-repeat;
+		background-size: 41px 40px;
+	}
+	@include mq-sp {
+		display: block;
+	}
+	@media (max-width: 480px) {
+		background-size: 32px 29px;
+		top: 15px;
+		right: 15px;
+		width: 32px;
+		width: 32px;
+		height: 29px;
+		&.open{
+			background-size: 20px 20px;
+		}
+	}
+}
+.btn{
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 17.83%;
+	padding: 25px 0;
+	color: #fff;
+	font-size: 15px;
+	&:hover{
+		opacity: 0.7;
+	}
+	&-entry{
+		background: #F85050;
+		margin-left: 20px;
+	}
+	&-app{
+		background: #fbd0d0;
+		color: #F85050;
+	}
+}

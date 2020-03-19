@@ -1,0 +1,82 @@
+//breakpoints
+$breakpoints-spfirst: (
+  'xs': 'screen and (min-width: 480px)',
+  'sm': 'screen and (min-width: 769px)',
+  'md': 'screen and (min-width: 992px)',
+  'lg': 'screen and (min-width: 1200px)',
+) !default;
+$breakpoints-pcfirst: (
+  'xs': 'screen and (max-width: 479px)',
+  'sm': 'screen and (max-width: 768px)',
+  'md': 'screen and (max-width: 991px)',
+  'lg': 'screen and (max-width: 1199px)',
+) !default;
+
+
+@mixin media-query-pcfirst($breakpoint) {
+  @if map-has-key($breakpoints-pcfirst, $breakpoint) {
+    @media #{unquote(map-get($breakpoints-pcfirst, $breakpoint))} {
+      @content;
+    }
+  }
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+    + "Available breakpoints are: #{map-keys($breakpoints-pcfirst)}.";
+  }
+}
+@mixin mq-pc {
+  @include media-query-spfirst(sm) {
+    @content;
+  }
+}
+@mixin mq-sp {
+  @include media-query-pcfirst(sm) {
+    @content;
+  }
+}
+
+@function get-vw($target) { 
+  $vw-context: (1000*.01) * 1px;
+  @return ($target/$vw-context) * 1vw;
+}
+
+@function get-vw-sp($target) { 
+  $vw-context: (768*.01) * 1px;
+  @return ($target/$vw-context) * 1vw;
+}
+
+///
+  /// Viewport sized typography with minimum and maximum values
+  ///
+  /// @param {Number}   $responsive  - Viewport-based size
+  /// @param {Number}   $min         - Minimum font size (px)
+  /// @param {Number}   $max         - Maximum font size (px) (optional)
+  /// @param {Number}   $fallback    - Fallback for viewport based units (optional)
+  ///
+  /// @example scss - 5vw font size (with 50px fallback), 
+  ///                 minimum of 35px and maximum of 150px
+  /// @include responsive-font(5vw, 35px, 150px, 50px);
+  ///
+  @mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
+    $responsive-unitless: $responsive / ($responsive - $responsive + 1);
+    $dimension: if(unit($responsive) == 'vh', 'height', 'width');
+    $min-breakpoint: $min / $responsive-unitless * 100;
+    
+    @media (max-#{$dimension}: #{$min-breakpoint}) {
+      font-size: $min;
+    }
+    
+    @if $max {
+      $max-breakpoint: $max / $responsive-unitless * 100;
+      
+      @media (min-#{$dimension}: #{$max-breakpoint}) {
+        font-size: $max;
+      }
+    }
+    
+    @if $fallback {
+      font-size: $fallback;
+    }
+    
+    font-size: $responsive;
+  }
