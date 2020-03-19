@@ -596,6 +596,7 @@ body p {
 @media (max-width: 768px) and (max-width: 480px) {
   .l-header__text {
     font-size: 1.5rem;
+    margin-top: -5px;
   }
 }
 @media (max-width: 768px) and (max-width: 480px) {
