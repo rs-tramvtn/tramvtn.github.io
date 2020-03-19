@@ -73,6 +73,10 @@
 		a{
 			display: block;
 			padding: 25px 15px 15px 15px;
+			color: #3a3a3a;
+			&:hover{
+				opacity: 0.7;
+			}
 		}
 		&-icon{
 			margin: 0;

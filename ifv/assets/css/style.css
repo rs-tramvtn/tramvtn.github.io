@@ -681,6 +681,10 @@ body p {
 .navbar-header .menu a {
   display: block;
   padding: 25px 15px 15px 15px;
+  color: #3a3a3a;
+}
+.navbar-header .menu a:hover {
+  opacity: 0.7;
 }
 .navbar-header .menu-icon {
   margin: 0;
