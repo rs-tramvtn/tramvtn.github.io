@@ -1049,10 +1049,11 @@ footer .copyright {
 }
 #page_company #president .wrap-container {
   background: #f4f4f7 url(/ifv/assets/images/company-img01.png) top right no-repeat;
-  padding-bottom: 52.917%;
 }
 #page_company #president .wrap-text {
   width: calc(50% - 16px);
+  padding-top: 80px;
+  padding-bottom: 85px;
 }
 #page_company #president .txt-sign {
   font-size: 1.6rem;
