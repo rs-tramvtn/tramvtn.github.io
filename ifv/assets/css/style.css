@@ -52,10 +52,37 @@ body p {
   }
 }
 
+.hdg-lv2 {
+  position: relative;
+  font-size: 3.4rem;
+  line-height: 1.47;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+.hdg-lv2:after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 3px;
+  background: #78d020;
+  margin: 0 auto;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+}
+
+.hdg-lv3 {
+  font-size: 2.6rem;
+  line-height: 1.538;
+  font-weight: normal;
+}
+
 .l-container {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 @media screen and (max-width: 768px) {
   .l-container {
@@ -282,6 +309,7 @@ body p {
   justify-content: center;
   align-items: center;
   padding-bottom: 80px;
+  margin: 0 -10px;
 }
 
 #company {
@@ -683,7 +711,7 @@ body p {
   padding: 25px 15px 15px 15px;
   color: #3a3a3a;
 }
-.navbar-header .menu a:hover {
+.navbar-header .menu a :hover {
   opacity: 0.7;
 }
 .navbar-header .menu-icon {
@@ -828,7 +856,7 @@ body p {
     right: 30px;
     width: 10px;
     height: 18px;
-    background: url(assets/images/icon01.png) no-repeat;
+    background: url(/ifv/assets/images/icon01.png) no-repeat;
     background-size: 10px 18px;
   }
   .navbar-footer .menu li {
@@ -859,7 +887,7 @@ body p {
     right: 15px;
     width: 5px;
     height: 9px;
-    background: url(assets/images/icon01.png) no-repeat;
+    background: url(/ifv/assets/images/icon01.png) no-repeat;
     background-size: 5px 9px;
   }
   .navbar-footer .menu li {
@@ -935,7 +963,10 @@ footer .copyright {
   }
 }
 
-#pageTop.show {
+.icn-arrow-top {
+  position: fixed;
+  right: 0;
+  bottom: 25px;
   opacity: 1;
 }
 
@@ -977,19 +1008,79 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 17.83%;
+  width: 21%;
   padding: 25px 0;
   color: #fff;
   font-size: 1.5rem;
+  margin: 0 10px;
 }
 .btn:hover {
   opacity: 0.7;
 }
 .btn-entry {
   background: #F85050;
-  margin-left: 20px;
 }
 .btn-app {
   background: #fbd0d0;
   color: #F85050;
+}
+
+#page_company .l-header {
+  background: url(/ifv/assets/images/company-imgheader.png) top center no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  font-size: 3.4rem;
+  line-height: 2.853;
+}
+#page_company .l-header__text {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 100px;
+  padding-top: 40px;
+}
+#page_company .l-header__text img {
+  margin-right: 10px;
+}
+#page_company .l-header__content {
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#page_company #president .wrap-container {
+  background: #f4f4f7 url(/ifv/assets/images/company-img01.png) top right no-repeat;
+  padding-bottom: 52.917%;
+}
+#page_company #president .wrap-text {
+  width: calc(50% - 16px);
+}
+#page_company #president .txt-sign {
+  font-size: 1.6rem;
+  text-align: right;
+}
+#page_company #president .txt-sign span {
+  font-size: 3.6rem;
+}
+#page_company #desired .wrap-container {
+  color: #fff;
+  background: url(/ifv/assets/images/company-img02.png) top center no-repeat;
+  background-size: 100% 100%;
+  padding-top: 5.83333%;
+  padding-bottom: 3.75%;
+}
+#page_company #desired .wrap-container .wrap-text {
+  width: 50.25%;
+  margin: 0 auto;
+  background-color: rgba(51, 51, 51, 0.7);
+  box-shadow: -23px -23px 0px -2px rgba(255, 255, 255, 0.32);
+}
+#page_company #desired .wrap-text {
+  text-align: center;
+  padding: 10px 60px 35px;
+}
+@media screen and (max-width: 768px) {
+  #page_company #desired .wrap-container {
+    color: #fff;
+    background: url(/ifv/assets/images/company-img02-sp.png) top center no-repeat;
+  }
 }

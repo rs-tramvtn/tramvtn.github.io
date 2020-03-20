@@ -61,8 +61,11 @@ footer{
 		}
 	}
 }
-#pageTop.show {
-  opacity: 1;
+.icn-arrow-top {
+	position: fixed;
+	right: 0;
+	bottom: 25px;
+	opacity: 1;
 }
 
 

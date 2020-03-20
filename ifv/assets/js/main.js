@@ -4,5 +4,15 @@ $(document).ready(function () {
 			$(this).siblings(".js-menu-content").slideToggle(300);
 			$(this).toggleClass("open");
 		})
-	})
+	});
+
+	// scroll top button
+	$('.js-scrollToTop').on('click',function(){
+		var targetScroll = 0;
+		$("html,body").animate({
+			scrollTop : targetScroll
+		}, 300,'linear', function() {
+		});
+	});
+
 });
