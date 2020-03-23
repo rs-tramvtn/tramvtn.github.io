@@ -53,9 +53,10 @@
 				justify-content: space-between;
 				max-width: 250px;
 				margin: 0 auto;
-				span{
+				.label{
 					position: relative;
 					flex: 2;
+					z-index: 1;
 					&:before{
 						position: absolute;
 						content: "";
@@ -65,6 +66,10 @@
 						top: 50%;
 						left: 0;
 					}
+				}
+				.action{
+					background: rgba(65, 66, 67, 0.8);
+					z-index: 5;
 				}
 			}
 		}
