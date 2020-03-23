@@ -822,6 +822,10 @@ body p {
 .navbar-footer .menu li:last-child a:before {
   display: none;
 }
+.navbar-footer .logo {
+  padding-left: 8%;
+  margin-top: 10px;
+}
 @media (min-width: 769px) and (max-width: 1190px) {
   .navbar-footer .menu a {
     padding: 13px 15px 13px 15px;
