@@ -74,12 +74,13 @@
 			line-height: 2.5;
 			letter-spacing: 0;
 			color: #7fdc22;
-			margin-bottom: 25px;
+			margin-bottom: 10px;
 		}
 		&__content{
 			font-size: 1.6rem;
 			line-height: 1.75;
 			letter-spacing: 0;
+			padding-bottom: 7%;
 		}
 		&__list{
 			list-style-type: none;
@@ -125,8 +126,12 @@
 		}
 		.wrap-text{
 			width: calc(50% - 16px);
-			padding-top: 80px;
+			padding-top: 50px;
 			padding-bottom: 85px;
+		}
+		.text{
+			line-height: 1.64;
+			letter-spacing: 0;
 		}
 		.txt-sign{
 			font-size: 1.6rem;
@@ -134,6 +139,7 @@
 			span{
 				font-size: 3.6rem;
 				margin-left: 15px;
+				font-family: hakusyuGyosyo;
 			}
 		}
 	}

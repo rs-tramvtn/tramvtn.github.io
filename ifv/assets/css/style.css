@@ -10,6 +10,10 @@
   font-family: helvetica;
   src: url(/ifv/assets/font/Helvetica-Bold-Font.ttf);
 }
+@font-face {
+  font-family: hakusyuGyosyo;
+  src: url(/ifv/assets/font/HakusyuGyosyoBold_21824.ttf);
+}
 html {
   font-size: 10px !important;
 }
@@ -59,7 +63,7 @@ body p {
   line-height: 1.47;
   text-align: center;
   font-weight: normal;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 .hdg-lv2:after {
   position: absolute;
@@ -903,12 +907,13 @@ footer .copyright {
   line-height: 2.5;
   letter-spacing: 0;
   color: #7fdc22;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 #page_company .group-text__content {
   font-size: 1.6rem;
   line-height: 1.75;
   letter-spacing: 0;
+  padding-bottom: 7%;
 }
 #page_company .group-text__list {
   list-style-type: none;
@@ -943,8 +948,12 @@ footer .copyright {
 }
 #page_company #president .wrap-text {
   width: calc(50% - 16px);
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 85px;
+}
+#page_company #president .text {
+  line-height: 1.64;
+  letter-spacing: 0;
 }
 #page_company #president .txt-sign {
   font-size: 1.6rem;
@@ -953,6 +962,7 @@ footer .copyright {
 #page_company #president .txt-sign span {
   font-size: 3.6rem;
   margin-left: 15px;
+  font-family: hakusyuGyosyo;
 }
 #page_company #desired .wrap-container {
   color: #fff;

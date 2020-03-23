@@ -18,6 +18,10 @@ $font-serif: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", 
 	font-family:helvetica;
 	src:url(/ifv/assets/font/Helvetica-Bold-Font.ttf);
 }
+@font-face{
+	font-family:hakusyuGyosyo;
+	src:url(/ifv/assets/font/HakusyuGyosyoBold_21824.ttf);
+}
 
 // container
 $container--pc: 1000px;
