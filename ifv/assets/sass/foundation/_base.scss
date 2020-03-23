@@ -3,6 +3,7 @@ html {
   font-size: 10px !important;
 }
 body {
+  max-width: 1200px;
   margin: 0 auto;
   color: $base-color;
   font-size: 1.4rem;
@@ -11,10 +12,6 @@ body {
   p{
     margin: 0;
   }
-}
-.content{
-  max-width: 1200px;
-  margin: 0 auto;
 }
 .img-fluid{
 	width: 100%;
