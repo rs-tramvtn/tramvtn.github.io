@@ -900,6 +900,13 @@ footer .copyright {
 #page_company .group-text__title {
   font-size: 2rem;
   color: #7fdc22;
+  margin-bottom: 25px;
+}
+#page_company .group-text__content {
+  font-size: 1.6rem;
+  font-family: hirakakupro;
+  line-height: 1.75;
+  letter-spacing: 0;
 }
 #page_company .group-text__list {
   list-style-type: none;
