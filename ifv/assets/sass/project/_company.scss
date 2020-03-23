@@ -57,19 +57,30 @@
 					position: relative;
 					flex: 2;
 					z-index: 1;
-					&:before{
-						position: absolute;
-						content: "";
-						height: 1px;
-						width: 74%;
-						background: #fff;
-						top: 50%;
-						left: 0;
-					}
+					// &:before{
+					// 	position: absolute;
+					// 	content: "";
+					// 	height: 1px;
+					// 	width: 100%;
+					// 	background: #fff;
+					// 	top: 50%;
+					// 	left: 0;
+					// }
 				}
 				.action{
 					background: rgba(65, 66, 67, 0.8);
 					z-index: 5;
+					padding-right: 8px;
+					position: relative;
+					&:before{
+						position: absolute;
+						content: "";
+						height: 1px;
+						width: 100%;
+						background: #fff;
+						top: 50%;
+						left: 0;
+					}
 				}
 			}
 		}

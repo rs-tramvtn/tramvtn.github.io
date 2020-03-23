@@ -889,18 +889,20 @@ footer .copyright {
   flex: 2;
   z-index: 1;
 }
-#page_company .group-text__list li .label:before {
-  position: absolute;
-  content: "";
-  height: 1px;
-  width: 74%;
-  background: #fff;
-  top: 50%;
-  left: 0;
-}
 #page_company .group-text__list li .action {
   background: rgba(65, 66, 67, 0.8);
   z-index: 5;
+  padding-right: 8px;
+  position: relative;
+}
+#page_company .group-text__list li .action:before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #fff;
+  top: 50%;
+  left: 0;
 }
 #page_company #president .wrap-container {
   background: #f4f4f7 url(/ifv/assets/images/company-img01.png) top right no-repeat;
