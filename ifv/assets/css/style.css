@@ -886,14 +886,15 @@ footer .copyright {
 }
 #page_company .group-text__list li span {
   position: relative;
+  flex: 2;
 }
 #page_company .group-text__list li span:before {
   position: absolute;
   content: "";
   height: 1px;
-  width: 100%;
+  width: 74%;
   background: #fff;
-  top: 0;
+  top: 50%;
   left: 0;
 }
 #page_company #president .wrap-container {

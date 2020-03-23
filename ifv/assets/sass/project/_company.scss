@@ -55,13 +55,14 @@
 				margin: 0 auto;
 				span{
 					position: relative;
+					flex: 2;
 					&:before{
 						position: absolute;
 						content: "";
 						height: 1px;
-						width: 100%;
+						width: 74%;
 						background: #fff;
-						top: 0;
+						top: 50%;
 						left: 0;
 					}
 				}
