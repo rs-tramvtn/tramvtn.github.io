@@ -836,6 +836,8 @@ footer .copyright {
   width: 100%;
   font-size: 3.4rem;
   line-height: 2.853;
+  padding-bottom: 52.72%;
+  position: relative;
 }
 #page_company .l-header .icon {
   margin-top: 5px;
@@ -843,7 +845,7 @@ footer .copyright {
 #page_company .l-header__text {
   font-size: 3rem;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 65px;
   padding-top: 52px;
   margin-left: 2px;
   line-height: 1;
@@ -867,7 +869,7 @@ footer .copyright {
 #page_company .l-header__sub {
   font-size: 20px;
   line-height: 4.85;
-  letter-spacing: 0;
+  letter-spacing: 0.1rem;
   margin-top: -50px;
 }
 #page_company .navbar a.active {
@@ -877,6 +879,7 @@ footer .copyright {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
 }
 #page_company .group-text__item {
   width: 48.5%;
