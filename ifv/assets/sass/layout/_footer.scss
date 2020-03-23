@@ -67,6 +67,16 @@ footer{
 	bottom: 25px;
 	opacity: 1;
 	display: none;
+	width: 57px;
+	height: 57px;
+	@media (max-width: 768px) {
+		width: 113px;
+		height: 113px;
+	}
+	@media (max-width: 480px) {
+		width: 56px;
+		height: 56px;
+	}
 }
 
 
