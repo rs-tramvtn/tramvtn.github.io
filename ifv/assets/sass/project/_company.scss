@@ -43,6 +43,19 @@
 		}
 		&__title{
 			font-size: 2rem;
+			color: #7fdc22;
+		}
+		&__list{
+			span{
+				position: relative;
+				&:before{
+					position: absolute;
+					content: "";
+					height: 1px;
+					width: 100%;
+					background: #fff;
+				}
+			}
 		}
 	}
 	#president{
