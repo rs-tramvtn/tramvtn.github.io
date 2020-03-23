@@ -18,7 +18,6 @@
 		}
 	}
 	.logo{
-		// padding-left: 8.333%;
 		margin-top: 15px;
 	}
 	@media (min-width: 769px) and (max-width: 1190px){
@@ -56,19 +55,8 @@
 			}
 		}
 	}
-	// @media (max-width: 480px) {
-	// 	.menu{
-	// 		font-size: 1.4rem;
-	// 	}
-	// 	.logo{
-	// 		img{
-	// 			width: 225px;
-	// 		}
-	// 	}
-	// }
 }
 .navbar-header{
-	// padding-right: 7%;
 	.menu{
 		a{
 			display: block;
@@ -103,10 +91,6 @@
 			}
 		}
 	}
-	// .logo{
-	// 	padding-left: 9%;
-	// 	padding-top: 14px;
-	// }
 	@include mq-sp {
 		padding-right: 0;
 		position: relative;
@@ -142,23 +126,6 @@
 			display: none;
 		}
 	}
-	// @media (min-width: 481px) and  (max-width: 640px){
-	// 	.logo{
-	// 		img{
-	// 			width: 75%;
-	// 		}
-	// 	}
-	// }
-	// @media (max-width: 480px) {
-	// 	padding-top: 7px;
-	// 	padding-bottom: 7px;
-	// 	.logo{
-	// 		padding: 12px 16px 9px;
-	// 		img{
-	// 			width: 206px;
-	// 		}
-	// 	}
-	// }
 }
 .navbar-footer{
 	.menu{
@@ -221,8 +188,7 @@
 			display: block;
 			padding: 0;
 			a{
-				padding: 13px 15px 14px 15px;
-				//padding: 25px 30px 28px 29px;
+				padding: 13px 15px 13px 15px;
 				&:before{
 					display: none;
 				}
@@ -244,7 +210,7 @@
 			li:last-child{
 				margin-left: 0;
 				text-align: center;
-				padding: 15px 15px 27px;
+				padding: 18px 15px 27px;
 				a{
 					padding: 8px 5px 6px;
 					text-align: center;
@@ -258,37 +224,5 @@
 			padding-bottom: 14px;
 		}
 	}
-	// @media (max-width: 480px) {
-	// 	.menu{
-	// 		a{
-	// 			padding: 13px 15px 14px 15px;
-	// 			&:after{
-	// 				content: "";
-	// 				position: absolute;
-	// 				top: 50%;
-	// 				margin-top: -6px;
-	// 				right: 15px;
-	// 				width: 5px;
-	// 				height: 9px;
-	// 				background: url(/ifv/assets/images/icon01.png) no-repeat;
-	// 				background-size: 5px 9px;
-	// 			}
-	// 		}
-	// 		li{
-	// 			border-top: 1px solid #d6d6d6;
-	// 		}
-	// 		li:last-child{
-	// 			margin-left: 0;
-	// 			text-align: center;
-	// 			padding: 15px 15px 27px;
-	// 			a{
-	// 				padding: 8px 5px 6px;
-	// 			}
-	// 		}
-	// 	}
-	// 	.logo{
-	// 		padding-bottom: 14px;
-	// 	}
-	// }
 }
 

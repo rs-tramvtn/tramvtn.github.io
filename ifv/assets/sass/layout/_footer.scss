@@ -11,17 +11,10 @@ footer{
 	}
 	@include mq-sp {
 		.copyright {
-			// padding: 7% 0;
-			padding: 25px 5px;
+			padding: 22px 5px;
 			font-size: 0.9rem;
 		}
 	}
-	// @media (max-width: 480px) {
-	// 	.copyright {
-	// 		padding: 7% 0;
-	// 		font-size: 0.9rem;
-	// 	}
-	// }
 }
 .l-footer{
 	background: #ececec;
