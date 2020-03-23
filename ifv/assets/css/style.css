@@ -451,7 +451,7 @@ body p {
     padding-bottom: 62.72%;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .l-header {
     background: url(/ifv/assets/images/bg-top-sp.png);
     background-repeat: no-repeat;
@@ -462,17 +462,17 @@ body p {
     letter-spacing: 0;
   }
 }
-@media (max-width: 480px) and (max-width: 506.1818181818px) {
+@media (max-width: 768px) and (max-width: 506.1818181818px) {
   .l-header {
     font-size: 58px;
   }
 }
-@media (max-width: 480px) and (min-width: 768px) {
+@media (max-width: 768px) and (min-width: 768px) {
   .l-header {
     font-size: 88px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .l-header__img {
     margin-top: 19px;
     margin-bottom: 23px;
@@ -482,39 +482,39 @@ body p {
     width: 65px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .l-header__text {
     font-size: 3.7760416667vw;
     margin-top: -5px;
   }
 }
-@media (max-width: 480px) and (max-width: 397.2413793103px) {
+@media (max-width: 768px) and (max-width: 397.2413793103px) {
   .l-header__text {
     font-size: 15px;
   }
 }
-@media (max-width: 480px) and (min-width: 768px) {
+@media (max-width: 768px) and (min-width: 768px) {
   .l-header__text {
     font-size: 29px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .l-header__sub {
     font-size: 2.1666666667vw;
     margin-top: -7px;
   }
 }
-@media (max-width: 480px) and (max-width: 384px) {
+@media (max-width: 768px) and (max-width: 384px) {
   .l-header__sub {
     font-size: 8.32px;
   }
 }
-@media (max-width: 480px) and (min-width: 768px) {
+@media (max-width: 768px) and (min-width: 768px) {
   .l-header__sub {
     font-size: 16.64px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .l-header__img {
     margin-left: -15px;
     line-height: 0;
