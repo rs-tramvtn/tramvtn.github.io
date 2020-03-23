@@ -968,6 +968,7 @@ footer .copyright {
   right: 0;
   bottom: 25px;
   opacity: 1;
+  display: none;
 }
 
 .btn-menu {
