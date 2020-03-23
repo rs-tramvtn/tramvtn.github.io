@@ -310,7 +310,6 @@ body p {
   justify-content: center;
   align-items: center;
   padding-bottom: 80px;
-  margin: 0 -10px;
 }
 
 #company {
@@ -1009,7 +1008,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 21%;
+  width: 21.5%;
   padding: 25px 0;
   color: #fff;
   font-size: 1.5rem;
