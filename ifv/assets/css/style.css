@@ -886,6 +886,7 @@ footer .copyright {
   position: absolute;
   left: 8.3%;
   bottom: 0;
+  font-family: hirakakupro;
 }
 #page_company .group-text__item {
   width: 48.5%;
@@ -899,12 +900,13 @@ footer .copyright {
 }
 #page_company .group-text__title {
   font-size: 2rem;
+  line-height: 2.5;
+  letter-spacing: 0;
   color: #7fdc22;
   margin-bottom: 25px;
 }
 #page_company .group-text__content {
   font-size: 1.6rem;
-  font-family: hirakakupro;
   line-height: 1.75;
   letter-spacing: 0;
 }
