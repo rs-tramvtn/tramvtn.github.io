@@ -189,6 +189,10 @@
 			text-align: center;
 			padding: 10px 60px 35px;
 		}
+		.text{
+			line-height: 1.642857;
+			letter-spacing: 0;
+		}
 		@include mq-sp {
 			.wrap-container{
 				color: #fff;

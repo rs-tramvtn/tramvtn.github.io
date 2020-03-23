@@ -987,6 +987,10 @@ footer .copyright {
   text-align: center;
   padding: 10px 60px 35px;
 }
+#page_company #desired .text {
+  line-height: 1.642857;
+  letter-spacing: 0;
+}
 @media screen and (max-width: 768px) {
   #page_company #desired .wrap-container {
     color: #fff;
