@@ -134,7 +134,7 @@ body p {
   .box-content__title {
     display: flex;
     width: 100%;
-    padding: 14px 5px 9px;
+    padding: 14px 5px 10px;
     margin-right: 0;
     justify-content: center;
     align-items: center;
@@ -144,17 +144,18 @@ body p {
     margin-right: 0;
   }
   .box-content__title--icon img {
-    max-height: 40px;
+    max-height: 38px;
     width: auto;
     margin-right: 9px;
   }
   .box-content__title--sub {
     font-size: 2rem;
+    line-height: 0.75;
     margin-bottom: 0;
   }
   .box-content__title--sub span {
     font-size: 1rem;
-    margin-top: 7px;
+    margin-top: 4px;
   }
   .box-content__img {
     width: 100%;
