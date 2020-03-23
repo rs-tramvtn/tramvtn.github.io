@@ -25,6 +25,11 @@ body p {
   margin: 0;
 }
 
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .img-fluid {
   width: 100%;
   height: auto;
@@ -248,7 +253,6 @@ body p {
 }
 
 .banner {
-  max-width: 1200px;
   color: #fff;
   display: flex;
   justify-content: center;
