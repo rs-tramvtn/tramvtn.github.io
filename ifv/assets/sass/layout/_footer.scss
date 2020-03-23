@@ -12,15 +12,15 @@ footer{
 	@include mq-sp {
 		.copyright {
 			padding: 7% 0;
-			font-size: 1.8rem;
-		}
-	}
-	@media (max-width: 480px) {
-		.copyright {
-			padding: 7% 0;
 			font-size: 0.9rem;
 		}
 	}
+	// @media (max-width: 480px) {
+	// 	.copyright {
+	// 		padding: 7% 0;
+	// 		font-size: 0.9rem;
+	// 	}
+	// }
 }
 .l-footer{
 	background: #ececec;
@@ -42,16 +42,16 @@ footer{
 			height: auto;
 		}
 	}
+	// @media (max-width: 768px) {
+	// 	right: 10px;
+	// 	a{
+	// 		img{
+	// 			width: 112px;
+	// 			height: 112px;
+	// 		}
+	// 	}
+	// }
 	@media (max-width: 768px) {
-		right: 10px;
-		a{
-			img{
-				width: 112px;
-				height: 112px;
-			}
-		}
-	}
-	@media (max-width: 480px) {
 		right: 5px;
 		a{
 			img{
@@ -70,14 +70,10 @@ footer{
 	width: 67px;
 	height: 67px;
 	@media (max-width: 768px) {
-		width: 113px;
-		height: 113px;
-		right: 10px;
-		bottom: 47px;
-	}
-	@media (max-width: 480px) {
 		width: 56px;
 		height: 56px;
+		right: 10px;
+		bottom: 47px;
 	}
 }
 

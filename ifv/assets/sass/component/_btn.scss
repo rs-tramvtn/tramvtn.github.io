@@ -15,8 +15,6 @@
 	}
 	@include mq-sp {
 		display: block;
-	}
-	@media (max-width: 480px) {
 		background-size: 32px 29px;
 		top: 15px;
 		right: 15px;
@@ -27,6 +25,17 @@
 			background-size: 20px 20px;
 		}
 	}
+	// @media (max-width: 480px) {
+	// 	background-size: 32px 29px;
+	// 	top: 15px;
+	// 	right: 15px;
+	// 	width: 32px;
+	// 	width: 32px;
+	// 	height: 29px;
+	// 	&.open{
+	// 		background-size: 20px 20px;
+	// 	}
+	// }
 }
 .btn{
 	cursor: pointer;
