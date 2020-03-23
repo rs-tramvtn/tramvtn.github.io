@@ -878,10 +878,16 @@ footer .copyright {
   list-style-type: none;
   text-align: left;
 }
-#page_company .group-text__list span {
+#page_company .group-text__list li {
+  display: flex;
+  justify-content: space-between;
+  max-width: 250px;
+  margin: 0 auto;
+}
+#page_company .group-text__list li span {
   position: relative;
 }
-#page_company .group-text__list span:before {
+#page_company .group-text__list li span:before {
   position: absolute;
   content: "";
   height: 1px;

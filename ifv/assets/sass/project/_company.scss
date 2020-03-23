@@ -47,17 +47,23 @@
 		}
 		&__list{
 			list-style-type: none;
-    	text-align: left;
-			span{
-				position: relative;
-				&:before{
-					position: absolute;
-					content: "";
-					height: 1px;
-					width: 100%;
-					background: #fff;
-					top: 0;
-					left: 0;
+			text-align: left;
+			li{
+				display: flex;
+				justify-content: space-between;
+				max-width: 250px;
+				margin: 0 auto;
+				span{
+					position: relative;
+					&:before{
+						position: absolute;
+						content: "";
+						height: 1px;
+						width: 100%;
+						background: #fff;
+						top: 0;
+						left: 0;
+					}
 				}
 			}
 		}
