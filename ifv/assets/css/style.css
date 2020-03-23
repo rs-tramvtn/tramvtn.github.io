@@ -764,29 +764,6 @@ footer .copyright {
   background: #ececec;
 }
 
-#pageTop {
-  position: fixed;
-  bottom: 50px;
-  right: 30px;
-  z-index: 998;
-  padding: 0;
-  opacity: 0;
-  transition: all 0.3s linear;
-}
-#pageTop a img {
-  width: 100%;
-  height: auto;
-}
-@media (max-width: 768px) {
-  #pageTop {
-    right: 5px;
-  }
-  #pageTop a img {
-    width: 56px;
-    height: 56px;
-  }
-}
-
 .icn-arrow-top {
   position: fixed;
   right: 30px;
@@ -800,7 +777,7 @@ footer .copyright {
   .icn-arrow-top {
     width: 56px;
     height: 56px;
-    right: 10px;
+    right: 5px;
     bottom: 47px;
   }
 }
