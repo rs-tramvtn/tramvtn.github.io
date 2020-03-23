@@ -311,6 +311,7 @@ body p {
     padding: 0;
   }
   #works .box-content__title {
+    margin-left: 0;
     padding: 12px 5px 8px;
   }
   #works .box-content__title--icon {
