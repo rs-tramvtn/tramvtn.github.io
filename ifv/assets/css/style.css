@@ -876,10 +876,13 @@ footer .copyright {
   color: #78d020;
 }
 #page_company .group-text {
+  width: 83.3%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   position: absolute;
+  left: 8.3%;
+  bottom: 0;
 }
 #page_company .group-text__item {
   width: 48.5%;
