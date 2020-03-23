@@ -74,10 +74,10 @@
 			display: block;
 			padding: 25px 15px 15px 15px;
 			color: #3a3a3a;
-			:hover{
+			&:hover{
 				opacity: 0.7;
 			}
-			:last-child{
+			&:last-child{
 				padding-right: 0;
 			}
 		}

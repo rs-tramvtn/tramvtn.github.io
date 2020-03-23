@@ -707,10 +707,10 @@ body p {
   padding: 25px 15px 15px 15px;
   color: #3a3a3a;
 }
-.navbar-header .menu a :hover {
+.navbar-header .menu a:hover {
   opacity: 0.7;
 }
-.navbar-header .menu a :last-child {
+.navbar-header .menu a:last-child {
   padding-right: 0;
 }
 .navbar-header .menu-icon {
