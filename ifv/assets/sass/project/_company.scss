@@ -121,29 +121,38 @@
 		}
 	}
 	#president{
+		margin-bottom: 70px;
 		.wrap-container{
 			background: #f4f4f7 url(/ifv/assets/images/company-img01.png) top right no-repeat;
 		}
 		.wrap-text{
 			width: calc(50% - 16px);
-			padding-top: 50px;
+			padding-top: 52px;
 			padding-bottom: 85px;
 		}
 		.text{
-			line-height: 1.64;
-			letter-spacing: 0;
+			line-height: 1.642857;
+			letter-spacing: 0.01em;
+			margin-left: -3px;
+			margin-bottom: 24px;
 		}
 		.txt-sign{
 			font-size: 1.6rem;
+			line-height: 2.5;
 			text-align: right;
 			span{
 				font-size: 3.6rem;
-				margin-left: 15px;
+				margin-left: 8px;
 				font-family: hakusyuGyosyo;
+				line-height: 1.11111;
+				letter-spacing: -0.04em;
 			}
 		}
 	}
 	#desired{
+		.hdg-lv2{
+			margin-bottom: 42px;
+		}
 		.wrap-container{
 			color: #fff;
 			background: url(/ifv/assets/images/company-img02.png) top center no-repeat;
