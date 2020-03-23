@@ -6,11 +6,17 @@
 		width: 100%;
 		font-size: 3.4rem;
 		line-height: 2.853;
+		.icon{
+			margin-top: 5px;
+		}
 		&__text{
 			font-size: 3rem;
 			text-align: center;
 			margin-bottom: 100px;
-			padding-top: 40px;
+			padding-top: 43px;
+			margin-left: 2px;
+			line-height: 1;
+			letter-spacing: 0;
 			img{
 				margin-right: 10px;
 			}
@@ -57,6 +63,19 @@
 					position: relative;
 					flex: 2;
 					z-index: 1;
+					&:before{
+						position: absolute;
+						content: "";
+						height: 1px;
+						width: 100%;
+						background: #fff;
+						top: 50%;
+						right: 0;
+					}
+				}
+				.action{
+					z-index: 5;
+					padding-right: 8px;
 					// &:before{
 					// 	position: absolute;
 					// 	content: "";
@@ -66,21 +85,6 @@
 					// 	top: 50%;
 					// 	left: 0;
 					// }
-				}
-				.action{
-					background: rgba(65, 66, 67, 0.8);
-					z-index: 5;
-					padding-right: 8px;
-					position: relative;
-					&:before{
-						position: absolute;
-						content: "";
-						height: 1px;
-						width: 100%;
-						background: #fff;
-						top: 50%;
-						left: 0;
-					}
 				}
 			}
 		}

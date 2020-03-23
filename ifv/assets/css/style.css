@@ -837,11 +837,17 @@ footer .copyright {
   font-size: 3.4rem;
   line-height: 2.853;
 }
+#page_company .l-header .icon {
+  margin-top: 5px;
+}
 #page_company .l-header__text {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 100px;
-  padding-top: 40px;
+  padding-top: 43px;
+  margin-left: 2px;
+  line-height: 1;
+  letter-spacing: 0;
 }
 #page_company .l-header__text img {
   margin-right: 10px;
@@ -889,20 +895,18 @@ footer .copyright {
   flex: 2;
   z-index: 1;
 }
-#page_company .group-text__list li .action {
-  background: rgba(65, 66, 67, 0.8);
-  z-index: 5;
-  padding-right: 8px;
-  position: relative;
-}
-#page_company .group-text__list li .action:before {
+#page_company .group-text__list li .label:before {
   position: absolute;
   content: "";
   height: 1px;
   width: 100%;
   background: #fff;
   top: 50%;
-  left: 0;
+  right: 0;
+}
+#page_company .group-text__list li .action {
+  z-index: 5;
+  padding-right: 8px;
 }
 #page_company #president .wrap-container {
   background: #f4f4f7 url(/ifv/assets/images/company-img01.png) top right no-repeat;
