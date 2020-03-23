@@ -150,6 +150,7 @@ body p {
   }
   .box-content__title--sub {
     font-size: 2rem;
+    margin-bottom: 0;
   }
   .box-content__title--sub span {
     font-size: 1rem;
