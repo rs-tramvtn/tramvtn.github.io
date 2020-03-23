@@ -160,7 +160,7 @@ body p {
   .box-content__img {
     width: 100%;
     margin-left: 0;
-    padding: 28px 15px 38px;
+    padding: 28px 15px 41px;
     box-sizing: border-box;
   }
 }
@@ -321,7 +321,7 @@ body p {
   #works .box-content__img {
     margin-right: 0;
     padding-top: 25px;
-    padding-bottom: 32px;
+    padding-bottom: 35px;
     order: 2;
   }
   #works .box-media {
@@ -576,7 +576,7 @@ body p {
     padding: 28px 31px 33px;
   }
   .navbar .logo {
-    padding: 64px 5px 35px;
+    padding: 33px 5px 35px;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -689,7 +689,7 @@ body p {
   display: none;
 }
 .navbar-footer .logo {
-  padding-left: 8%;
+  padding-left: 2%;
   margin-top: 10px;
 }
 @media (min-width: 769px) and (max-width: 1190px) {
