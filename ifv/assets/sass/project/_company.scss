@@ -46,6 +46,8 @@
 			color: #7fdc22;
 		}
 		&__list{
+			list-style-type: none;
+    	text-align: left;
 			span{
 				position: relative;
 				&:before{
@@ -54,6 +56,8 @@
 					height: 1px;
 					width: 100%;
 					background: #fff;
+					top: 0;
+					left: 0;
 				}
 			}
 		}
