@@ -13,19 +13,31 @@
 			font-size: 3rem;
 			text-align: center;
 			margin-bottom: 100px;
-			padding-top: 43px;
+			padding-top: 52px;
 			margin-left: 2px;
 			line-height: 1;
 			letter-spacing: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			img{
 				margin-right: 10px;
 			}
 		}
 		&__content{
 			top: 0;
-			left: 0;
-			right: 0;
-			text-align: center;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 34px;
+    line-height: 2.853;
+    letter-spacing: 0;
+		}
+		&__sub{
+			font-size: 20px;
+			line-height: 4.85;
+			letter-spacing: 0;
+			margin-top: -50px;
 		}
 	}
 	.navbar{
