@@ -654,9 +654,6 @@ body p {
   }
 }
 
-.navbar-footer .menu .active {
-  color: #f85050;
-}
 .navbar-footer .menu a {
   display: block;
   color: #3a3a3a;
@@ -854,6 +851,27 @@ footer .copyright {
   left: 0;
   right: 0;
   text-align: center;
+}
+#page_company .navbar a.active {
+  color: #78d020;
+}
+#page_company .group-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#page_company .group-text__item {
+  width: 48.5%;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+  background: rgba(65, 66, 67, 0.8);
+  color: #ffffff;
+  padding-top: 2%;
+  text-align: center;
+}
+#page_company .group-text__title {
+  font-size: 2rem;
 }
 #page_company #president .wrap-container {
   background: #f4f4f7 url(/ifv/assets/images/company-img01.png) top right no-repeat;
