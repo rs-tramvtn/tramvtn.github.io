@@ -1129,6 +1129,7 @@ footer .copyright {
     top: 25px;
     padding: 0 15px;
     box-sizing: border-box;
+    text-align: left;
   }
   #page_company #desired .hdg-lv2 {
     margin-bottom: 25px;
@@ -1136,9 +1137,19 @@ footer .copyright {
   #page_company #desired .hdg-lv2:after {
     bottom: -9px;
   }
+  #page_company #desired .hdg-lv3 {
+    text-align: center;
+  }
+  #page_company #desired .text {
+    line-height: 1.42857;
+  }
+  #page_company #desired .text:last-child {
+    margin-bottom: 25px;
+  }
 }
 @media screen and (max-width: 768px) {
   #page_company .navbar-footer .logo {
     margin-top: 0;
+    margin-left: -20px;
   }
 }

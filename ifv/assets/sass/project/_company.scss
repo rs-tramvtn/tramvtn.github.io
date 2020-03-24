@@ -273,6 +273,7 @@
 					top: 25px;
 					padding: 0 15px;
 					box-sizing: border-box;
+					text-align: left;
 				}
 			}
 			.hdg-lv2{
@@ -281,11 +282,21 @@
 					bottom: -9px;
 				}
 			}
+			.hdg-lv3{
+				text-align: center;
+			}
+			.text{
+				line-height: 1.42857;
+				&:last-child{
+					margin-bottom: 25px;
+				}
+			}
 		}
 	}
 	.navbar-footer .logo{
 		@include mq-sp {
 			margin-top: 0;
+			margin-left: -20px;
 		}
 	}
 }
