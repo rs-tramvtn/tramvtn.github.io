@@ -918,25 +918,12 @@ footer .copyright {
 }
 #page_company .group-text__list .label {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  vertical-align: middle;
-  display: inline-block;
+  align-items: baseline;
 }
-#page_company .group-text__list .label:after {
-  display: inline-block;
-  content: "";
-  height: 1px;
-  background: #fff;
-  top: 50%;
-  right: 0;
+#page_company .group-text__list .line {
+  border-bottom: 1px solid #fff;
   flex-grow: 1;
-  vertical-align: middle;
-}
-#page_company .group-text__list .action {
-  display: inline-block;
-  padding-right: 5px;
+  margin: 0 5px;
 }
 #page_company .group-text__list li {
   display: flex;
@@ -978,8 +965,10 @@ footer .copyright {
 }
 #page_company #desired .hdg-lv3 {
   margin-bottom: 18px;
+  margin-top: 30px;
 }
 #page_company #desired .wrap-container {
+  position: relative;
   color: #fff;
   background: url(/ifv/assets/images/company-img02.png) top center no-repeat;
   background-size: 100% 100%;
@@ -987,13 +976,13 @@ footer .copyright {
 }
 #page_company #desired .wrap-container .wrap-text {
   position: absolute;
-  width: 50.333%;
+  width: 50.2%;
   margin: 0 auto;
-  left: 26%;
+  left: 26.2%;
   top: 12.33%;
   text-align: center;
   background-color: rgba(51, 51, 51, 0.7);
-  box-shadow: -23px -23px 0px -2px rgba(255, 255, 255, 0.32);
+  box-shadow: -21px -20px 0px 1px rgba(255, 255, 255, 0.32);
 }
 #page_company #desired .text {
   line-height: 1.642857;
@@ -1001,7 +990,7 @@ footer .copyright {
   margin-bottom: 23px;
 }
 #page_company #desired .text:last-child {
-  margin-bottom: 0;
+  margin-bottom: 40px;
 }
 @media screen and (max-width: 768px) {
   #page_company #desired .wrap-container {
