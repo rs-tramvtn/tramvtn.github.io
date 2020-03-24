@@ -207,6 +207,11 @@
 				margin-left: 14px;
 			}
 		}
+		@media (max-width: 1199px) and (min-width: 769px){
+			.wrap-text{
+				padding-left: 30px;
+			}
+		}
 		@include mq-sp {
 			.wrap-container{
 				background: none;

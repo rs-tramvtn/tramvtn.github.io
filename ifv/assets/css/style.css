@@ -1066,6 +1066,11 @@ footer .copyright {
 #page_company #president .txt-sign span {
   margin-left: 14px;
 }
+@media (max-width: 1199px) and (min-width: 769px) {
+  #page_company #president .wrap-text {
+    padding-left: 30px;
+  }
+}
 @media screen and (max-width: 768px) {
   #page_company #president .wrap-container {
     background: none;
