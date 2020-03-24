@@ -53,6 +53,12 @@ body {
   @include mq-sp {
     font-size: 2rem;
     line-height: 1.25;
+    margin-bottom: 22px;
+    &:after{
+      width: 15px;
+      height: 2.5px;
+      bottom: -6px;
+    }
   }
 }
 .hdg-lv3{
@@ -62,6 +68,9 @@ body {
   margin-bottom: 22px;
   @include mq-sp {
     font-size: 1.9rem;
-    line-height: 1.315789;
+    line-height: 1.31579;
+    margin-top: 22px;
+    margin-bottom: 18px;
+    letter-spacing: 0.01em;
   }
 }

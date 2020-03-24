@@ -2,6 +2,9 @@
 #page_company{
 	.l-container{
 		position: initial;
+		@include mq-sp {
+			padding: 0 15px;
+		}
 	}
 	.l-header{
 		background: url(/ifv/assets/images/company-imgheader.png) top center no-repeat;
@@ -196,13 +199,19 @@
 			.wrap-container{
 				color: #fff;
 				background: url(/ifv/assets/images/company-img02-sp.png) top center no-repeat;
+				background-size: 100% 100%;
 				padding-bottom: 271.09375%;
 				.wrap-text{
-					width: calc(50% - 30px);
+					width: calc(100% - 30px);
 					left: 15px;
-					box-shadow: 0;
+					box-shadow: none;
 				}
 			}
+		}
+	}
+	.navbar-footer .logo{
+		@include mq-sp {
+			margin-top: 0;
 		}
 	}
 }

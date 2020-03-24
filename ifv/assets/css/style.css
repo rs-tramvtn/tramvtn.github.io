@@ -80,6 +80,12 @@ body p {
   .hdg-lv2 {
     font-size: 2rem;
     line-height: 1.25;
+    margin-bottom: 22px;
+  }
+  .hdg-lv2:after {
+    width: 15px;
+    height: 2.5px;
+    bottom: -6px;
   }
 }
 
@@ -92,7 +98,10 @@ body p {
 @media screen and (max-width: 768px) {
   .hdg-lv3 {
     font-size: 1.9rem;
-    line-height: 1.315789;
+    line-height: 1.31579;
+    margin-top: 22px;
+    margin-bottom: 18px;
+    letter-spacing: 0.01em;
   }
 }
 
@@ -850,6 +859,11 @@ footer .copyright {
 #page_company .l-container {
   position: initial;
 }
+@media screen and (max-width: 768px) {
+  #page_company .l-container {
+    padding: 0 15px;
+  }
+}
 #page_company .l-header {
   background: url(/ifv/assets/images/company-imgheader.png) top center no-repeat;
   background-size: 100% 100%;
@@ -1032,11 +1046,17 @@ footer .copyright {
   #page_company #desired .wrap-container {
     color: #fff;
     background: url(/ifv/assets/images/company-img02-sp.png) top center no-repeat;
+    background-size: 100% 100%;
     padding-bottom: 271.09375%;
   }
   #page_company #desired .wrap-container .wrap-text {
-    width: calc(50% - 30px);
+    width: calc(100% - 30px);
     left: 15px;
-    box-shadow: 0;
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  #page_company .navbar-footer .logo {
+    margin-top: 0;
   }
 }
