@@ -111,7 +111,8 @@
 				justify-content: space-between;
 				align-items: center;
 				position: relative;
-				&:before{
+				&:after{
+					display: inline-block;
 					content: "";
 					height: 1px;
 					background: #fff;
@@ -122,7 +123,7 @@
 			}
 			.action{
 				display: inline-block;
-				
+				padding-right: 5px;
 			}
 			li{
 				display: flex;
@@ -161,7 +162,7 @@
 		}
 	}
 	#president{
-		margin-bottom: 70px;
+		margin-bottom: 68px;
 		.wrap-container{
 			background: #f4f4f7 url(/ifv/assets/images/company-img01.png) top right no-repeat;
 		}
@@ -200,8 +201,9 @@
 			color: #fff;
 			background: url(/ifv/assets/images/company-img02.png) top center no-repeat;
 			background-size: 100% 100%;
-			padding-top: 5.83333%;
-			padding-bottom: 3.75%;
+			//padding-top: 5.83333%;
+			//padding-bottom: 3.75%;
+			padding-bottom: 48.33333%;
 			.wrap-text{
 				width: 50.25%;
 				margin: 0 auto;
