@@ -918,7 +918,9 @@ footer .copyright {
     background-size: 100% 100%;
     padding-bottom: 131.1475%;
     padding-top: 25px;
-    padding-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
   }
   #page_company .l-header .icon {
     margin-top: 0;
@@ -1028,13 +1030,17 @@ footer .copyright {
 }
 @media screen and (max-width: 768px) {
   #page_company .group-text {
-    width: calc(100%);
+    width: calc(100% - 30px);
     left: 15px;
     top: 36.6%;
+    display: block;
   }
   #page_company .group-text__item {
-    width: calc(100% - 30px);
+    width: calc(100%);
     margin-bottom: 5px;
+    display: block;
+    padding: 0 15px;
+    box-sizing: border-box;
   }
   #page_company .group-text__title {
     font-size: 1.3rem;
