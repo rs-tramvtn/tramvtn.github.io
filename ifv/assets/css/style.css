@@ -670,7 +670,7 @@ body p {
   }
   .navbar-header .logo {
     text-align: left;
-    padding: 12px 16px 9px;
+    padding: 12px 0 9px;
   }
   .navbar-header .logo img {
     width: 206px;
@@ -824,7 +824,7 @@ footer .copyright {
     display: block;
     background-size: 32px 29px;
     top: 15px;
-    right: 15px;
+    right: 0;
     width: 32px;
     width: 32px;
     height: 29px;
