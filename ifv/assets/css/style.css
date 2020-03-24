@@ -918,12 +918,17 @@ footer .copyright {
 }
 #page_company .group-text__list .label {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 #page_company .group-text__list .line {
   border-bottom: 1px solid #fff;
   flex-grow: 1;
   margin: 0 5px;
+}
+#page_company .group-text__list .action {
+  font-family: hirakakupro;
+  line-height: 1.75;
+  letter-spacing: 0.05em;
 }
 #page_company .group-text__list li {
   display: flex;
