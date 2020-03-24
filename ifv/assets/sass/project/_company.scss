@@ -260,6 +260,20 @@
 				margin-bottom: 40px;
 			}
 		}
+		@media (max-width: 1199px) and (min-width: 769px){
+			.wrap-container{
+				.wrap-text{
+					@include responsive-font(get-vw-sp(14px), 12px, 14px);
+					padding: 0 15px;
+					box-sizing: border-box;
+					width: 60%;
+					left: 15%;
+				}
+			}
+			.hdg-lv3{
+				@include responsive-font(get-vw-sp(26px), 17px, 26px);
+			}
+		}
 		@include mq-sp {
 			.wrap-container{
 				color: #fff;
