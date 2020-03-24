@@ -921,6 +921,8 @@ footer .copyright {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  vertical-align: middle;
+  display: inline-block;
 }
 #page_company .group-text__list .label:after {
   display: inline-block;
@@ -930,6 +932,7 @@ footer .copyright {
   top: 50%;
   right: 0;
   flex-grow: 1;
+  vertical-align: middle;
 }
 #page_company .group-text__list .action {
   display: inline-block;

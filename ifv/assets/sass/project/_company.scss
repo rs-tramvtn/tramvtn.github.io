@@ -111,6 +111,8 @@
 				justify-content: space-between;
 				align-items: center;
 				position: relative;
+				vertical-align: middle;
+				display: inline-block;
 				&:after{
 					display: inline-block;
 					content: "";
@@ -119,6 +121,7 @@
 					top: 50%;
 					right: 0;
 					flex-grow: 1;
+					vertical-align: middle;
 				}
 			}
 			.action{
