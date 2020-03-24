@@ -691,7 +691,8 @@ body p {
   display: none;
 }
 .navbar-footer .logo {
-  margin-top: 10px;
+  padding-left: 8.2%;
+  margin-top: 5px;
 }
 @media (min-width: 769px) and (max-width: 1190px) {
   .navbar-footer .menu a {
