@@ -104,18 +104,20 @@
 		&__list{
 			list-style-type: none;
 			text-align: left;
+			width: 250px;
+			margin: 0 auto;
 			.label{
 				display: flex;
 				justify-content: space-between;
+				align-items: center;
 				position: relative;
 				&:before{
-					position: absolute;
 					content: "";
 					height: 1px;
-					width: 100%;
 					background: #fff;
 					top: 50%;
 					right: 0;
+					flex-grow: 1;
 				}
 			}
 			.action{

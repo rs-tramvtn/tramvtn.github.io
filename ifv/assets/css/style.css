@@ -913,20 +913,22 @@ footer .copyright {
 #page_company .group-text__list {
   list-style-type: none;
   text-align: left;
+  width: 250px;
+  margin: 0 auto;
 }
 #page_company .group-text__list .label {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: relative;
 }
 #page_company .group-text__list .label:before {
-  position: absolute;
   content: "";
   height: 1px;
-  width: 100%;
   background: #fff;
   top: 50%;
   right: 0;
+  flex-grow: 1;
 }
 #page_company .group-text__list .action {
   display: inline-block;
