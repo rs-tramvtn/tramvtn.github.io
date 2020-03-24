@@ -923,18 +923,20 @@ footer .copyright {
 #page_company .group-text__list .line {
   border-bottom: 1px solid #fff;
   flex-grow: 1;
-  margin: 0 5px;
+  margin-right: 10px;
+  margin-left: 13px;
 }
-#page_company .group-text__list .action {
+#page_company .group-text__list .line :nth-child(2) {
+  margin-left: 20px;
+}
+#page_company .group-text__list .line :nth-child(3) {
+  margin-left: 25px;
+}
+#page_company .group-text__list .action,
+#page_company .group-text__list .status {
   font-family: hirakakupro;
   line-height: 1.75;
   letter-spacing: 0.05em;
-}
-#page_company .group-text__list li {
-  display: flex;
-  justify-content: space-between;
-  max-width: 250px;
-  margin: 0 auto;
 }
 #page_company #president {
   margin-bottom: 68px;
