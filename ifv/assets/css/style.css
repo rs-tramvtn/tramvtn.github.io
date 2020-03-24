@@ -919,14 +919,15 @@ footer .copyright {
     margin-top: 0;
   }
   #page_company .l-header__text {
-    padding-top: 25px;
-    padding-left: 20px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-left: 0;
+    margin-bottom: 25px;
+    margin-left: 20px;
   }
   #page_company .l-header__text img {
     width: 10px;
     height: auto;
-    margin-right: 5px;
+    margin-right: 4px;
   }
   #page_company .l-header__text span {
     font-size: 2rem;
@@ -936,6 +937,7 @@ footer .copyright {
   #page_company .l-header__content {
     font-size: 1.7rem;
     line-height: 2.8438;
+    margin-left: -20px;
   }
   #page_company .l-header__sub {
     font-size: 1.2rem;
@@ -1017,7 +1019,7 @@ footer .copyright {
     top: 36.6%;
   }
   #page_company .group-text__item {
-    width: 100%;
+    width: calc(100% - 30px);
     margin-bottom: 5px;
   }
   #page_company .group-text__title {
