@@ -1032,7 +1032,7 @@ footer .copyright {
   #page_company .group-text {
     width: calc(100% - 30px);
     left: 15px;
-    top: 36.6%;
+    top: 37%;
     display: block;
   }
   #page_company .group-text__item {
@@ -1045,14 +1045,15 @@ footer .copyright {
   #page_company .group-text__title {
     font-size: 1.3rem;
     line-height: 1.923;
-    margin: 5px 0 8px;
+    margin: 6px 0 5px;
   }
   #page_company .group-text__sub {
     font-size: 1.7rem;
+    margin-bottom: 6px;
   }
   #page_company .group-text__content {
     font-size: 1.2rem;
-    padding-bottom: 15px;
+    padding-bottom: 13px;
     text-align: left;
     line-height: 1.5;
     font-weight: normal;
@@ -1067,6 +1068,9 @@ footer .copyright {
   }
   #page_company .group-text__list .label .line {
     margin-right: 5px;
+  }
+  #page_company .group-text__right .group-text__title {
+    margin: 3px 0 10px;
   }
   #page_company .group-text .action,
 #page_company .group-text .status {

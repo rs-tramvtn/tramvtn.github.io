@@ -174,7 +174,7 @@
 		@include mq-sp {
 			width: calc(100% - 30px);
 			left: 15px;
-			top: 36.6%;
+			top: 37%;
 			display: block;
 			&__item{
 				width: calc(100%);
@@ -186,14 +186,15 @@
 			&__title{
 				font-size: 1.3rem;
 				line-height: 1.923;
-				margin: 5px 0 8px;
+				margin: 6px 0 5px;
 			}
 			&__sub{
 				font-size: 1.7rem;
+				margin-bottom: 6px;
 			}
 			&__content{
 				font-size: 1.2rem;
-				padding-bottom: 15px;
+				padding-bottom: 13px;
 				text-align: left;
 				line-height: 1.5;
 				font-weight: normal;
@@ -207,6 +208,11 @@
 					.line{
 						margin-right: 5px;
 					}
+				}
+			}
+			&__right{
+				.group-text__title{
+					margin: 3px 0 10px;
 				}
 			}
 			.action,
