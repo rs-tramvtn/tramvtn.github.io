@@ -1012,6 +1012,14 @@ footer .copyright {
   line-height: 1.75;
   letter-spacing: 0.05em;
 }
+@media (max-width: 1199px) and (min-width: 769px) {
+  #page_company .group-text__content {
+    font-size: 12px;
+  }
+  #page_company .group-text__title {
+    line-height: 1.5;
+  }
+}
 @media screen and (max-width: 768px) {
   #page_company .group-text {
     width: calc(100% - 30px);
@@ -1122,47 +1130,23 @@ footer .copyright {
 }
 @media (max-width: 1199px) and (min-width: 769px) {
   #page_company #desired .wrap-container .wrap-text {
-    font-size: 1.8229166667vw;
+    font-size: 12px;
     padding: 0 15px;
     box-sizing: border-box;
     width: 65%;
     left: 12%;
     top: 10.33%;
   }
-}
-@media (max-width: 1199px) and (min-width: 769px) and (max-width: 658.2857142857px) {
-  #page_company #desired .wrap-container .wrap-text {
-    font-size: 12px;
-  }
-}
-@media (max-width: 1199px) and (min-width: 769px) and (min-width: 768px) {
-  #page_company #desired .wrap-container .wrap-text {
-    font-size: 14px;
-  }
-}
-@media (max-width: 1199px) and (min-width: 769px) {
   #page_company #desired .hdg-lv3 {
-    font-size: 3.3854166667vw;
-    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom: 20px;
     margin-top: 20px;
   }
-}
-@media (max-width: 1199px) and (min-width: 769px) and (max-width: 502.1538461538px) {
-  #page_company #desired .hdg-lv3 {
-    font-size: 17px;
-  }
-}
-@media (max-width: 1199px) and (min-width: 769px) and (min-width: 768px) {
-  #page_company #desired .hdg-lv3 {
-    font-size: 26px;
-  }
-}
-@media (max-width: 1199px) and (min-width: 769px) {
   #page_company #desired .text {
     margin-bottom: 15px;
   }
   #page_company #desired .text:last-child {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 768px) {
