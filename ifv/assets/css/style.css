@@ -907,6 +907,11 @@ footer .copyright {
   letter-spacing: 0.1rem;
   margin-top: -50px;
 }
+@media (max-width: 1199px) and (min-width: 769px) {
+  #page_company .l-header__text {
+    margin-bottom: 40px;
+  }
+}
 @media screen and (max-width: 768px) {
   #page_company .l-header {
     background: url(/ifv/assets/images/company-imgheader-sp.png) top center no-repeat;
@@ -942,6 +947,7 @@ footer .copyright {
   #page_company .l-header__sub {
     font-size: 1.2rem;
     line-height: 4.02875;
+    margin-top: -25px;
   }
 }
 #page_company .navbar a.active {
@@ -1022,7 +1028,7 @@ footer .copyright {
 }
 @media screen and (max-width: 768px) {
   #page_company .group-text {
-    width: calc(100% - 30px);
+    width: calc(100%);
     left: 15px;
     top: 36.6%;
   }
@@ -1040,9 +1046,8 @@ footer .copyright {
   #page_company .group-text__content {
     font-size: 1.2rem;
     padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
     text-align: left;
+    line-height: 1.5;
   }
   #page_company .group-text .action,
 #page_company .group-text .status {

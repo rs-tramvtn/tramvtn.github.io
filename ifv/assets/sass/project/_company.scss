@@ -48,6 +48,11 @@
 			letter-spacing: 0.1rem;
 			margin-top: -50px;
 		}
+		@media (max-width: 1199px) and (min-width: 769px){
+			&__text{
+				margin-bottom: 40px;
+			}
+		}
 		@include mq-sp {
 			background: url(/ifv/assets/images/company-imgheader-sp.png) top center no-repeat;
 			background-size: 100% 100%;
@@ -81,6 +86,7 @@
 			&__sub{
 				font-size: 1.2rem;
 				line-height: 4.02875;
+				margin-top: -25px;
 			}
 		}
 	}
@@ -164,7 +170,7 @@
 			}
 		}
 		@include mq-sp {
-			width: calc(100% - 30px);
+			width: calc(100%);
 			left: 15px;
 			top: 36.6%;
 			&__item{
@@ -181,9 +187,10 @@
 			&__content{
 				font-size: 1.2rem;
 				padding-bottom: 15px;
-				padding-left: 15px;
-				padding-right: 15px;
+				// padding-left: 15px;
+				// padding-right: 15px;
 				text-align: left;
+				line-height: 1.5;
 			}
 			.action,
 			.status{
