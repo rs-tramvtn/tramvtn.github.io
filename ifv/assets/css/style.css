@@ -975,6 +975,28 @@ footer .copyright {
   line-height: 1.75;
   letter-spacing: 0.05em;
 }
+@media screen and (max-width: 768px) {
+  #page_company .group-text {
+    width: calc(100% - 30px);
+  }
+  #page_company .group-text__item {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  #page_company .group-text__title {
+    font-size: 1.3rem;
+  }
+  #page_company .group-text__sub {
+    font-size: 1.7rem;
+  }
+  #page_company .group-text__content {
+    font-size: 1.2rem;
+  }
+  #page_company .group-text .action,
+#page_company .group-text .status {
+    font-size: 1.3rem;
+  }
+}
 #page_company #president {
   margin-bottom: 72px;
 }
