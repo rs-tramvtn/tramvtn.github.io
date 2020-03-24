@@ -35,12 +35,12 @@
 		}
 		&__content{
 			top: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-size: 34px;
-    line-height: 2.853;
-    letter-spacing: 0;
+			left: 0;
+			right: 0;
+			text-align: center;
+			font-size: 34px;
+			line-height: 2.853;
+			letter-spacing: 0;
 		}
 		&__sub{
 			font-size: 20px;
@@ -52,6 +52,26 @@
 			background: url(/ifv/assets/images/company-imgheader-sp.png) top center no-repeat;
 			background-size: 100% 100%;
 			padding-bottom: 131.1475%;
+			&__text{
+				img{
+					width: 10px;
+					height: auto;
+					margin-right: 5px;
+				}
+				span{
+					font-size: 2rem;
+					line-height: 0.75;
+					letter-spacing: 0;
+				}
+			}
+			&__content{
+				font-size: 1.7rem;
+				line-height: 2.8438;
+			}
+			&__sub{
+				font-size: 1.2rem;
+				line-height: 4.02875;
+			}
 		}
 	}
 	.navbar{
@@ -128,6 +148,7 @@
 		@include mq-sp {
 			width: calc(100% - 30px);
 			left: 15px;
+			top: 36.6%;
 			&__item{
 				width: 100%;
 				margin-bottom: 5px;
@@ -141,6 +162,9 @@
 			&__content{
 				font-size: 1.2rem;
 				padding-bottom: 15px;
+				padding-left: 15px;
+				padding-right: 15px;
+				text-align: left;
 			}
 			.action,
 			.status{

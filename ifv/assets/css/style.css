@@ -913,6 +913,24 @@ footer .copyright {
     background-size: 100% 100%;
     padding-bottom: 131.1475%;
   }
+  #page_company .l-header__text img {
+    width: 10px;
+    height: auto;
+    margin-right: 5px;
+  }
+  #page_company .l-header__text span {
+    font-size: 2rem;
+    line-height: 0.75;
+    letter-spacing: 0;
+  }
+  #page_company .l-header__content {
+    font-size: 1.7rem;
+    line-height: 2.8438;
+  }
+  #page_company .l-header__sub {
+    font-size: 1.2rem;
+    line-height: 4.02875;
+  }
 }
 #page_company .navbar a.active {
   color: #78d020;
@@ -986,6 +1004,7 @@ footer .copyright {
   #page_company .group-text {
     width: calc(100% - 30px);
     left: 15px;
+    top: 36.6%;
   }
   #page_company .group-text__item {
     width: 100%;
@@ -1000,6 +1019,9 @@ footer .copyright {
   #page_company .group-text__content {
     font-size: 1.2rem;
     padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
   }
   #page_company .group-text .action,
 #page_company .group-text .status {
