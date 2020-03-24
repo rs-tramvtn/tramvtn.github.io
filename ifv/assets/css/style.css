@@ -914,22 +914,16 @@ footer .copyright {
   list-style-type: none;
   text-align: left;
 }
-#page_company .group-text__list li {
-  display: flex;
-  justify-content: space-between;
-  max-width: 250px;
-  margin: 0 auto;
-}
-#page_company .group-text__list li .label {
+#page_company .group-text__list .label {
   display: flex;
   justify-content: space-between;
   position: relative;
 }
-#page_company .group-text__list li .action {
+#page_company .group-text__list .action {
   display: inline-block;
   position: relative;
 }
-#page_company .group-text__list li .action:before {
+#page_company .group-text__list .action:before {
   position: absolute;
   content: "";
   height: 1px;
@@ -937,6 +931,12 @@ footer .copyright {
   background: #fff;
   top: 50%;
   right: 0;
+}
+#page_company .group-text__list li {
+  display: flex;
+  justify-content: space-between;
+  max-width: 250px;
+  margin: 0 auto;
 }
 #page_company #president {
   margin-bottom: 70px;
