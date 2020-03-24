@@ -921,6 +921,7 @@ footer .copyright {
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
+    margin-bottom: 81px;
   }
   #page_company .l-header .icon {
     margin-top: 0;
@@ -944,7 +945,6 @@ footer .copyright {
   #page_company .l-header__content {
     font-size: 1.7rem;
     line-height: 2.8438;
-    margin-left: -20px;
   }
   #page_company .l-header__sub {
     font-size: 1.2rem;
@@ -1039,12 +1039,13 @@ footer .copyright {
     width: calc(100%);
     margin-bottom: 5px;
     display: block;
-    padding: 0 15px;
+    padding: 5px 15px 0;
     box-sizing: border-box;
   }
   #page_company .group-text__title {
     font-size: 1.3rem;
     line-height: 1.923;
+    margin: 5px 0 8px;
   }
   #page_company .group-text__sub {
     font-size: 1.7rem;
@@ -1054,10 +1055,23 @@ footer .copyright {
     padding-bottom: 15px;
     text-align: left;
     line-height: 1.5;
+    font-weight: normal;
+  }
+  #page_company .group-text__list {
+    width: 185px;
+    font-weight: normal;
+    padding-bottom: 8px;
+  }
+  #page_company .group-text__list .label {
+    margin-top: -3px;
+  }
+  #page_company .group-text__list .label .line {
+    margin-right: 5px;
   }
   #page_company .group-text .action,
 #page_company .group-text .status {
     font-size: 1.3rem;
+    letter-spacing: 0;
   }
 }
 #page_company #president {
@@ -1091,6 +1105,9 @@ footer .copyright {
   }
 }
 @media screen and (max-width: 768px) {
+  #page_company #president {
+    margin-bottom: 43px;
+  }
   #page_company #president .wrap-container {
     background: none;
   }
@@ -1098,6 +1115,15 @@ footer .copyright {
     width: 100%;
     padding-top: 0;
     padding-bottom: 0;
+  }
+  #page_company #president .text {
+    line-height: 1.45;
+    letter-spacing: 0.01em;
+    margin-bottom: 7px;
+  }
+  #page_company #president .txt-sign {
+    line-height: 1.45;
+    letter-spacing: 0.01em;
   }
   #page_company #president .txt-sign span {
     display: block;
@@ -1184,6 +1210,7 @@ footer .copyright {
   }
   #page_company #desired .hdg-lv3 {
     text-align: center;
+    margin-top: 20px;
   }
   #page_company #desired .text {
     line-height: 1.42857;

@@ -61,6 +61,7 @@
 			padding-left: 15px;
 			padding-right: 15px;
 			box-sizing: border-box;
+			margin-bottom: 81px;
 			.icon{
 				margin-top: 0;
 			}
@@ -83,7 +84,6 @@
 			&__content{
 				font-size: 1.7rem;
 				line-height: 2.8438;
-				margin-left: -20px;
 			}
 			&__sub{
 				font-size: 1.2rem;
@@ -180,12 +180,13 @@
 				width: calc(100%);
 				margin-bottom: 5px;
 				display: block;
-				padding: 0 15px;
+				padding: 5px 15px 0;
 				box-sizing: border-box;
 			}
 			&__title{
 				font-size: 1.3rem;
 				line-height: 1.923;
+				margin: 5px 0 8px;
 			}
 			&__sub{
 				font-size: 1.7rem;
@@ -193,14 +194,25 @@
 			&__content{
 				font-size: 1.2rem;
 				padding-bottom: 15px;
-				// padding-left: 15px;
-				// padding-right: 15px;
 				text-align: left;
 				line-height: 1.5;
+				font-weight: normal;
+			}
+			&__list{
+				width: 185px;
+				font-weight: normal;
+				padding-bottom: 8px;
+				.label{
+					margin-top: -3px;
+					.line{
+						margin-right: 5px;
+					}
+				}
 			}
 			.action,
 			.status{
 				font-size: 1.3rem;
+				letter-spacing: 0;
 			}
 		}
 	}
@@ -234,6 +246,7 @@
 			}
 		}
 		@include mq-sp {
+			margin-bottom: 43px;
 			.wrap-container{
 				background: none;
 			}
@@ -242,7 +255,14 @@
 				padding-top: 0;
 				padding-bottom: 0;
 			}
+			.text{
+				line-height: 1.45;
+				letter-spacing: 0.01em;
+				margin-bottom: 7px;
+			}
 			.txt-sign{
+				line-height: 1.45;
+				letter-spacing: 0.01em;
 				span{
 					display: block;
 					img{
@@ -333,6 +353,7 @@
 			}
 			.hdg-lv3{
 				text-align: center;
+				margin-top: 20px;
 			}
 			.text{
 				line-height: 1.42857;
