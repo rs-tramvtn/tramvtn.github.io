@@ -846,6 +846,7 @@ footer .copyright {
   line-height: 2.853;
   padding-bottom: 52.72%;
   position: relative;
+  margin-bottom: 55px;
 }
 #page_company .l-header .icon {
   margin-top: 5px;
@@ -884,13 +885,14 @@ footer .copyright {
   color: #78d020;
 }
 #page_company .group-text {
+  font-family: hirakakupro;
   width: 83.3%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   position: absolute;
   left: 8.3%;
-  bottom: 15px;
+  bottom: 0;
 }
 #page_company .group-text__item {
   width: 48.5%;
@@ -911,7 +913,9 @@ footer .copyright {
 #page_company .group-text__sub {
   font-size: 3rem;
   line-height: 1.667;
-  left: 0;
+  letter-spacing: 0;
+  margin-top: -17px;
+  margin-bottom: 26px;
 }
 #page_company .group-text__content {
   padding-bottom: 7%;
@@ -941,12 +945,11 @@ footer .copyright {
 }
 #page_company .group-text__list .action,
 #page_company .group-text__list .status {
-  font-family: hirakakupro;
   line-height: 1.75;
   letter-spacing: 0.05em;
 }
 #page_company #president {
-  margin-bottom: 68px;
+  margin-bottom: 65px;
 }
 #page_company #president .wrap-container {
   background: #f4f4f7 url(/ifv/assets/images/company-img01.png) top right no-repeat;
