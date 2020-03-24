@@ -76,12 +76,24 @@ body p {
   left: 0;
   right: 0;
 }
+@media screen and (max-width: 768px) {
+  .hdg-lv2 {
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+}
 
 .hdg-lv3 {
   font-size: 2.6rem;
   line-height: 1.538;
   font-weight: normal;
   margin-bottom: 22px;
+}
+@media screen and (max-width: 768px) {
+  .hdg-lv3 {
+    font-size: 1.9rem;
+    line-height: 1.315789;
+  }
 }
 
 .l-container {
@@ -974,6 +986,16 @@ footer .copyright {
 #page_company #president .txt-sign span {
   margin-left: 14px;
 }
+@media screen and (max-width: 768px) {
+  #page_company #president .wrap-container {
+    background: none;
+  }
+  #page_company #president .wrap-text {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
 #page_company #desired .hdg-lv2 {
   margin-bottom: 42px;
 }
@@ -1010,5 +1032,11 @@ footer .copyright {
   #page_company #desired .wrap-container {
     color: #fff;
     background: url(/ifv/assets/images/company-img02-sp.png) top center no-repeat;
+    padding-bottom: 271.09375%;
+  }
+  #page_company #desired .wrap-container .wrap-text {
+    width: calc(50% - 30px);
+    left: 15px;
+    box-shadow: 0;
   }
 }

@@ -45,6 +45,9 @@
 			letter-spacing: 0.1rem;
 			margin-top: -50px;
 		}
+		@include mq-sp {
+
+		}
 	}
 	.navbar{
 		a.active{
@@ -117,6 +120,9 @@
 				letter-spacing: 0.05em;
 			}
 		}
+		@include mq-sp {
+
+		}
 	}
 	#president{
 		margin-bottom: 72px;
@@ -142,6 +148,16 @@
 				margin-left: 14px;
 			}
 		}
+		@include mq-sp {
+			.wrap-container{
+				background: none;
+			}
+			.wrap-text{
+				width: 100%;
+				padding-top: 0;
+				padding-bottom: 0;
+			}
+		}
 	}
 	#desired{
 		.hdg-lv2{
@@ -156,8 +172,6 @@
 			color: #fff;
 			background: url(/ifv/assets/images/company-img02.png) top center no-repeat;
 			background-size: 100% 100%;
-			// padding-top: 6%;
-			// padding-bottom: 3.5%;
 			padding-bottom: 48.33333%;
 			.wrap-text{
 				position: absolute;
@@ -182,6 +196,12 @@
 			.wrap-container{
 				color: #fff;
 				background: url(/ifv/assets/images/company-img02-sp.png) top center no-repeat;
+				padding-bottom: 271.09375%;
+				.wrap-text{
+					width: calc(50% - 30px);
+					left: 15px;
+					box-shadow: 0;
+				}
 			}
 		}
 	}
