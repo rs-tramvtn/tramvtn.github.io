@@ -921,11 +921,15 @@ footer .copyright {
   margin: 0 auto;
 }
 #page_company .group-text__list li .label {
+  display: flex;
+  justify-content: space-between;
   position: relative;
-  flex: 2;
-  z-index: 1;
 }
-#page_company .group-text__list li .label:before {
+#page_company .group-text__list li .action {
+  display: inline-block;
+  position: relative;
+}
+#page_company .group-text__list li .action:before {
   position: absolute;
   content: "";
   height: 1px;
@@ -933,10 +937,6 @@ footer .copyright {
   background: #fff;
   top: 50%;
   right: 0;
-}
-#page_company .group-text__list li .action {
-  z-index: 5;
-  padding-right: 8px;
 }
 #page_company #president {
   margin-bottom: 70px;

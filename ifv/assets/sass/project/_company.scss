@@ -110,9 +110,13 @@
 				max-width: 250px;
 				margin: 0 auto;
 				.label{
+					display: flex;
+					justify-content: space-between;
 					position: relative;
-					flex: 2;
-					z-index: 1;
+				}
+				.action{
+					display: inline-block;
+					position: relative;
 					&:before{
 						position: absolute;
 						content: "";
@@ -123,19 +127,33 @@
 						right: 0;
 					}
 				}
-				.action{
-					z-index: 5;
-					padding-right: 8px;
-					// &:before{
-					// 	position: absolute;
-					// 	content: "";
-					// 	height: 1px;
-					// 	width: 100%;
-					// 	background: #fff;
-					// 	top: 50%;
-					// 	left: 0;
-					// }
-				}
+				// .label{
+				// 	position: relative;
+				// 	flex: 2;
+				// 	z-index: 1;
+				// 	&:before{
+				// 		position: absolute;
+				// 		content: "";
+				// 		height: 1px;
+				// 		width: 100%;
+				// 		background: #fff;
+				// 		top: 50%;
+				// 		right: 0;
+				// 	}
+				// }
+				// .action{
+				// 	z-index: 5;
+				// 	padding-right: 8px;
+				// 	// &:before{
+				// 	// 	position: absolute;
+				// 	// 	content: "";
+				// 	// 	height: 1px;
+				// 	// 	width: 100%;
+				// 	// 	background: #fff;
+				// 	// 	top: 50%;
+				// 	// 	left: 0;
+				// 	// }
+				// }
 			}
 		}
 	}
