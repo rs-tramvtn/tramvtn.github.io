@@ -919,11 +919,7 @@ footer .copyright {
   justify-content: space-between;
   position: relative;
 }
-#page_company .group-text__list .action {
-  display: inline-block;
-  position: relative;
-}
-#page_company .group-text__list .action:before {
+#page_company .group-text__list .label:before {
   position: absolute;
   content: "";
   height: 1px;
@@ -931,6 +927,9 @@ footer .copyright {
   background: #fff;
   top: 50%;
   right: 0;
+}
+#page_company .group-text__list .action {
+  display: inline-block;
 }
 #page_company .group-text__list li {
   display: flex;
