@@ -1024,6 +1024,7 @@ footer .copyright {
   }
   #page_company .group-text__title {
     font-size: 1.3rem;
+    line-height: 1.923;
   }
   #page_company .group-text__sub {
     font-size: 1.7rem;
@@ -1074,6 +1075,13 @@ footer .copyright {
     padding-top: 0;
     padding-bottom: 0;
   }
+  #page_company #president .txt-sign span {
+    display: block;
+  }
+  #page_company #president .txt-sign span img {
+    width: 94px;
+    height: auto;
+  }
 }
 #page_company #desired .hdg-lv2 {
   margin-bottom: 42px;
@@ -1118,6 +1126,15 @@ footer .copyright {
     width: calc(100% - 30px);
     left: 15px;
     box-shadow: none;
+    top: 25px;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  #page_company #desired .hdg-lv2 {
+    margin-bottom: 25px;
+  }
+  #page_company #desired .hdg-lv2:after {
+    bottom: -9px;
   }
 }
 @media screen and (max-width: 768px) {

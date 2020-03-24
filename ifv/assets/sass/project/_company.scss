@@ -165,6 +165,7 @@
 			}
 			&__title{
 				font-size: 1.3rem;
+				line-height: 1.923;
 			}
 			&__sub{
 				font-size: 1.7rem;
@@ -215,6 +216,15 @@
 				padding-top: 0;
 				padding-bottom: 0;
 			}
+			.txt-sign{
+				span{
+					display: block;
+					img{
+						width: 94px;
+						height: auto;
+					}
+				}
+			}
 		}
 	}
 	#desired{
@@ -260,6 +270,15 @@
 					width: calc(100% - 30px);
 					left: 15px;
 					box-shadow: none;
+					top: 25px;
+					padding: 0 15px;
+					box-sizing: border-box;
+				}
+			}
+			.hdg-lv2{
+				margin-bottom: 25px;
+				&:after {
+					bottom: -9px;
 				}
 			}
 		}
