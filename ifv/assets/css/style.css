@@ -1353,7 +1353,6 @@ footer .copyright {
   align-items: center;
   padding-left: 0;
   margin-top: -5px;
-  margin-bottom: 68px;
 }
 #page_entry .lst-flow li {
   position: relative;
@@ -1373,11 +1372,15 @@ footer .copyright {
   background-size: 14px 23px;
   top: 50%;
   right: -23px;
+  margin-top: -11px;
   width: 14px;
   height: 23px;
 }
 #page_entry .lst-flow li:last-child:after {
   display: none;
+}
+#page_entry #flow {
+  margin-bottom: -28px;
 }
 #page_entry #entry {
   margin-bottom: 95px;

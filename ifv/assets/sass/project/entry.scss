@@ -83,7 +83,6 @@
 		align-items: center;
 		padding-left: 0;
 		margin-top: -5px;
-		margin-bottom: 68px;
 		li{
 			position: relative;
 			background: #fa8484;
@@ -101,6 +100,7 @@
 				background-size: 14px 23px;
 				top: 50%;
 				right: -23px;
+				margin-top: -11px;
 				width: 14px;
 				height: 23px;
 			}
@@ -110,6 +110,9 @@
 				}
 			}
 		}
+	}
+	#flow{
+		margin-bottom: -28px;
 	}
 	#entry{
 		margin-bottom: 95px;
