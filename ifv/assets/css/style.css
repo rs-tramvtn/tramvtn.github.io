@@ -1285,11 +1285,18 @@ footer .copyright {
   max-width: 798px;
   margin: 0 auto;
 }
+#page_entry .tbl-recruitment {
+  font-size: 1.4rem;
+  line-height: 1.5714;
+  color: #2a2a2a;
+  padding: 35px 0;
+}
 #page_entry .tbl-recruitment tr {
   border-bottom: 1px solid #d4d4d4;
+  display: table;
+  width: 100%;
 }
 #page_entry .tbl-recruitment th {
-  font-size: 1.4rem;
   color: #f85050;
   width: 19.42356%;
   padding-left: 20px;
@@ -1298,4 +1305,26 @@ footer .copyright {
 #page_entry .tbl-recruitment .tbl-note {
   color: #616161;
   font-size: 1.2rem;
+}
+#page_entry .tbl-recruitment .tbl-title {
+  font-weight: bold;
+}
+#page_entry .lst-flow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#page_entry .lst-flow li {
+  position: relative;
+  background: #fa8484;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.5714;
+}
+#page_entry .lst-flow li:after {
+  position: absolute;
+  content: "";
+  background: url(/ifv/assets/images/icn-arrow01.png) center center no-repeat;
+  top: 50%;
+  right: -23px;
 }
