@@ -104,20 +104,23 @@
 		}
 	}
 	#entry{
-		margin-bottom: 100px;
+		margin-bottom: 95px;
 		.hdg-lv2{
 			margin-bottom: 35px;
 		}
 		.btn-accept{
 			margin-top: 28px;
 			.text{
-				border-bottom: 1px solid #fff;
-    		padding-bottom: 5px;
+				span{
+					border-bottom: 1px solid #fff;
+					padding-bottom: 7px;
+				}
 			}
 		}
 	}
 	.wrp-btn{
 		margin: 0 auto;
-		padding-right: 10px;
+		padding-right: 18px;
+		max-width: 470px;
 	}
 }

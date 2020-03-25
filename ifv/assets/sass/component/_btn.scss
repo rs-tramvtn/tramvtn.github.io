@@ -50,14 +50,13 @@
 .btn-accept{
 	display: flex;
 	justify-content: space-between;
-	align-items: stretch;
+	align-items: center;
 	border: 1px solid #dbdbdb;
 	max-width: 470px;
 	.text{
 		position: relative;
 		color: #fff;
 		background: #f85050;
-		text-decoration: underline;
 		width: 50%;
 		line-height: 5.163125;
     text-align: center;
@@ -80,5 +79,7 @@
 	}
 	.logo{
 		max-width:196px;
+		padding-right: 19px;
+    margin-top: 3px;
 	}
 }
