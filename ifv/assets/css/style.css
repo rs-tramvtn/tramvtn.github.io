@@ -579,10 +579,11 @@ body p {
     flex: 1;
   }
   .navbar .logo img {
-    width: 85%;
+    max-width: 308px;
   }
   .navbar .menu {
-    flex: 2;
+    flex: 1;
+    padding-left: 20px;
   }
   .navbar .menu a {
     padding: 13px 15px 13px 15px;
@@ -1244,7 +1245,7 @@ footer .copyright {
   width: 100%;
   padding-bottom: 28.3333%;
   position: relative;
-  margin-bottom: 70px;
+  margin-bottom: 68px;
   line-height: 1;
   text-align: center;
 }
@@ -1254,8 +1255,9 @@ footer .copyright {
 #page_entry .l-header__text {
   font-family: helvetica;
   margin-bottom: 63px;
-  padding-top: 45px;
-  margin-left: 2px;
+  margin-top: 0;
+  padding-top: 30px;
+  margin-left: 15px;
   letter-spacing: 0;
   display: flex;
   justify-content: center;
@@ -1269,6 +1271,7 @@ footer .copyright {
   letter-spacing: 0;
   font-size: 3rem;
   font-family: hirakakupro;
+  margin-left: -15px;
 }
 @media (max-width: 1199px) and (min-width: 769px) {
   #page_entry .l-header__text {

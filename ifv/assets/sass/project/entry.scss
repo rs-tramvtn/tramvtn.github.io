@@ -11,7 +11,7 @@
 		width: 100%;
 		padding-bottom: 28.3333%;
 		position: relative;
-		margin-bottom: 70px;
+		margin-bottom: 68px;
 		line-height: 1;
 		text-align: center;
 		.icon{
@@ -20,8 +20,9 @@
 		&__text{
 			font-family: helvetica;
 			margin-bottom: 63px;
-			padding-top: 45px;
-			margin-left: 2px;
+			margin-top: 0;
+			padding-top: 30px;
+			margin-left: 15px;
 			letter-spacing: 0;
 			display: flex;
 			justify-content: center;
@@ -35,6 +36,7 @@
 			letter-spacing: 0;
 			font-size: 3rem;
 			font-family: hirakakupro;
+			margin-left: -15px;
 		}
 		@media (max-width: 1199px) and (min-width: 769px){
 			&__text{
