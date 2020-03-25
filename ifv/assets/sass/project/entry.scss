@@ -49,4 +49,24 @@
 			color: #f85050;
 		}
 	}
+	.wrp-container{
+		max-width: 798px;
+		margin: 0 auto;
+	}
+	.tbl-recruitment{
+		tr{
+			border-bottom: 1px solid #d4d4d4;
+		}
+		th{
+			font-size: 1.4rem;
+			color: #f85050;
+			width: 19.42356%;
+			padding-left: 20px;
+			box-sizing: border-box;
+		}
+		.tbl-note{
+			color: #616161;
+			font-size: 1.2rem;
+		}
+	}
 }
