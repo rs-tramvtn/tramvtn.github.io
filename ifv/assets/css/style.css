@@ -857,7 +857,7 @@ footer .copyright {
 }
 
 #page_company .l-container {
-  position: initial;
+  position: static;
 }
 @media screen and (max-width: 768px) {
   #page_company .l-container {
