@@ -98,8 +98,16 @@
 				position: absolute;
 				content: "";
 				background: url(/ifv/assets/images/icn-arrow01.png) center center no-repeat;
+				background-size: 14px 23px;
 				top: 50%;
 				right: -23px;
+				width: 14px;
+				height: 23px;
+			}
+			&:last-child{
+				&:after{
+					display: none;
+				}
 			}
 		}
 	}
@@ -111,9 +119,10 @@
 		.btn-accept{
 			margin-top: 28px;
 			.text{
+				padding-bottom: 9px;
 				span{
 					border-bottom: 1px solid #fff;
-					padding-bottom: 7px;
+					padding-bottom: 5px;
 				}
 			}
 		}
