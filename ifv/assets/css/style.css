@@ -866,14 +866,20 @@ footer .copyright {
   margin: 0 auto;
 }
 .btn-accept .text {
+  position: relative;
   color: #fff;
   background: #f85050;
   text-decoration: underline;
+  width: 50%;
 }
 .btn-accept .text:hover {
   opacity: 0.7;
 }
 .btn-accept .text:after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: -20px;
   width: 0;
   height: 0;
   border-style: solid;
@@ -1367,4 +1373,7 @@ footer .copyright {
 }
 #page_entry #entry .hdg-lv2 {
   margin-bottom: 35px;
+}
+#page_entry #entry .text {
+  margin-bottom: 28px;
 }
