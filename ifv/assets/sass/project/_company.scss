@@ -99,6 +99,11 @@
 		a.active{
 			color: #78d020;
 		}
+		@media (max-width: 1010px) and (min-width: 769px){
+			&-header{
+				padding: 0 30px;
+			}
+		}
 	}
 	.group-text{
 		font-family: hirakakupro;

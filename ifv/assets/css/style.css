@@ -958,6 +958,11 @@ footer .copyright {
 #page_company .navbar a.active {
   color: #78d020;
 }
+@media (max-width: 1010px) and (min-width: 769px) {
+  #page_company .navbar-header {
+    padding: 0 30px;
+  }
+}
 #page_company .group-text {
   font-family: hirakakupro;
   width: 83.3%;
