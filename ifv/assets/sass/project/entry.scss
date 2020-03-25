@@ -12,30 +12,28 @@
 		padding-bottom: 28.3333%;
 		position: relative;
 		margin-bottom: 70px;
-		font-size: 3rem;
 		line-height: 1;
 		text-align: center;
 		.icon{
-			margin-top: 5px;
+			margin-right: 15px;
 		}
 		&__text{
 			font-family: helvetica;
 			margin-bottom: 63px;
-			padding-top: 52px;
+			padding-top: 45px;
 			margin-left: 2px;
 			letter-spacing: 0;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			img{
-				margin-right: 10px;
-			}
+			font-size: 3rem;
 		}
 		&__content{
 			top: 0;
 			left: 0;
 			right: 0;
 			letter-spacing: 0;
+			font-size: 3rem;
 			font-family: hirakakupro;
 		}
 		@media (max-width: 1199px) and (min-width: 769px){

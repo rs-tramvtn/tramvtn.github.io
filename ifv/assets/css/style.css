@@ -876,6 +876,7 @@ footer .copyright {
 }
 #page_company .l-header .icon {
   margin-top: 5px;
+  margin-right: 10px;
 }
 #page_company .l-header__text {
   font-size: 3rem;
@@ -888,9 +889,6 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#page_company .l-header__text img {
-  margin-right: 10px;
 }
 #page_company .l-header__content {
   top: 0;
@@ -928,17 +926,15 @@ footer .copyright {
   }
   #page_company .l-header .icon {
     margin-top: 0;
+    margin-right: 4px;
+    width: 10px;
+    height: auto;
   }
   #page_company .l-header__text {
     padding-top: 30px;
     padding-left: 0;
     margin-bottom: 25px;
     margin-left: 20px;
-  }
-  #page_company .l-header__text img {
-    width: 10px;
-    height: auto;
-    margin-right: 4px;
   }
   #page_company .l-header__text span {
     font-size: 2rem;
@@ -1249,31 +1245,29 @@ footer .copyright {
   padding-bottom: 28.3333%;
   position: relative;
   margin-bottom: 70px;
-  font-size: 3rem;
   line-height: 1;
   text-align: center;
 }
 #page_entry .l-header .icon {
-  margin-top: 5px;
+  margin-right: 15px;
 }
 #page_entry .l-header__text {
   font-family: helvetica;
   margin-bottom: 63px;
-  padding-top: 52px;
+  padding-top: 45px;
   margin-left: 2px;
   letter-spacing: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#page_entry .l-header__text img {
-  margin-right: 10px;
+  font-size: 3rem;
 }
 #page_entry .l-header__content {
   top: 0;
   left: 0;
   right: 0;
   letter-spacing: 0;
+  font-size: 3rem;
   font-family: hirakakupro;
 }
 @media (max-width: 1199px) and (min-width: 769px) {
