@@ -61,17 +61,21 @@
 		&-content{
 			width: calc(100% - 30px);
 			margin: 0 15px;
+			color: #fff;
+			.title{
+				font-size: 1.6rem;
+			}
 		}
 		&__title{
 			font-size: 2.4rem;
 			color: #fa9b9b;
 		}
 		&--left{
-			background: url(/ifv/assets/images/entry-img01.png) top center no-repeat;
+			background: url(/ifv/assets/images/entry-img01.jpg) top center no-repeat;
 			background-size: 100% 100%;
 		}
-		&--left{
-			background: url(/ifv/assets/images/entry-img02.png) top center no-repeat;
+		&--right{
+			background: url(/ifv/assets/images/entry-img02.jpg) top center no-repeat;
 			background-size: 100% 100%;
 		}
 	}

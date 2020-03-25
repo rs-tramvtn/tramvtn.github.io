@@ -1332,17 +1332,21 @@ footer .copyright {
 #page_entry .group-items-content {
   width: calc(100% - 30px);
   margin: 0 15px;
+  color: #fff;
+}
+#page_entry .group-items-content .title {
+  font-size: 1.6rem;
 }
 #page_entry .group-items__title {
   font-size: 2.4rem;
   color: #fa9b9b;
 }
 #page_entry .group-items--left {
-  background: url(/ifv/assets/images/entry-img01.png) top center no-repeat;
+  background: url(/ifv/assets/images/entry-img01.jpg) top center no-repeat;
   background-size: 100% 100%;
 }
-#page_entry .group-items--left {
-  background: url(/ifv/assets/images/entry-img02.png) top center no-repeat;
+#page_entry .group-items--right {
+  background: url(/ifv/assets/images/entry-img02.jpg) top center no-repeat;
   background-size: 100% 100%;
 }
 #page_entry .tbl-recruitment {
