@@ -863,7 +863,6 @@ footer .copyright {
   align-items: stretch;
   border: 1px solid #dbdbdb;
   max-width: 470px;
-  margin: 0 auto;
 }
 .btn-accept .text {
   position: relative;
@@ -1384,4 +1383,8 @@ footer .copyright {
 #page_entry #entry .btn-accept .text {
   border-bottom: 1px solid #fff;
   padding-bottom: 5px;
+}
+#page_entry .wrp-btn {
+  margin: 0 auto;
+  padding-right: 10px;
 }
