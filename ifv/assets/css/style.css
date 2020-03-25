@@ -1364,6 +1364,7 @@ footer .copyright {
   box-sizing: border-box;
   width: 16.54135%;
   text-align: center;
+  list-style-type: none;
 }
 #page_entry .lst-flow li:after {
   position: absolute;
