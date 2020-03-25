@@ -81,12 +81,19 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		padding-left: 0;
+		margin-top: -5px;
+		margin-bottom: 68px;
 		li{
 			position: relative;
 			background: #fa8484;
 			color: #fff;
 			font-size: 1.4rem;
 			line-height: 1.5714;
+			padding: 45px 10px 45px 10px;
+			box-sizing: border-box;
+			width: 16.54135%;
+			text-align: center;
 			&:after{
 				position: absolute;
 				content: "";
@@ -94,6 +101,11 @@
 				top: 50%;
 				right: -23px;
 			}
+		}
+	}
+	#entry{
+		.hdg-lv2{
+			margin-bottom: 35px;
 		}
 	}
 }

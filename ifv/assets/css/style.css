@@ -857,6 +857,27 @@ footer .copyright {
   color: #F85050;
 }
 
+.btn-accept {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.btn-accept .text {
+  color: #fff;
+  background: #f85050;
+  text-decoration: underline;
+}
+.btn-accept .text:hover {
+  opacity: 0.7;
+}
+.btn-accept .logo {
+  border: 1px solid #dbdbdb;
+  border-left: 0;
+}
+.btn-accept .logo img {
+  max-width: 196px;
+}
+
 #page_company .l-container {
   position: static;
 }
@@ -1313,6 +1334,9 @@ footer .copyright {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 0;
+  margin-top: -5px;
+  margin-bottom: 68px;
 }
 #page_entry .lst-flow li {
   position: relative;
@@ -1320,6 +1344,10 @@ footer .copyright {
   color: #fff;
   font-size: 1.4rem;
   line-height: 1.5714;
+  padding: 45px 10px 45px 10px;
+  box-sizing: border-box;
+  width: 16.54135%;
+  text-align: center;
 }
 #page_entry .lst-flow li:after {
   position: absolute;
@@ -1327,4 +1355,7 @@ footer .copyright {
   background: url(/ifv/assets/images/icn-arrow01.png) center center no-repeat;
   top: 50%;
   right: -23px;
+}
+#page_entry #entry .hdg-lv2 {
+  margin-bottom: 35px;
 }

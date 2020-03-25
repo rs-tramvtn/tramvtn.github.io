@@ -47,3 +47,23 @@
 		color: #F85050;
 	}
 }
+.btn-accept{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	.text{
+		color: #fff;
+		background: #f85050;
+		text-decoration: underline;
+		&:hover{
+			opacity: 0.7;
+		}
+	}
+	.logo{
+		border: 1px solid #dbdbdb;
+		border-left: 0;
+		img{
+			max-width:196px ;
+		}
+	}
+}
