@@ -1217,7 +1217,8 @@ footer .copyright {
     margin-top: 20px;
   }
   #page_company #desired .text {
-    line-height: 1.42857;
+    line-height: 1.43;
+    margin-bottom: 19px;
   }
   #page_company #desired .text:last-child {
     margin-bottom: 25px;

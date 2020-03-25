@@ -1,7 +1,7 @@
 @charset "utf-8";
 #page_company{
 	.l-container{
-		position: initial;
+		position: static;
 		@include mq-sp {
 			padding: 0 15px;
 		}
@@ -362,7 +362,8 @@
 				margin-top: 20px;
 			}
 			.text{
-				line-height: 1.42857;
+				line-height: 1.43;
+				margin-bottom: 19px;
 				&:last-child{
 					margin-bottom: 25px;
 				}
