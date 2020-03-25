@@ -861,6 +861,9 @@ footer .copyright {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
+  border: 1px solid #dbdbdb;
+  max-width: 470px;
+  margin: 0 auto;
 }
 .btn-accept .text {
   color: #fff;
@@ -870,11 +873,14 @@ footer .copyright {
 .btn-accept .text:hover {
   opacity: 0.7;
 }
-.btn-accept .logo {
-  border: 1px solid #dbdbdb;
-  border-left: 0;
+.btn-accept .text:after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 21px 0 21px 23px;
+  border-color: transparent transparent transparent #f85050;
 }
-.btn-accept .logo img {
+.btn-accept .logo {
   max-width: 196px;
 }
 
@@ -1355,6 +1361,9 @@ footer .copyright {
   background: url(/ifv/assets/images/icn-arrow01.png) center center no-repeat;
   top: 50%;
   right: -23px;
+}
+#page_entry #entry {
+  margin-bottom: 100px;
 }
 #page_entry #entry .hdg-lv2 {
   margin-bottom: 35px;

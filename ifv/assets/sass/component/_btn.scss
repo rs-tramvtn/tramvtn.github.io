@@ -51,6 +51,9 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: stretch;
+	border: 1px solid #dbdbdb;
+	max-width: 470px;
+	margin: 0 auto;
 	.text{
 		color: #fff;
 		background: #f85050;
@@ -58,12 +61,15 @@
 		&:hover{
 			opacity: 0.7;
 		}
+		&:after{
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 21px 0 21px 23px;
+			border-color: transparent transparent transparent #f85050;
+		}
 	}
 	.logo{
-		border: 1px solid #dbdbdb;
-		border-left: 0;
-		img{
-			max-width:196px ;
-		}
+		max-width:196px;
 	}
 }
