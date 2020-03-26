@@ -1449,6 +1449,23 @@ footer .copyright {
 #page_entry .group-items--right .lst-description {
   margin-bottom: 17px;
 }
+#page_entry .group-items ul {
+  list-style-type: none;
+}
+#page_entry .group-items ul li {
+  position: relative;
+  padding-left: 12px;
+}
+#page_entry .group-items ul li:before {
+  position: absolute;
+  content: "";
+  background: url(/ifv/assets/images/icn-dot01.png) center center no-repeat;
+  background-size: 6px 6px;
+  width: 6px;
+  height: 6px;
+  top: 0;
+  left: -12px;
+}
 @media screen and (max-width: 768px) {
   #page_entry .group-items {
     display: block;
@@ -1534,6 +1551,11 @@ footer .copyright {
 }
 #page_entry .tbl-recruitment .tbl-benefits .tbl-note {
   margin-left: -10px;
+}
+#page_entry .tbl-recruitment .tbl-vacation ul {
+  padding-left: 15px;
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 #page_entry .tbl-recruitment .tbl-note {
   color: #616161;

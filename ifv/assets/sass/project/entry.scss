@@ -114,6 +114,23 @@
 				margin-bottom: 17px;
 			}
 		}
+		ul{
+			list-style-type: none;
+			li{
+				position: relative;
+				padding-left: 12px;
+				&:before{
+					position: absolute;
+					content: "";
+					background: url(/ifv/assets/images/icn-dot01.png) center center no-repeat;
+					background-size: 6px 6px;
+					width: 6px;
+					height: 6px;
+					top: 0;
+					left: -12px;
+				}
+			}
+		}
 		@include mq-sp {
 			display: block;
 			margin: 0;
@@ -202,6 +219,13 @@
 			}
 			.tbl-note{
 				margin-left: -10px;
+			}
+		}
+		.tbl-vacation{
+			ul{
+				padding-left: 15px;
+				margin-top: 0;
+				margin-bottom: 24px;
 			}
 		}
 		.tbl-note{
