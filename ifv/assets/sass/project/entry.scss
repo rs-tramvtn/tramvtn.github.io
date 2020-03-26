@@ -67,7 +67,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: stretch;
-		margin: 0 -15px;
+		margin: 0 -16px;
 		&-content{
 			width: calc(100% - 32px);
 			margin: 0 16px;
@@ -104,6 +104,39 @@
 			}
 			.lst-description{
 				margin-bottom: 17px;
+			}
+		}
+		@include mq-sp {
+			margin: 0 -8px;
+			&-content{
+				width: calc(100% - 8px);
+				padding-top: 16px;
+				padding-bottom: 7px;
+				.title{
+					font-size: 1rem;
+				}
+			}
+			&__title{
+				font-size: 1.6rem;
+				color: #fa9b9b;
+				text-align: center;
+				margin-left: -7px;
+				margin-bottom: 7px;
+			}
+			&__text{
+				padding: 0 20px;
+			}
+			&--right{
+				.group-items__text{
+					padding: 0 20px 0 20px;
+				}
+				.group-items__title{
+					margin-left: 0;
+					margin-bottom: 7px;
+				}
+				.lst-description{
+					margin-bottom: 9px;
+				}
 			}
 		}
 	}
