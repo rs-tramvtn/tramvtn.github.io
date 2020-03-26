@@ -57,7 +57,7 @@
 	.group-items{
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
+		align-items: stretch;
 		margin: 0 -15px;
 		&-content{
 			width: calc(100% - 32px);
@@ -146,9 +146,13 @@
 			}
 		}
 	}
+	.lst-description{
+		padding-left: 15px;
+		
+	}
 	#description{
 		.hdg-lv2{
-			margin-bottom: 42px;
+			margin-bottom: 40px;
 		}
 	}
 	#flow{

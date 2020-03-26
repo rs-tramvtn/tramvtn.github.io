@@ -1326,7 +1326,7 @@ footer .copyright {
 #page_entry .group-items {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   margin: 0 -15px;
 }
 #page_entry .group-items-content {
@@ -1413,8 +1413,11 @@ footer .copyright {
 #page_entry .lst-flow li:last-child:after {
   display: none;
 }
+#page_entry .lst-description {
+  padding-left: 15px;
+}
 #page_entry #description .hdg-lv2 {
-  margin-bottom: 42px;
+  margin-bottom: 40px;
 }
 #page_entry #flow {
   margin-bottom: -28px;
