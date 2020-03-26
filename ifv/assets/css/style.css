@@ -884,7 +884,6 @@ footer .copyright {
   line-height: 4.7;
   text-align: center;
   font-size: 1.6rem;
-  margin-top: -7px;
 }
 .btn-accept .text:hover {
   opacity: 0.7;
@@ -905,6 +904,32 @@ footer .copyright {
   max-width: 196px;
   padding-right: 19px;
   margin-top: 3px;
+}
+@media screen and (max-width: 768px) {
+  .btn-accept {
+    flex-direction: column;
+  }
+  .btn-accept .text {
+    width: 100%;
+  }
+  .btn-accept .text:after {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 0 8px;
+    border-color: #f85050 transparent transparent transparent;
+    top: auto;
+    bottom: -4px;
+    right: 0;
+    left: 0;
+    transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+  }
+  .btn-accept .logo {
+    padding: 18px 0;
+  }
 }
 
 #page_company .l-container {
@@ -1574,8 +1599,10 @@ footer .copyright {
   }
   #page_entry .lst-flow li {
     width: 100%;
+    margin-bottom: 30px;
   }
   #page_entry .lst-flow li:after {
+    top: auto;
     bottom: -25px;
     right: 0;
     left: 0;
