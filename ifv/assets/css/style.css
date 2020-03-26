@@ -1334,6 +1334,7 @@ footer .copyright {
   margin: 0 16px;
   color: #fff;
   padding-top: 33px;
+  padding-bottom: 15px;
 }
 #page_entry .group-items-content .title {
   font-size: 1.6rem;
@@ -1343,7 +1344,7 @@ footer .copyright {
   color: #fa9b9b;
   text-align: center;
   margin-left: -14px;
-  margin-bottom: 13px;
+  margin-bottom: 14px;
 }
 #page_entry .group-items__text {
   padding: 0 40px;
@@ -1372,6 +1373,7 @@ footer .copyright {
   width: 19.42356%;
   padding-left: 20px;
   box-sizing: border-box;
+  text-align: left;
 }
 #page_entry .tbl-recruitment .tbl-note {
   color: #616161;
@@ -1398,6 +1400,7 @@ footer .copyright {
   width: 16.54135%;
   text-align: center;
   list-style-type: none;
+  height: 132px;
 }
 #page_entry .lst-flow li:after {
   position: absolute;
@@ -1416,9 +1419,20 @@ footer .copyright {
 #page_entry .lst-description {
   padding-left: 15px;
   line-height: 1.714286;
+  margin-top: 11px;
+  margin-bottom: 28px;
+}
+#page_entry .lst-description li {
+  margin-bottom: 11px;
+}
+#page_entry #description {
+  margin-bottom: 70px;
 }
 #page_entry #description .hdg-lv2 {
   margin-bottom: 40px;
+}
+#page_entry #recruitment .hdg-lv2 {
+  margin-bottom: 15px;
 }
 #page_entry #flow {
   margin-bottom: -28px;

@@ -64,6 +64,7 @@
 			margin: 0 16px;
 			color: #fff;
 			padding-top: 33px;
+			padding-bottom: 15px;
 			.title{
 				font-size: 1.6rem;
 			}
@@ -73,7 +74,7 @@
 			color: #fa9b9b;
 			text-align: center;
 			margin-left: -14px;
-			margin-bottom: 13px;
+			margin-bottom: 14px;
 		}
 		&__text{
 			padding: 0 40px;
@@ -102,6 +103,7 @@
 			width: 19.42356%;
 			padding-left: 20px;
 			box-sizing: border-box;
+			text-align: left;
 		}
 		.tbl-note{
 			color: #616161;
@@ -128,6 +130,7 @@
 			width: 16.54135%;
 			text-align: center;
 			list-style-type: none;
+			height: 132px;
 			&:after{
 				position: absolute;
 				content: "";
@@ -149,10 +152,21 @@
 	.lst-description{
 		padding-left: 15px;
 		line-height: 1.714286;
+		margin-top: 11px;
+		margin-bottom: 28px;
+		li{
+			margin-bottom: 11px;
+		}
 	}
 	#description{
+		margin-bottom: 70px;
 		.hdg-lv2{
 			margin-bottom: 40px;
+		}
+	}
+	#recruitment{
+		.hdg-lv2{
+			margin-bottom: 15px;
 		}
 	}
 	#flow{
