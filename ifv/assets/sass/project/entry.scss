@@ -159,19 +159,18 @@
 		}
 	}
 	.lst-flow{
-		display: table;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		padding-left: 0;
-		margin: -5px -17px 0;
+		margin-top: -5px;
 		li{
-			display: table-cell;
-			vertical-align: middle;
 			position: relative;
 			background: #fa8484;
 			color: #fff;
 			font-size: 1.4rem;
 			line-height: 1.5714;
-			//padding: 45px 10px 45px 10px;
-			padding:  0 17px;
+			padding: 45px 10px 45px 10px;
 			box-sizing: border-box;
 			width: 16.54135%;
 			text-align: center;
