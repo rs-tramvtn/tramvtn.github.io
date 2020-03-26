@@ -1357,6 +1357,9 @@ footer .copyright {
   background: url(/ifv/assets/images/entry-img02.jpg) top center no-repeat;
   background-size: 100% 100%;
 }
+#page_entry .group-items--right .group-items__text {
+  padding: 0 10px 0 40px;
+}
 #page_entry .tbl-recruitment {
   font-size: 1.4rem;
   line-height: 1.5714;
@@ -1367,13 +1370,21 @@ footer .copyright {
   border-bottom: 1px solid #d4d4d4;
   display: table;
   width: 100%;
+  padding-bottom: 34px;
+  padding-top: 32px;
+}
+#page_entry .tbl-recruitment tr:first-child {
+  padding-top: 0;
 }
 #page_entry .tbl-recruitment th {
   color: #f85050;
-  width: 19.42356%;
+  width: 20.426%;
   padding-left: 20px;
   box-sizing: border-box;
   text-align: left;
+}
+#page_entry .tbl-recruitment td {
+  margin-bottom: 7px;
 }
 #page_entry .tbl-recruitment .tbl-note {
   color: #616161;
@@ -1424,6 +1435,9 @@ footer .copyright {
 }
 #page_entry .lst-description li {
   margin-bottom: 11px;
+}
+#page_entry .lst-description--02 li {
+  margin-bottom: 0;
 }
 #page_entry #description {
   margin-bottom: 70px;
