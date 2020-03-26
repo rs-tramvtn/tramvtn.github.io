@@ -122,7 +122,10 @@
 		}
 		td{
 			p{
-				margin-bottom: 7px;
+				margin-bottom: 10px;
+				&:last-child{
+					margin-bottom: 0;
+				}
 			}
 		}
 		.tbl-note{

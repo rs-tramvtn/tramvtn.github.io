@@ -1391,7 +1391,10 @@ footer .copyright {
   text-align: left;
 }
 #page_entry .tbl-recruitment td p {
-  margin-bottom: 7px;
+  margin-bottom: 10px;
+}
+#page_entry .tbl-recruitment td p:last-child {
+  margin-bottom: 0;
 }
 #page_entry .tbl-recruitment .tbl-note {
   color: #616161;
