@@ -1318,7 +1318,7 @@ footer .copyright {
   background: #f85050;
 }
 @media screen and (max-width: 768px) {
-  #page_entry .l-containe {
+  #page_entry .l-container {
     padding: 0 15px;
   }
 }
