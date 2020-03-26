@@ -312,7 +312,9 @@
 			width: 16.54135%;
 			text-align: center;
 			list-style-type: none;
-			height: 132px;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
 			&:after{
 				position: absolute;
 				content: "";
