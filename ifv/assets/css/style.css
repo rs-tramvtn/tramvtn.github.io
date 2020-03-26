@@ -1326,6 +1326,7 @@ footer .copyright {
 @media screen and (max-width: 768px) {
   #page_entry .l-header {
     margin-bottom: 34px;
+    padding-bottom: 37.3333%;
   }
   #page_entry .l-header .icon {
     max-width: 16px;
@@ -1333,7 +1334,7 @@ footer .copyright {
   }
   #page_entry .l-header__text {
     font-size: 2.6041666667vw;
-    margin-bottom: 45px;
+    margin-bottom: 6.25%;
   }
 }
 @media screen and (max-width: 768px) and (max-width: 576px) {
@@ -1368,6 +1369,11 @@ footer .copyright {
 #page_entry .wrp-container {
   max-width: 798px;
   margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  #page_entry .wrp-container {
+    padding: 0 15px;
+  }
 }
 #page_entry .group-items {
   display: flex;
@@ -1415,10 +1421,11 @@ footer .copyright {
 }
 @media screen and (max-width: 768px) {
   #page_entry .group-items {
-    margin: 0 -8px;
+    display: block;
+    margin: 0;
   }
   #page_entry .group-items-content {
-    width: calc(100% - 8px);
+    width: 100%;
     padding-top: 16px;
     padding-bottom: 7px;
   }
@@ -1434,6 +1441,9 @@ footer .copyright {
   }
   #page_entry .group-items__text {
     padding: 0 20px;
+  }
+  #page_entry .group-items--right {
+    margin-top: 10px;
   }
   #page_entry .group-items--right .group-items__text {
     padding: 0 20px 0 20px;
@@ -1500,6 +1510,30 @@ footer .copyright {
 #page_entry .tbl-recruitment .tbl-title {
   font-weight: bold;
 }
+@media screen and (max-width: 768px) {
+  #page_entry .tbl-recruitment {
+    padding: 17px 0;
+  }
+  #page_entry .tbl-recruitment tr {
+    border-bottom: 1px solid #d4d4d4;
+    display: table;
+    width: 100%;
+    padding-bottom: 17px;
+    padding-top: 16px;
+  }
+  #page_entry .tbl-recruitment tr:first-child {
+    padding-top: 0;
+  }
+  #page_entry .tbl-recruitment th {
+    color: #f85050;
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    text-align: left;
+    vertical-align: top;
+  }
+}
 #page_entry .lst-flow {
   display: flex;
   justify-content: space-between;
@@ -1533,6 +1567,25 @@ footer .copyright {
 }
 #page_entry .lst-flow li:last-child:after {
   display: none;
+}
+@media screen and (max-width: 768px) {
+  #page_entry .lst-flow {
+    display: block;
+  }
+  #page_entry .lst-flow li {
+    width: 100%;
+  }
+  #page_entry .lst-flow li:after {
+    bottom: -25px;
+    right: 0;
+    left: 0;
+    width: 14px;
+    height: 23px;
+    transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+  }
 }
 #page_entry .lst-description {
   padding-left: 15px;

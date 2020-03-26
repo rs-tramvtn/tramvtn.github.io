@@ -40,13 +40,14 @@
 		}
 		@include mq-sp {
 			margin-bottom: 34px;
+			padding-bottom: 37.3333%;
 			.icon{
 				max-width: 16px;
 				margin-right: 7px;
 			}
 			&__text{
 				@include responsive-font(get-vw-sp(20px), 15px, 20px);
-				margin-bottom: 45px;
+				margin-bottom: 6.25%;
 			}
 			&__content{
 				@include responsive-font(get-vw-sp(20px), 15px, 20px);
@@ -62,6 +63,9 @@
 	.wrp-container{
 		max-width: 798px;
 		margin: 0 auto;
+		@include mq-sp {
+			padding: 0 15px;
+		}
 	}
 	.group-items{
 		display: flex;
@@ -107,9 +111,10 @@
 			}
 		}
 		@include mq-sp {
-			margin: 0 -8px;
+			display: block;
+			margin: 0;
 			&-content{
-				width: calc(100% - 8px);
+				width: 100%;
 				padding-top: 16px;
 				padding-bottom: 7px;
 				.title{
@@ -127,6 +132,7 @@
 				padding: 0 20px;
 			}
 			&--right{
+				margin-top: 10px;
 				.group-items__text{
 					padding: 0 20px 0 20px;
 				}
@@ -199,6 +205,28 @@
 		.tbl-title{
 			font-weight: bold;
 		}
+		@include mq-sp {
+			padding: 17px 0;
+			tr{
+				border-bottom: 1px solid #d4d4d4;
+				display: table;
+				width: 100%;
+				padding-bottom: 17px;
+				padding-top: 16px;
+				&:first-child{
+					padding-top: 0;
+				}
+			}
+			th{
+				color: #f85050;
+				width: 30%;
+				padding-left: 15px;
+				padding-right: 15px;
+				box-sizing: border-box;
+				text-align: left;
+				vertical-align: top;
+			}
+		}
 	}
 	.lst-flow{
 		display: flex;
@@ -232,6 +260,23 @@
 			&:last-child{
 				&:after{
 					display: none;
+				}
+			}
+		}
+		@include mq-sp {
+			display: block;
+			li{
+				width: 100%;
+				&:after{
+					bottom: -25px;
+					right: 0;
+					left: 0;
+					width: 14px;
+					height: 23px;
+					transform: rotate(90deg);
+					-moz-transform: rotate(90deg);
+					-webkit-transform: rotate(90deg);
+					-o-transform: rotate(90deg);
 				}
 			}
 		}
