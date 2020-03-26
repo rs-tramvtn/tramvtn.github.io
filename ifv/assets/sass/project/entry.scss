@@ -127,7 +127,8 @@
 					width: 6px;
 					height: 6px;
 					top: 0;
-					left: -12px;
+					left: 0;
+					margin-top: 8px;
 				}
 			}
 		}
@@ -174,6 +175,24 @@
 		line-height: 1.5714;
 		color: #2a2a2a;
 		padding: 35px 0;
+		ul{
+			list-style-type: none;
+			li{
+				position: relative;
+				padding-left: 12px;
+				&:before{
+					position: absolute;
+					content: "";
+					background: url(/ifv/assets/images/icn-dot02.png) center center no-repeat;
+					background-size: 6px 6px;
+					width: 6px;
+					height: 6px;
+					top: 0;
+					left: 0;
+					margin-top: 8px;
+				}
+			}
+		}
 		tr{
 			border-bottom: 1px solid #d4d4d4;
 			display: table;
@@ -319,7 +338,7 @@
 		}
 	}
 	.lst-description{
-		padding-left: 15px;
+		padding-left: 4px;
 		line-height: 1.714286;
 		margin-top: 11px;
 		margin-bottom: 28px;

@@ -1464,7 +1464,8 @@ footer .copyright {
   width: 6px;
   height: 6px;
   top: 0;
-  left: -12px;
+  left: 0;
+  margin-top: 8px;
 }
 @media screen and (max-width: 768px) {
   #page_entry .group-items {
@@ -1510,6 +1511,24 @@ footer .copyright {
   line-height: 1.5714;
   color: #2a2a2a;
   padding: 35px 0;
+}
+#page_entry .tbl-recruitment ul {
+  list-style-type: none;
+}
+#page_entry .tbl-recruitment ul li {
+  position: relative;
+  padding-left: 12px;
+}
+#page_entry .tbl-recruitment ul li:before {
+  position: absolute;
+  content: "";
+  background: url(/ifv/assets/images/icn-dot02.png) center center no-repeat;
+  background-size: 6px 6px;
+  width: 6px;
+  height: 6px;
+  top: 0;
+  left: 0;
+  margin-top: 8px;
 }
 #page_entry .tbl-recruitment tr {
   border-bottom: 1px solid #d4d4d4;
@@ -1649,7 +1668,7 @@ footer .copyright {
   }
 }
 #page_entry .lst-description {
-  padding-left: 15px;
+  padding-left: 4px;
   line-height: 1.714286;
   margin-top: 11px;
   margin-bottom: 28px;
