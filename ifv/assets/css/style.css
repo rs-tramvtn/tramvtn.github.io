@@ -922,10 +922,7 @@ footer .copyright {
     bottom: -4px;
     right: 0;
     left: 0;
-    transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
+    margin: 0 auto;
   }
   .btn-accept .logo {
     padding: 18px 0;
@@ -1415,6 +1412,7 @@ footer .copyright {
 }
 #page_entry .group-items-content .title {
   font-size: 1.6rem;
+  font-weight: bold;
 }
 #page_entry .group-items__title {
   font-size: 2.4rem;
@@ -1448,14 +1446,16 @@ footer .copyright {
   #page_entry .group-items {
     display: block;
     margin: 0;
+    padding: 0 15px;
   }
   #page_entry .group-items-content {
     width: 100%;
     padding-top: 16px;
     padding-bottom: 7px;
+    margin: 0;
   }
   #page_entry .group-items-content .title {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   #page_entry .group-items__title {
     font-size: 1.6rem;
@@ -1466,6 +1466,7 @@ footer .copyright {
   }
   #page_entry .group-items__text {
     padding: 0 20px;
+    font-size: 1.3rem;
   }
   #page_entry .group-items--right {
     margin-top: 10px;
@@ -1608,6 +1609,7 @@ footer .copyright {
     left: 0;
     width: 14px;
     height: 23px;
+    margin: 0 auto;
     transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
@@ -1626,17 +1628,44 @@ footer .copyright {
 #page_entry .lst-description--02 li {
   margin-bottom: 0;
 }
+@media screen and (max-width: 768px) {
+  #page_entry .lst-description {
+    margin-top: 5px;
+    margin-bottom: 14px;
+  }
+  #page_entry .lst-description li {
+    margin-bottom: 5px;
+  }
+}
 #page_entry #description {
   margin-bottom: 70px;
 }
 #page_entry #description .hdg-lv2 {
   margin-bottom: 40px;
 }
+@media screen and (max-width: 768px) {
+  #page_entry #description {
+    margin-bottom: 35px;
+  }
+  #page_entry #description .hdg-lv2 {
+    margin-bottom: 20px;
+  }
+}
 #page_entry #recruitment .hdg-lv2 {
   margin-bottom: 15px;
 }
+@media screen and (max-width: 768px) {
+  #page_entry #recruitment .hdg-lv2 {
+    margin-bottom: 7px;
+  }
+}
 #page_entry #flow {
   margin-bottom: -40px;
+}
+@media screen and (max-width: 768px) {
+  #page_entry #flow {
+    margin-bottom: -20px;
+  }
 }
 #page_entry #entry {
   margin-bottom: 95px;
@@ -1653,6 +1682,23 @@ footer .copyright {
 #page_entry #entry .btn-accept .text span {
   border-bottom: 1px solid #fff;
   padding-bottom: 5px;
+}
+@media screen and (max-width: 768px) {
+  #page_entry #entry {
+    margin-bottom: 47px;
+  }
+  #page_entry #entry .hdg-lv2 {
+    margin-bottom: 17px;
+  }
+  #page_entry #entry .btn-accept {
+    margin-top: 17px;
+  }
+  #page_entry #entry .btn-accept .text {
+    padding-bottom: 5px;
+  }
+  #page_entry #entry .btn-accept .text span {
+    padding-bottom: 5px;
+  }
 }
 #page_entry .wrp-btn {
   margin: 0 auto;

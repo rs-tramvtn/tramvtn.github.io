@@ -80,6 +80,7 @@
 			padding-bottom: 15px;
 			.title{
 				font-size: 1.6rem;
+				font-weight: bold;
 			}
 		}
 		&__title{
@@ -113,12 +114,14 @@
 		@include mq-sp {
 			display: block;
 			margin: 0;
+			padding: 0 15px;
 			&-content{
 				width: 100%;
 				padding-top: 16px;
 				padding-bottom: 7px;
+				margin: 0;
 				.title{
-					font-size: 1rem;
+					font-size: 1.3rem;
 				}
 			}
 			&__title{
@@ -130,6 +133,7 @@
 			}
 			&__text{
 				padding: 0 20px;
+				font-size: 1.3rem;
 			}
 			&--right{
 				margin-top: 10px;
@@ -275,6 +279,7 @@
 					left: 0;
 					width: 14px;
 					height: 23px;
+					margin: 0 auto;
 					transform: rotate(90deg);
 					-moz-transform: rotate(90deg);
 					-webkit-transform: rotate(90deg);
@@ -296,20 +301,41 @@
 				margin-bottom: 0;
 			}
 		}
+		@include mq-sp {
+			margin-top: 5px;
+			margin-bottom: 14px;
+			li{
+				margin-bottom: 5px;
+			}
+		}
 	}
 	#description{
 		margin-bottom: 70px;
 		.hdg-lv2{
 			margin-bottom: 40px;
 		}
+		@include mq-sp {
+			margin-bottom: 35px;
+			.hdg-lv2{
+				margin-bottom: 20px;
+			}
+		}
 	}
 	#recruitment{
 		.hdg-lv2{
 			margin-bottom: 15px;
 		}
+		@include mq-sp {
+			.hdg-lv2{
+				margin-bottom: 7px;
+			}
+		}
 	}
 	#flow{
 		margin-bottom: -40px;
+		@include mq-sp {
+			margin-bottom: -20px;
+		}
 	}
 	#entry{
 		margin-bottom: 95px;
@@ -323,6 +349,21 @@
 				span{
 					border-bottom: 1px solid #fff;
 					padding-bottom: 5px;
+				}
+			}
+		}
+		@include mq-sp {
+			margin-bottom: 47px;
+			.hdg-lv2{
+				margin-bottom: 17px;
+			}
+			.btn-accept{
+				margin-top: 17px;
+				.text{
+					padding-bottom: 5px;
+					span{
+						padding-bottom: 5px;
+					}
 				}
 			}
 		}
