@@ -320,3 +320,10 @@
 #entry{
 	padding: 67px 0 4px;
 }
+#page-top{
+	@include mq-sp {
+		.navbar-header{
+			padding:  0 15px;
+		}
+	}
+}

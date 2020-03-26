@@ -45,7 +45,7 @@
 		}
 		@include mq-sp {
 			margin-bottom: 34px;
-			padding-bottom: 37.3333%;
+			padding-bottom: 66%;
 			.icon{
 				max-width: 16px;
 				margin-right: 7px;
@@ -57,6 +57,7 @@
 			&__content{
 				@include responsive-font(get-vw-sp(20px), 15px, 20px);
 				margin-left: 0px;
+				top: 10%;
 			}
 		}
 	}
@@ -68,9 +69,6 @@
 	.wrp-container{
 		max-width: 798px;
 		margin: 0 auto;
-		// @include mq-sp {
-		// 	padding: 0 15px;
-		// }
 	}
 	.group-items{
 		display: flex;
@@ -119,7 +117,6 @@
 		@include mq-sp {
 			display: block;
 			margin: 0;
-			// padding: 0 15px;
 			&-content{
 				width: 100%;
 				padding-top: 16px;
