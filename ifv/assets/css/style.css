@@ -1389,12 +1389,26 @@ footer .copyright {
   padding-left: 20px;
   box-sizing: border-box;
   text-align: left;
+  vertical-align: top;
 }
 #page_entry .tbl-recruitment td p {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 #page_entry .tbl-recruitment td p:last-child {
   margin-bottom: 0;
+}
+#page_entry .tbl-recruitment .tbl-salary p {
+  margin-bottom: 15px;
+}
+#page_entry .tbl-recruitment .tbl-salary p:last-child {
+  margin-bottom: 0;
+}
+#page_entry .tbl-recruitment .tbl-benefits ul {
+  margin-top: 0;
+  padding-left: 8px;
+}
+#page_entry .tbl-recruitment .tbl-benefits ul li {
+  margin-bottom: 3px;
 }
 #page_entry .tbl-recruitment .tbl-note {
   color: #616161;
