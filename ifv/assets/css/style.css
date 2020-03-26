@@ -1539,6 +1539,7 @@ footer .copyright {
 @media screen and (max-width: 768px) {
   #page_entry .tbl-recruitment {
     padding: 17px 0;
+    font-size: 1.2rem;
   }
   #page_entry .tbl-recruitment tr {
     border-bottom: 1px solid #d4d4d4;
@@ -1558,6 +1559,9 @@ footer .copyright {
     box-sizing: border-box;
     text-align: left;
     vertical-align: top;
+  }
+  #page_entry .tbl-recruitment .tbl-note {
+    font-size: 1.1rem;
   }
 }
 #page_entry .lst-flow {
