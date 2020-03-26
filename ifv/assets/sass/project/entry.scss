@@ -87,7 +87,14 @@
 			background: url(/ifv/assets/images/entry-img02.jpg) top center no-repeat;
 			background-size: 100% 100%;
 			.group-items__text{
-				padding: 0 10px 0 40px;
+				padding: 0 10px 0 37px;
+			}
+			.group-items__title{
+				margin-left: 22px;
+    		margin-bottom: 15px;
+			}
+			.lst-description{
+				margin-bottom: 17px;
 			}
 		}
 	}
@@ -114,7 +121,9 @@
 			text-align: left;
 		}
 		td{
-			margin-bottom: 7px;
+			p{
+				margin-bottom: 7px;
+			}
 		}
 		.tbl-note{
 			color: #616161;

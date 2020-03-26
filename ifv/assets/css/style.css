@@ -1358,7 +1358,14 @@ footer .copyright {
   background-size: 100% 100%;
 }
 #page_entry .group-items--right .group-items__text {
-  padding: 0 10px 0 40px;
+  padding: 0 10px 0 37px;
+}
+#page_entry .group-items--right .group-items__title {
+  margin-left: 22px;
+  margin-bottom: 15px;
+}
+#page_entry .group-items--right .lst-description {
+  margin-bottom: 17px;
 }
 #page_entry .tbl-recruitment {
   font-size: 1.4rem;
@@ -1383,7 +1390,7 @@ footer .copyright {
   box-sizing: border-box;
   text-align: left;
 }
-#page_entry .tbl-recruitment td {
+#page_entry .tbl-recruitment td p {
   margin-bottom: 7px;
 }
 #page_entry .tbl-recruitment .tbl-note {
