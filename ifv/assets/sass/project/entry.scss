@@ -38,12 +38,21 @@
 			font-family: hirakakupro;
 			margin-left: -15px;
 		}
-		@media (max-width: 1199px) and (min-width: 769px){
+		@include mq-sp {
+			margin-bottom: 34px;
+			.icon{
+				max-width: 16px;
+				margin-right: 7px;
+			}
 			&__text{
-				margin-bottom: 2%;
+				@include responsive-font(get-vw-sp(20px), 15px, 20px);
+				margin-bottom: 45px;
+			}
+			&__content{
+				@include responsive-font(get-vw-sp(20px), 15px, 20px);
+				margin-left: 0px;
 			}
 		}
-		
 	}
 	.navbar{
 		a.active{

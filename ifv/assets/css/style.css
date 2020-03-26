@@ -1323,9 +1323,43 @@ footer .copyright {
   font-family: hirakakupro;
   margin-left: -15px;
 }
-@media (max-width: 1199px) and (min-width: 769px) {
+@media screen and (max-width: 768px) {
+  #page_entry .l-header {
+    margin-bottom: 34px;
+  }
+  #page_entry .l-header .icon {
+    max-width: 16px;
+    margin-right: 7px;
+  }
   #page_entry .l-header__text {
-    margin-bottom: 2%;
+    font-size: 2.6041666667vw;
+    margin-bottom: 45px;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 576px) {
+  #page_entry .l-header__text {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 768px) {
+  #page_entry .l-header__text {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #page_entry .l-header__content {
+    font-size: 2.6041666667vw;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 576px) {
+  #page_entry .l-header__content {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 768px) {
+  #page_entry .l-header__content {
+    font-size: 20px;
   }
 }
 #page_entry .navbar a.active {
