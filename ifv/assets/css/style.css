@@ -57,8 +57,16 @@ body p {
   }
 }
 
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+
 .pl-5 {
-  padding-left: 5px;
+  padding-left: 5px !important;
+}
+
+.pl-10 {
+  padding-left: 10px !important;
 }
 
 .hdg-lv2 {
@@ -1426,13 +1434,13 @@ footer .copyright {
   font-weight: bold;
 }
 #page_entry .lst-flow {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: table;
   padding-left: 0;
   margin-top: -5px;
 }
 #page_entry .lst-flow li {
+  display: table-cell;
+  vertical-align: middle;
   position: relative;
   background: #fa8484;
   color: #fff;
