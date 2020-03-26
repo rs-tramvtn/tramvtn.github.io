@@ -1311,6 +1311,11 @@ footer .copyright {
 #page_entry .hdg-lv2:after {
   background: #f85050;
 }
+@media screen and (max-width: 768px) {
+  #page_entry .l-containe {
+    padding: 0 15px;
+  }
+}
 #page_entry .l-header {
   background: url(/ifv/assets/images/entry-imgheader.jpg) top center no-repeat;
   background-size: 100% 100%;
@@ -1392,11 +1397,6 @@ footer .copyright {
   max-width: 798px;
   margin: 0 auto;
 }
-@media screen and (max-width: 768px) {
-  #page_entry .wrp-container {
-    padding: 0 15px;
-  }
-}
 #page_entry .group-items {
   display: flex;
   justify-content: space-between;
@@ -1446,7 +1446,6 @@ footer .copyright {
   #page_entry .group-items {
     display: block;
     margin: 0;
-    padding: 0 15px;
   }
   #page_entry .group-items-content {
     width: 100%;

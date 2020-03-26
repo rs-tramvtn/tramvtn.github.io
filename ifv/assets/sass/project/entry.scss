@@ -5,6 +5,11 @@
 			background: #f85050;
 		}
 	}
+	.l-containe{
+		@include mq-sp {
+			padding: 0 15px;
+		}
+	}
 	.l-header{
 		background: url(/ifv/assets/images/entry-imgheader.jpg) top center no-repeat;
 		background-size: 100% 100%;
@@ -63,9 +68,9 @@
 	.wrp-container{
 		max-width: 798px;
 		margin: 0 auto;
-		@include mq-sp {
-			padding: 0 15px;
-		}
+		// @include mq-sp {
+		// 	padding: 0 15px;
+		// }
 	}
 	.group-items{
 		display: flex;
@@ -114,7 +119,7 @@
 		@include mq-sp {
 			display: block;
 			margin: 0;
-			padding: 0 15px;
+			// padding: 0 15px;
 			&-content{
 				width: 100%;
 				padding-top: 16px;
