@@ -242,9 +242,21 @@
 		}
 		.tbl-vacation{
 			ul{
-				padding-left: 15px;
+				padding-left: 0;
 				margin-top: 0;
 				margin-bottom: 24px;
+			}
+			.tbl-note{
+				margin-top: 15px;
+			}
+		}
+		.tbl-insurance{
+			padding-top: 27px;
+    	padding-bottom: 32px;
+		}
+		.tbl-welfare{
+			p{
+				margin-bottom: 15px;
 			}
 		}
 		.tbl-note{

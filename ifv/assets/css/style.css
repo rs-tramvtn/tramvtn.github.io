@@ -69,6 +69,10 @@ body p {
   padding-left: 10px !important;
 }
 
+.pl-15 {
+  padding-left: 15px !important;
+}
+
 .hdg-lv2 {
   position: relative;
   font-size: 3.4rem;
@@ -1572,9 +1576,19 @@ footer .copyright {
   margin-left: -10px;
 }
 #page_entry .tbl-recruitment .tbl-vacation ul {
-  padding-left: 15px;
+  padding-left: 0;
   margin-top: 0;
   margin-bottom: 24px;
+}
+#page_entry .tbl-recruitment .tbl-vacation .tbl-note {
+  margin-top: 15px;
+}
+#page_entry .tbl-recruitment .tbl-insurance {
+  padding-top: 27px;
+  padding-bottom: 32px;
+}
+#page_entry .tbl-recruitment .tbl-welfare p {
+  margin-bottom: 15px;
 }
 #page_entry .tbl-recruitment .tbl-note {
   color: #616161;
