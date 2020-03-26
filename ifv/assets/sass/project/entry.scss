@@ -175,6 +175,7 @@
 		line-height: 1.5714;
 		color: #2a2a2a;
 		padding: 35px 0;
+		width: 100%;
 		ul{
 			list-style-type: none;
 			li{
@@ -255,6 +256,7 @@
     	padding-bottom: 32px;
 		}
 		.tbl-welfare{
+			padding-top: 30px;
 			p{
 				margin-bottom: 13px;
 			}
@@ -401,12 +403,13 @@
 	#entry{
 		margin-bottom: 95px;
 		.hdg-lv2{
-			margin-bottom: 35px;
+			margin-bottom: 33px;
 		}
 		.btn-accept{
 			margin-top: 35px;
 			.text{
-				padding-bottom: 10px;
+				padding-bottom: 16px;
+    		padding-top: 10px;
 				span{
 					border-bottom: 1px solid #fff;
 					padding-bottom: 5px;
@@ -433,5 +436,6 @@
 		margin: 0 auto;
 		padding-right: 18px;
 		max-width: 470px;
+		margin-top: -7px;
 	}
 }

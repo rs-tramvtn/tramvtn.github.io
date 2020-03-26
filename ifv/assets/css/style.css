@@ -1515,6 +1515,7 @@ footer .copyright {
   line-height: 1.5714;
   color: #2a2a2a;
   padding: 35px 0;
+  width: 100%;
 }
 #page_entry .tbl-recruitment ul {
   list-style-type: none;
@@ -1586,6 +1587,9 @@ footer .copyright {
 #page_entry .tbl-recruitment .tbl-insurance {
   padding-top: 27px;
   padding-bottom: 32px;
+}
+#page_entry .tbl-recruitment .tbl-welfare {
+  padding-top: 30px;
 }
 #page_entry .tbl-recruitment .tbl-welfare p {
   margin-bottom: 13px;
@@ -1736,13 +1740,14 @@ footer .copyright {
   margin-bottom: 95px;
 }
 #page_entry #entry .hdg-lv2 {
-  margin-bottom: 35px;
+  margin-bottom: 33px;
 }
 #page_entry #entry .btn-accept {
   margin-top: 35px;
 }
 #page_entry #entry .btn-accept .text {
-  padding-bottom: 10px;
+  padding-bottom: 16px;
+  padding-top: 10px;
 }
 #page_entry #entry .btn-accept .text span {
   border-bottom: 1px solid #fff;
@@ -1769,4 +1774,5 @@ footer .copyright {
   margin: 0 auto;
   padding-right: 18px;
   max-width: 470px;
+  margin-top: -7px;
 }
