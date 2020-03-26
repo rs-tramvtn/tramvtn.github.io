@@ -1528,7 +1528,7 @@ footer .copyright {
   height: 6px;
   top: 0;
   left: 0;
-  margin-top: 8px;
+  margin-top: 9px;
 }
 #page_entry .tbl-recruitment tr {
   border-bottom: 1px solid #d4d4d4;
@@ -1562,7 +1562,7 @@ footer .copyright {
 }
 #page_entry .tbl-recruitment .tbl-benefits ul {
   margin-top: 0;
-  padding-left: 8px;
+  padding-left: 0;
   margin-bottom: 8px;
 }
 #page_entry .tbl-recruitment .tbl-benefits ul li {
