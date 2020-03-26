@@ -1292,7 +1292,7 @@ footer .copyright {
 }
 #page_entry .l-header__text {
   font-family: helvetica;
-  margin-bottom: 63px;
+  margin-bottom: 90px;
   margin-top: 0;
   padding-top: 30px;
   margin-left: 15px;
@@ -1412,6 +1412,9 @@ footer .copyright {
 }
 #page_entry .lst-flow li:last-child:after {
   display: none;
+}
+#page_entry #description .hdg-lv2 {
+  margin-bottom: 42px;
 }
 #page_entry #flow {
   margin-bottom: -28px;
