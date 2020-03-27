@@ -677,9 +677,6 @@ body p {
     padding-top: 7px;
     padding-bottom: 7px;
   }
-  .navbar-header .logo {
-    padding-left: 15px;
-  }
   .navbar-header .menu {
     display: none;
   }
@@ -701,7 +698,7 @@ body p {
   }
   .navbar-header .logo {
     text-align: left;
-    padding: 12px 0 9px;
+    padding: 12px 0 9px 15px;
   }
   .navbar-header .logo img {
     width: 206px;
