@@ -677,6 +677,9 @@ body p {
     padding-top: 7px;
     padding-bottom: 7px;
   }
+  .navbar-header .logo {
+    padding-left: 15px;
+  }
   .navbar-header .menu {
     display: none;
   }
@@ -852,7 +855,7 @@ footer .copyright {
     display: block;
     background-size: 32px 29px;
     top: 15px;
-    right: 0;
+    right: 15px;
     width: 32px;
     width: 32px;
     height: 29px;
