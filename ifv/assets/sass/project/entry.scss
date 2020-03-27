@@ -76,8 +76,6 @@
 		align-items: stretch;
 		margin: 0 -16px;
 		&-content{
-			width: calc(100% - 32px);
-			margin: 0 16px;
 			color: #fff;
 			padding-top: 33px;
 			padding-bottom: 15px;
@@ -97,12 +95,20 @@
 			padding: 0 40px;
 		}
 		&--left{
-			background: url(/ifv/assets/images/entry-img01.jpg) top center no-repeat;
-			background-size: 100% 100%;
+			width: calc(100% - 32px);
+			padding: 0 16px;
+			.group-items-content{
+				background: url(/ifv/assets/images/entry-img01.jpg) top center no-repeat;
+				background-size: 100% 100%;
+			}
 		}
 		&--right{
-			background: url(/ifv/assets/images/entry-img02.jpg) top center no-repeat;
-			background-size: 100% 100%;
+			width: calc(100% - 32px);
+			padding: 0 16px;
+			.group-items-content{
+				background: url(/ifv/assets/images/entry-img02.jpg) top center no-repeat;
+				background-size: 100% 100%;
+			}
 			.group-items__text{
 				padding: 0 10px 0 37px;
 			}
