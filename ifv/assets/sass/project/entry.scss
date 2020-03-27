@@ -65,6 +65,11 @@
 		a.active{
 			color: #f85050;
 		}
+		@media (max-width: 1010px) and (min-width: 769px){
+			&-header {
+				padding: 0 30px;
+			}
+		}
 	}
 	.wrp-container{
 		max-width: 798px;
@@ -131,6 +136,9 @@
 					margin-top: 8px;
 				}
 			}
+		}
+		@media (max-width: 1010px) and (min-width: 769px){
+			margin: 0;
 		}
 		@include mq-sp {
 			display: block;

@@ -665,6 +665,11 @@ body p {
 .navbar-header .menu li:last-child a {
   padding-right: 0;
 }
+@media (max-width: 1010px) and (min-width: 769px) {
+  .navbar-header-header {
+    padding: 0 30px;
+  }
+}
 @media screen and (max-width: 768px) {
   .navbar-header {
     padding-right: 0;
@@ -1404,6 +1409,11 @@ footer .copyright {
 #page_entry .navbar a.active {
   color: #f85050;
 }
+@media (max-width: 1010px) and (min-width: 769px) {
+  #page_entry .navbar-header {
+    padding: 0 30px;
+  }
+}
 #page_entry .wrp-container {
   max-width: 798px;
   margin: 0 auto;
@@ -1470,6 +1480,11 @@ footer .copyright {
   top: 0;
   left: 0;
   margin-top: 8px;
+}
+@media (max-width: 1010px) and (min-width: 769px) {
+  #page_entry .group-items {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 768px) {
   #page_entry .group-items {
