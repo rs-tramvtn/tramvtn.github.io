@@ -1632,7 +1632,7 @@ footer .copyright {
 #page_entry .lst-flow {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   padding-left: 0;
   margin-top: -5px;
 }
