@@ -93,9 +93,7 @@
 		}
 	}
 	@media (max-width: 1010px) and (min-width: 769px){
-		&-header {
-			padding: 0 30px;
-		}
+		padding: 0 30px;
 	}
 	@include mq-sp {
 		padding-right: 0;
